@@ -2,7 +2,7 @@
 include "../part/head.php"
 ?>
 
-<h1>홈</h1>
+<h1>자기소개</h1>
 
 <?php
 include "../part/foot.php"
