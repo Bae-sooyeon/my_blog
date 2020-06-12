@@ -24,6 +24,10 @@ label[for] {
     cursor: pointer;
     user-select: none;
 }
+/* 공통 css */
+
+@media 
+visible-md-up
 
 /* 라이브러리 */
 .block {
@@ -304,7 +308,7 @@ label[for] {
     max-width: 1180px;
 }
 
-.menu-box-1 {
+.top-bar .menu-box-1 {
     background-color: #ffc194;
     height: 50px;
 }
