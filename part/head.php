@@ -10,18 +10,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/resource/common.js"></script>
 </head>
+
+<!-- 왼쪽 사이드바 팝업 -->
+<div class="mobile-side-bar-bg"></div>
+
 <!-- 왼쪽 사이드바 -->
-<div class="mobile-side-bar ">
-    <div class="menu-box-1 ">
+<div class="mobile-side-bar">
+    <div class="menu-box-1">
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Article</a></li>
             <li><a href="#">About Me</a></li>
-            <li><a href="#">SNS</a></li>
-                <ul>
-                    <li><a href="#">GITHUB</a></li>
-                    <li><a href="#">GITHUB</a></li>
-                </ul>
+            <li><a href="#">SNS</a>
+            <ul>
+                    <li><a href="https://github.com/Bae-sooyeon" target="_blank">GITHUB</a></li>
+                    <li><a href="#">INSTAGRAM</a></li>
+                </ul></li>
+                
         </ul>
     </div>
 </div>
@@ -29,13 +34,15 @@
 <!-- 모바일 탑바 -->
 <body>
 <div class="mobile-top-bar visible-sm-down flex">
-        <a href="#" class="btn-toggle-mobile-side-bar flex-as-c">
+        <a href="#" onclick="return false;" class="btn-toggle-mobile-side-bar flex-as-c">
             <div></div>
             <div></div>
             <div></div>
         </a>
     </div>
 </div>
+
+
 
     <div class="top-bar visible-md-up">
             <div class="menu-box-1">
