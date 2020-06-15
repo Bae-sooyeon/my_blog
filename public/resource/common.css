@@ -373,25 +373,25 @@ label[for] {
     height: 50px;
 }
 
-.menu-box-1 > ul  {
+.top-bar .menu-box-1 > ul  {
     height: 50px;
 }
 
-.menu-box-1 > ul > li {
+.top-bar .menu-box-1 > ul > li {
     position: relative;
 }
 
-.menu-box-1 > ul > li > a {
+.top-bar .menu-box-1 > ul > li > a {
     font-weight: bold;
     color: white;
 }
 
-.menu-box-1  ul > li:hover > a {
+.top-bar .menu-box-1  ul > li:hover > a {
     background-color: #ffa384;
     color: white;
 }
 
-.menu-box-1 > ul ul{
+.top-bar .menu-box-1 > ul ul{
     display: none;
     position: absolute;
     top:100%;
@@ -404,11 +404,11 @@ label[for] {
 
 }
 
-.menu-box-1 > ul > li:hover > ul{
+.top-bar .menu-box-1 > ul > li:hover > ul{
     display: block;
 }
 
-.menu-box-1 > ul ul > li > a {
+.top-bar .menu-box-1 > ul ul > li > a {
     text-align:center;  
     display: block;
     padding:20px 0;
@@ -417,7 +417,7 @@ label[for] {
 }
 
 
-.menu-box-1 > ul ul > li:hover > a {
+.top-bar .menu-box-1 > ul ul > li:hover > a {
     background-color: #ffa384;
     color:white;
 }
@@ -433,3 +433,50 @@ label[for] {
     margin: 0 10px;
 }
 
+/* 모바일 탑바 끝*/
+
+/* 왼쪽 사이드바 시작*/
+.mobile-side-bar {
+    position:fixed;
+    top: 50px;
+    left:-300px;
+    width:230px;
+    bottom:0;
+    background-color: #ffc194;
+    transition: left 0.3s;
+}
+
+.mobile-side-bar.active {
+    left:0;
+}
+
+.mobile-side-bar > .menu-box-1 > ul ul {
+    display: none;
+    background-color:red ;
+    position:absolute;
+    left:100%;
+    top:0;
+}
+
+.mobile-side-bar > .menu-box-1 ul > li:hover > ul {
+    display: block;
+}
+
+
+.mobile-side-bar > .menu-box-1 > ul > li > a {
+    display:block;
+    padding: 10px;
+    white-space: nowrap;
+    color:white;
+    font-weight: bold;
+
+    
+}
+
+.mobile-side-bar > .menu-box-1 ul > li:hover {
+    background-color: #ffa384;
+}
+
+.mobile-side-bar > .menu-box-1 ul > li {
+    position: relative;
+}
