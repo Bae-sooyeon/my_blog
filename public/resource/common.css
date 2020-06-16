@@ -360,7 +360,7 @@ label[for] {
     opacity: 0;
 }
 
-html.active {
+body.active{
     overflow-y: hidden;
 }
 
@@ -480,33 +480,48 @@ html.active {
     background-color:rgba(0,0,0,.7);
 }
 
-.mobile-side-bar > .menu-box-1 > ul ul {
+.mobile-side-bar .menu-box-1 > ul ul {
     display: none;
     background-color: #ebaca2;
-    position:absolute;
-    left:100%;
-    top:0;
+    padding-left:20px;
 }
 
-.mobile-side-bar > .menu-box-1 ul > li:hover > ul {
+.mobile-side-bar .menu-box-1 ul > li.active > ul {
     display: block;
 }
 
+.mobile-side-bar .menu-box-1  ul > li > a:not(:only-child)::after {
+    content: "[+]";
+    float: right;
+}
 
-.mobile-side-bar > .menu-box-1  ul > li > a {
+.mobile-side-bar .menu-box-1  ul > li.active > a:not(:only-child)::after {
+    content: "[-]";
+}
+
+.mobile-side-bar .menu-box-1  ul > li > a {
     display:block;
     padding: 10px;
     white-space: nowrap;
     color:white;
     font-weight: bold;
-
     
 }
+
+.mobile-side-bar .menu-box-1  ul > li.active > a:not(:only-child) {
+    background-color:#ce6a6b;
+    color:white;
+}
+
+
 
 .mobile-side-bar > .menu-box-1 ul > li:hover {
     background-color: #ffdfc9;
 }
 
-.mobile-side-bar > .menu-box-1 ul > li {
-    position: relative;
+
+@media (max-width:799px) {
+    html.mobile-side-bar-actived {
+        overflow-y:hidden;
+    }
 }

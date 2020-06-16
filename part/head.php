@@ -12,10 +12,10 @@
 </head>
 
 <!-- 왼쪽 사이드바 팝업 -->
-<div class="mobile-side-bar-bg"></div>
+<div class="mobile-side-bar-bg visible-sm-down"></div>
 
 <!-- 왼쪽 사이드바 -->
-<div class="mobile-side-bar">
+<div class="mobile-side-bar visible-sm-down">
     <div class="menu-box-1">
         <ul>
             <li><a href="#">Home</a></li>
@@ -24,6 +24,7 @@
             <li><a href="#">SNS</a>
             <ul>
                     <li><a href="https://github.com/Bae-sooyeon" target="_blank">GITHUB</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCin7a7Q-f67ZjD87GCPxkqw?view_as=subscriber" target="_blank">YOUTUBE</a></li>
                     <li><a href="#">INSTAGRAM</a></li>
                 </ul></li>
                 
@@ -52,10 +53,11 @@
                     <li class="flex-1-0-0"><a class="height-100p flex-jc-c flex-ai-c" href="/aboutMe.php">About Me</a></li>
                     <li class="flex-1-0-0">
                         <a class="height-100p flex-jc-c flex-ai-c" href="/sns.php">SNS</a>
-                        <ul class="flex">
+                         <ul class="flex">
                             <li><a href="https://github.com/Bae-sooyeon" target="_blank">GITHUB</a></li>
+                            <li><a href="https://www.youtube.com/channel/UCin7a7Q-f67ZjD87GCPxkqw?view_as=subscriber" target="_blank">YOUTUBE</a></li>
                             <li><a href="#">INSTAGRAM</a></li>
-                        </ul>
+                         </ul>
                     </li>
                 </ul>
             </div>
