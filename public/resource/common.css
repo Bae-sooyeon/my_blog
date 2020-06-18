@@ -373,6 +373,10 @@ body.active{
     body {
         padding-top:50px;
     }
+    .top-line {
+        display: none;
+    }
+    
 }
 
 .bd-red {
@@ -383,12 +387,6 @@ body.active{
     max-width: 1180px;
 }
 
-.background {
-    background-color: gray;
-    width: 100%;
-    height: 500px;
-
-}
 
 /* 로고  */
 .logo-img {
@@ -407,28 +405,26 @@ body.active{
 /* 탑바 시작 */
 .top-line {
     width: 100%;
-    height: 5px;
+    height: 10px;
     background-color: #22137D;
     display: block;
 }
 
 
 
-.top-bar .menu-box-1 {
-}
-
 .top-bar .menu-box-1 > ul  {
     height: 50px;
 
+
 }
 
-.top-bar .menu-box-1 > ul > li {
+.top-bar .menu-box-1 > ul >li {
     position: relative;
 
 }
 
 .top-bar .menu-box-1 > ul > li {
-    padding:0 30px;
+    padding:0 50px;
 }
 
 .top-bar .menu-box-1 > ul > li:last-child{
@@ -454,8 +450,9 @@ body.active{
     width:100%;
     background-color:white;
     color:black;
-    border:2px solid #ebaca2;
+    border:2px solid #22137D;
     border-top:0;
+
 
 }
 
@@ -468,7 +465,7 @@ body.active{
     display: block;
     padding:20px 0;
     font-weight: bold;
-    color: #ebaca2;
+    color: black;
 }
 
 
@@ -485,7 +482,7 @@ body.active{
     left:0;
     width:100%;
     height: 50px;
-    background-color: #ce6a6b;
+    background-color: #22137D;
 }
 
 .mobile-top-bar .btn-toggle-mobile-side-bar {
@@ -501,7 +498,7 @@ body.active{
     left:-300px;
     width:230px;
     bottom:0;
-    background-color: #ebaca2;
+    background-color: white;
     transition: left .3s;
 }
 
@@ -527,7 +524,7 @@ body.active{
 
 .mobile-side-bar .menu-box-1 > ul ul {
     display: none;
-    background-color: #ebaca2;
+    background-color:white;
     padding-left:20px;
 }
 
@@ -548,20 +545,21 @@ body.active{
     display:block;
     padding: 10px;
     white-space: nowrap;
-    color:white;
+    color:black;
     font-weight: bold;
     
 }
 
 .mobile-side-bar .menu-box-1  ul > li.active > a:not(:only-child) {
-    background-color:#ce6a6b;
+    background-color:#22137D;
     color:white;
 }
 
 
 
-.mobile-side-bar > .menu-box-1 ul > li:hover {
-    background-color: #ffdfc9;
+.mobile-side-bar > .menu-box-1 ul > li:hover > a {
+    background-color: #22137D;
+    color:white;
 }
 
 
@@ -569,4 +567,59 @@ body.active{
     html.mobile-side-bar-actived {
         overflow-y:hidden;
     }
+}
+
+/* 사진 시작*/
+
+.slider {
+    position:relative;
+    height: 300px;
+
+    user-select: none;
+}
+
+.slider .side-bar > div {
+    position: absolute;
+    top:0;
+    left:0;
+    width:calc(50% - 100px);
+    height: 100%;
+    cursor: pointer;
+
+}
+
+.slider .side-bar > div:last-child {
+    left:auto;
+    right:0;
+
+}
+
+.slider .side-bar > div > span {
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    left:inherit;
+    right:inherit;
+    font-size:5rem;
+    transition:transform 0.2s;
+    margin:0 10px;
+}
+
+.slider .side-bar > div:active > span {
+    transform:translateY(-40%);
+}
+
+.slider > .slides > div {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    opacity: 0;
+    transition:opacity 0.5s;
+
+}
+
+.slider > .slides > div.active {
+    opacity:1 ;
 }

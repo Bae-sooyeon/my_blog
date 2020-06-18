@@ -51,8 +51,8 @@
 
     <div class="top-line"></div>
     <div class="top-bar visible-md-up">
-        <div class="menu-box-1 flex flex-space-bt">
-            <div class="logo">
+        <div class="menu-box-1 flex flex-ai-c">
+            <div class="logo flex">
                 <svg version="1.1" class="logo-img" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1417.32 1417.32"
                     style="enable-background:new 0 0 1417.32 1417.32;" xml:space="preserve">
@@ -98,12 +98,12 @@
                 </svg>
             </div>
             
-            <ul class="flex-jc-end ">
-                <li class=""><a class="height-100p flex-jc-c flex-ai-c" href="/">Home</a></li>
-                <li class=""><a class="height-100p flex-jc-c flex-ai-c" href="/list.php">Article</a></li>
-                <li class=""><a class="height-100p flex-jc-c flex-ai-c" href="/aboutMe.php">About Me</a></li>
-                <li class="">
-                    <a class="height-100p flex-jc-c flex-ai-c" href="/sns.php">SNS</a>
+            <ul class="flex-grow-1 flex-jc-c flex-ai-c height-100p">
+                <li class="flex"><a class="height-100p " href="/">Home</a></li>
+                <li class="flex"><a class="height-100p " href="/list.php">Article</a></li>
+                <li class="flex"><a class="height-100p " href="/aboutMe.php">About Me</a></li>
+                <li class="flex">
+                    <a class="height-100p" href="/sns.php">SNS</a>
                     <ul class="flex">
                         <li><a href="https://github.com/Bae-sooyeon" target="_blank">GITHUB</a></li>
                         <li><a href="https://www.youtube.com/channel/UCin7a7Q-f67ZjD87GCPxkqw?view_as=subscriber"
@@ -115,4 +115,5 @@
         </div>
     </div>
     </div>
-    <div class="background"></div>
+
+  
