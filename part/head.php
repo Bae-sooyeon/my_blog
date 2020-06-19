@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="/resource/common.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/resource/common.js"></script>
+    <script src="/resource/index.js"></script>
+    <link rel="icon" href="/resource/img/icon.png">
 </head>
 
 <!-- 왼쪽 사이드바 팝업 -->
@@ -49,7 +51,7 @@
 
     <!-- 탑바 -->
 
-    <div class="top-line"></div>
+    <div class="top-line visible-md-up"></div>
     <div class="top-bar visible-md-up">
         <div class="menu-box-1 flex flex-ai-c">
             <div class="logo flex">
@@ -104,7 +106,7 @@
                 <li class="flex"><a class="height-100p " href="/aboutMe.php">About Me</a></li>
                 <li class="flex">
                     <a class="height-100p" href="/sns.php">SNS</a>
-                    <ul class="flex">
+                    <ul>
                         <li><a href="https://github.com/Bae-sooyeon" target="_blank">GITHUB</a></li>
                         <li><a href="https://www.youtube.com/channel/UCin7a7Q-f67ZjD87GCPxkqw?view_as=subscriber"
                                 target="_blank">YOUTUBE</a></li>

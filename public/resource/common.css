@@ -373,10 +373,6 @@ body.active{
     body {
         padding-top:50px;
     }
-    .top-line {
-        display: none;
-    }
-    
 }
 
 .bd-red {
@@ -384,7 +380,7 @@ body.active{
   }
 
 .con {
-    max-width: 1180px;
+    max-width: 1200px;
 }
 
 
@@ -407,15 +403,12 @@ body.active{
     width: 100%;
     height: 10px;
     background-color: #22137D;
-    display: block;
 }
 
 
 
 .top-bar .menu-box-1 > ul  {
     height: 50px;
-
-
 }
 
 .top-bar .menu-box-1 > ul >li {
@@ -433,12 +426,12 @@ body.active{
 
 .top-bar .menu-box-1 > ul > li > a {
     font-weight: bold;
-    color: black;
+    color: #22137D;
 }
 
 .top-bar .menu-box-1  ul > li:hover > a {
 
-    color: gray;
+    color: #FF4D63;
 
 }
 
@@ -446,13 +439,11 @@ body.active{
     display: none;
     position: absolute;
     top:100%;
-    left;-2px;
+    left: 0;
     width:100%;
     background-color:white;
-    color:black;
-    border:2px solid #22137D;
-    border-top:0;
-
+    color:#22137D;
+    z-index: 15;
 
 }
 
@@ -470,8 +461,9 @@ body.active{
 
 
 .top-bar .menu-box-1 > ul ul > li:hover > a {
-    color:#ffdfc9;
-    background-color:white;
+    color:#FF4D63;
+    
+
 }
 
 /* 모바일 탑바 시작*/
@@ -500,6 +492,7 @@ body.active{
     bottom:0;
     background-color: white;
     transition: left .3s;
+    z-index: 15;
 }
 
 .mobile-side-bar.active {
@@ -515,6 +508,7 @@ body.active{
     background-color:rgba(0,0,0,0);
     visibility: hidden;
     transition: background-color 0.3s;
+    z-index: 10;
 }
 
 .mobile-side-bar-bg.active {
@@ -573,7 +567,7 @@ body.active{
 
 .slider {
     position:relative;
-    height: 300px;
+    height: 700px;
 
     user-select: none;
 }
@@ -622,4 +616,19 @@ body.active{
 
 .slider > .slides > div.active {
     opacity:1 ;
+}
+
+.slider > .slides > div {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* 프로필박스 */
+.profile-box {
+    margin-top: 50px;
+    padding: 30px;
+    border: solid 1px #bdbdbd;
+    border-radius: 10px;
 }
