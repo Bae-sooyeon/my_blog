@@ -30,4 +30,10 @@ $(function(){
     });
 });
 
+$(function(){
+    function a() {
+    $('.slider .side-bar > div:last-child').click();
+}
 
+setInterval(a,5000);
+});

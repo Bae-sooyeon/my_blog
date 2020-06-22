@@ -52,7 +52,7 @@
     <!-- 탑바 -->
 
     <div class="top-line visible-md-up"></div>
-    <div class="top-bar visible-md-up">
+    <div class="top-bar visible-md-up con">
         <div class="menu-box-1 flex flex-ai-c">
             <div class="logo flex">
                 <svg version="1.1" class="logo-img" xmlns="http://www.w3.org/2000/svg"
