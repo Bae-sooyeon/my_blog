@@ -380,14 +380,16 @@ body.active{
   }
 
 .con {
-    max-width: 1800px;
+    max-width: 1600px;
 }
 
 
 
 /* 로고  */
+
 .logo-img {
-    width:90px;
+    width:150px;
+    margin-bottom: -20px;
     
 }
 
@@ -403,22 +405,22 @@ body.active{
 
 /* 탑바 시작 */
 
-/* 메뉴 효과 */
+ .con-box .sns-box > a > .fab {
+    font-size:1.3rem;
+    padding: 0 5px;
+ }
 
- 
+ .con-box .right-box-1 > ul > li {
+     padding: 0 5px;
+ }
 
 
-.top-line {
-    width: 100%;
-    height: 10px;
-    background-color: #22137D;
+
+.top-bar .menu-box-1 {
+    background-color:#22137D;
+    height: 60px;
 }
 
-
-
-.top-bar .menu-box-1 > ul  {
-    height: 50px;
-}
 
 .top-bar .menu-box-1 > ul >li {
     position: relative;
@@ -435,7 +437,7 @@ body.active{
 
 .top-bar .menu-box-1 > ul > li > a {
     font-weight: bold;
-    color: #22137D;
+    color: white;
 }
 
 .top-bar .menu-box-1  ul > li:hover > a {
@@ -578,8 +580,7 @@ body.active{
 
 .slider {
     position:relative;
-    height: 800px;
-    margin-top:10px;
+    height: 500px;
     user-select: none;
 }
 
@@ -608,6 +609,7 @@ body.active{
     font-size:5rem;
     transition:transform 0.2s;
     margin:0 10px;
+    color:white;
 }
 
 .slider .side-bar > div:active > span {
@@ -635,6 +637,12 @@ body.active{
     background-position: center;
 }
 
+/* 배너 최신글 */
+.recent-post-box {
+    font-size:1.3rem;
+    font-weight: bold;
+    margin-top: 50px;
+}
 
 /* about me 프로필박스 */
 

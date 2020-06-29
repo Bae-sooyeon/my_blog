@@ -2,13 +2,11 @@
 include "../part/head.php"
 ?>
 
-<h1>리스트</h1>
 
 <div class="list-box-1 con">
     <ul>
-        <?php for ( $i = 4; $i >= 1; $i-- ) { ?>
-        <li><a href="/detail.php?id=<?=$i?>"><?=$i?>번글</a></li>
-        <?php } ?>
+        <li><a href="detail.php?id=2">크로스 브라우징과 벤더 프리픽스</a></li>
+        <li><a href="detail.php?id=2">도메인과 URL, 포트</a></li>
     </ul>
 </div>
 

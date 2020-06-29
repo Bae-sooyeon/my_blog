@@ -7,16 +7,16 @@ include "../part/head.php"
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
     integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 <!-- 사진 -->
-<div class="slider con">
+<div class="slider">
     <div class="slides">
         <div class=" active"
-            style="background-image:url(https://images.unsplash.com/photo-1592419044706-39796d40f98c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1311&q=80);">
+            style="background-image:url(https://cdn.pixabay.com/photo/2015/09/09/17/06/jellyfish-931886_960_720.jpg);">
         </div>
         <div
-            style="background-image:url(https://images.unsplash.com/photo-1592418544400-6ac292a02578?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);">
+            style="background-image:url(https://cdn.pixabay.com/photo/2020/03/21/19/27/sea-4955005_960_720.jpg);">
         </div>
         <div 
-            style="background-image:url(https://images.unsplash.com/photo-1592028545328-7ff4385e450f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);">
+            style="background-image:url(https://cdn.pixabay.com/photo/2017/02/19/15/28/malibu-2080075_960_720.jpg);">
         </div>
     </div>
 
@@ -27,6 +27,17 @@ include "../part/head.php"
         <div>
             <span><i class="fas fa-angle-right"></i></span>
         </div>
+    </div>
+</div>
+
+<div class="recent-post-box con">
+    최신글
+    <div class="post-box">
+        <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
     </div>
 </div>
 
