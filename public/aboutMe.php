@@ -9,6 +9,7 @@ include "../part/head.php"
 <div class="profile-box con">
     <div class="profile-img">
         <img src="/resource/img/avata.png" alt="" width="200">
+        안녕~
     </div>
 </div>
 

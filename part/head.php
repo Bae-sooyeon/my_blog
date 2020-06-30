@@ -23,16 +23,7 @@
             <li><a href="#">Home</a></li>
             <li><a href="#">Article</a></li>
             <li><a href="#">About Me</a></li>
-            <li><a href="#">SNS</a>
-                <ul>
-                    <li><a href="https://github.com/Bae-sooyeon" target="_blank">GITHUB</a></li>
-                    <li><a href="https://www.youtube.com/channel/UCin7a7Q-f67ZjD87GCPxkqw?view_as=subscriber"
-                            target="_blank">YOUTUBE</a></li>
-                    <li><a href="#">INSTAGRAM</a></li>
-                </ul>
-            </li>
-
-        </ul>
+         </ul>
     </div>
 </div>
 
@@ -119,19 +110,9 @@
     <div class="top-bar visible-md-up">
         <div class="menu-box-1 flex flex-ai-c">
             <ul class="flex-grow-1 flex-jc-c flex-ai-c height-100p">
-                <li class="flex"><a class="height-100p " href="/">Home</a></li>
                 <li class="flex"><a class="height-100p " href="/aboutMe.php">About Me</a></li>
                 <li class="flex"><a class="height-100p " href="/list.php">Article</a></li>
-                
-                <li class="flex">
-                    <a class="height-100p" href="/sns.php">SNS</a>
-                    <ul>
-                        <li><a href="https://github.com/Bae-sooyeon" target="_blank">GITHUB</a></li>
-                        <li><a href="https://www.youtube.com/channel/UCin7a7Q-f67ZjD87GCPxkqw?view_as=subscriber"
-                                target="_blank">YOUTUBE</a></li>
-                        <li><a href="#">INSTAGRAM</a></li>
-                    </ul>
-                </li>
+                <li class="flex"><a class="height-100p " href="/portfolio.php">Portfolio</a></li>
             </ul>
         </div>
     </div>
