@@ -7,6 +7,7 @@
     <title>블로그</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
     <link rel="stylesheet" href="/resource/common.css">
+    <link rel="stylesheet" href="/resource/list.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/resource/common.js"></script>
     <script src="/resource/index.js"></script>
@@ -88,13 +89,13 @@
 
     <div class="con-box con flex flex-space-bt ">
 
-        <div class="sns-box flex">
+        <div class="sns-box flex visible-md-up">
             <a href="#"><i class="fab fa-instagram"></i></a>
             <a href="https://github.com/Bae-sooyeon" target="_blank"><i class="fab fa-github"></i></a>
             <a href="https://www.youtube.com/channel/UCin7a7Q-f67ZjD87GCPxkqw?view_as=subscriber" target="_blank"><i class="fab fa-youtube"></i></a>
         </div>
 
-        <div class="right-box-1 flex">
+        <div class="right-box-1 flex visible-md-up">
             <ul class="flex">
                 <li class="flex"><a href="/">홈</a></li>
                 <li class="flex"><a href="#">태그</a></li>
