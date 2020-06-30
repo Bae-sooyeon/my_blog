@@ -1,8 +1,38 @@
+.list-box-1 {
+    padding:0 200px;
+    margin-top: 70px;
+}
+
+.list-box-1 > ul > li {
+    position: relative;
+}
+
+.list-box-1 > ul > li::after {
+    height: 3px;
+    content: "";
+    position: absolute;
+    background-color: red;
+    left:0;
+    right: 0;
+}
+
+.list-box-1 > ul > li {
+    margin-top: 70px;
+}
+
 .list-box-1 > ul > li:hover > a {
-    color:red;
+    color:#FF4D63;
 }
 
 .list-box-1 > ul > li > a {
     font-weight: bold;
     font-size:1.5rem;
+}
+
+.list-box-1 > ul > li > a > .img-bo > img {
+    padding-right: 20px;
+}
+
+.list-box-1 > ul > li > a > .img-bo > .title {
+    border: 1px solid #000;
 }
