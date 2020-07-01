@@ -3,18 +3,6 @@
     margin-top: 70px;
 }
 
-.list-box-1 > ul > li {
-    position: relative;
-}
-
-.list-box-1 > ul > li::after {
-    height: 3px;
-    content: "";
-    position: absolute;
-    background-color: red;
-    left:0;
-    right: 0;
-}
 
 .list-box-1 > ul > li {
     margin-top: 70px;
@@ -33,6 +21,3 @@
     padding-right: 20px;
 }
 
-.list-box-1 > ul > li > a > .img-bo > .title {
-    border: 1px solid #000;
-}

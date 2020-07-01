@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
     <link rel="stylesheet" href="/resource/common.css">
     <link rel="stylesheet" href="/resource/list.css">
+    <link rel="stylesheet" href="/resource/detail.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/resource/common.js"></script>
     <script src="/resource/index.js"></script>
@@ -88,7 +89,6 @@
     </div>
 
     <div class="con-box con flex flex-space-bt ">
-
         <div class="sns-box flex visible-md-up">
             <a href="#"><i class="fab fa-instagram"></i></a>
             <a href="https://github.com/Bae-sooyeon" target="_blank"><i class="fab fa-github"></i></a>
@@ -102,8 +102,7 @@
                 <li class="flex"><a href="#">방명록</a></li>
             </ul>
         </div>
-
-
+        
     </div>
 
 

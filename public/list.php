@@ -1,30 +1,38 @@
 <?php
 include "../part/head.php"
 ?>
+<?php
+$dbConn = mysqli_connect("site8.blog.oa.gg","site8","sbs123414","site8");
 
+$sql="
+SELECT *
+FROM article
+";
+
+$rs = mysqli_query($dbConn, $sql);
+$articles = [];
+while ( $aa = mysqli_fetch_assoc($rs) ) {
+    $articles[] = $aa;
+}
+
+
+?>
 
 <div class="list-box-1 con">
     <ul>
-        <li>
-            <a href="detail.php?id=1">
-                <div class="img-bo flex ">
-                    <img src="/resource/img/list-1.jpg" alt="" width="200">
-                    <div class="title flex">크로스 브라우징과 벤더 프리픽스</div>
-                </div>
-            </a>
-        </li>
-
-        <li>
-            <a href="detail.php?id=2">
-                <div class="img-bo flex">
-                    <img src="/resource/img/list-2.jpg" alt="" width="200">
-                    <div class="title">도메인과 URL, 포트</div>
-                </div>
-            </a>
-        </li>
-
+        <?php foreach($articles as $bb ) { ?>
+            <li>
+                <a href="detail.php?id=<?=$bb['id']?>">
+                    <div class="img-bo flex">
+                        <img src="<?=$bb['thumbImgUrl']?>" alt="" width="200">
+                        <div class="title flex"><?=$bb['title']?></div>
+                    </div>
+                </a>
+            </li>
+        <?php } ?>
     </ul>
 </div>
+
 
 <?php
 include "../part/foot.php"

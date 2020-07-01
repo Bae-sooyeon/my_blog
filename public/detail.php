@@ -37,20 +37,19 @@ $row = mysqli_fetch_assoc($rs);
 <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css" />
 
 <div class="con">
-    <a href="#" onclick="history.back();">[뒤로가기]</a>
+    <button a href="#" onclick="history.back();">뒤로가기</a></button>
     <a href="/list.php">[리스트]</a>
 </div>
 
-<h1 class="con">제목 : <?=$row['title']?></h1>
+<h1 class="title con"><?=$row['title']?></h1>
+
+<div class="list-name con">
+배수연
+</div>
 <div class="con">
     등록날짜 : <?=$row['regDate']?>
 </div>
-<div class="con">
-    수정날짜 : <?=$row['updateDate']?>
-</div>
-<div class="con">
-    작성자 : 배수연
-</div>
+
 <div class="con" style="display:none;" id="origin1">
 <?=$row['body']?>
 </div>

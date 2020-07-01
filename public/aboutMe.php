@@ -2,14 +2,14 @@
 include "../part/head.php"
 ?>
 
-<h1>자기소개</h1>
-
-
 
 <div class="profile-box con">
     <div class="profile-img">
         <img src="/resource/img/avata.png" alt="" width="200">
-        안녕
+        Name. Bae Sooyeon
+        <br>
+        Birth. 
+
     </div>
 </div>
 

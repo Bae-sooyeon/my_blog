@@ -32,11 +32,11 @@ include "../part/head.php"
 
 <div class="recent-post-box con">
     최신글
-    <div class="post-box">
-        <ul>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
+    <div class="post-box con">
+        <ul class="flex flex-space-bt">
+            <li><a href="#"><img src="/resource/img/list-1.jpg" alt="" width="500"></a></li>
+            <li><a href="#"><img src="/resource/img/list-2.jpg" alt="" width="500"></a></li>
+            <li><a href="#"><img src="/resource/img/list-1.jpg" alt="" width="500"></a></li>
         </ul>
     </div>
 </div>

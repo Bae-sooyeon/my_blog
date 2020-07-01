@@ -410,8 +410,16 @@ body.active{
     padding: 0 10px;
  }
 
+ .con-box .sns-box > a:hover > .fab{
+     color:#FF4D63;
+ }
+
  .con-box .right-box-1 > ul > li {
      padding: 0 10px;
+ }
+
+ .con-box .right-box-1 > ul > li:hover > a {
+     color:#FF4D63;
  }
 
 
@@ -658,6 +666,12 @@ body.active{
     margin-top: 50px;
 }
 
+.recent-post-box > .post-box {
+    margin-top:15px;
+}
+
+
+
 /* about me 프로필박스 */
 
 .profile-box {
@@ -666,3 +680,5 @@ body.active{
     border: solid 1px #bdbdbd;
     border-radius: 10px;
 }
+
+
