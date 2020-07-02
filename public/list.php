@@ -15,7 +15,6 @@ while ( $aa = mysqli_fetch_assoc($rs) ) {
     $articles[] = $aa;
 }
 
-
 ?>
 
 <div class="list-box-1 con">
@@ -32,6 +31,8 @@ while ( $aa = mysqli_fetch_assoc($rs) ) {
         <?php } ?>
     </ul>
 </div>
+
+<div class="category">카테</div>
 
 
 <?php

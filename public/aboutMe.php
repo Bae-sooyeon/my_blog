@@ -20,16 +20,20 @@ include "../part/head.php"
         <div class="about-me-box">
             2001.09.05 <br>
             010-3397-5624 <br>
-            qotdus5@naver.com <br>
+            qotndus5@naver.com <br>
             https://bsy.blog.oa.gg
         </div>
     </div>
 
-    <div class="contents">
+    <div class="about-me-text-box">
         <div class="about-me">ABOUT ME</div>
+    </div>
+
+    <div class="contents">
         <div class="certificate">/ Certificate</div>
+            
         <div class="skills">/ Skills</div>
-        <div class="hobby"></div>
+        <div class="hobby">/ Hobby</div>
     </div>
 
 </div>
