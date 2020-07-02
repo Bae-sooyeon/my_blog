@@ -43,12 +43,14 @@ $row = mysqli_fetch_assoc($rs);
 
 <h1 class="title con"><?=$row['title']?></h1>
 
-<div class="list-name con">
-배수연
-</div>
-<div class="con">
-    등록날짜 : <?=$row['regDate']?>
-</div>
+<div class="list-box flex con">
+    <div class="list-name flex">
+      배수연
+      </div>
+      <div class="regDate flex">
+      <?=$row['regDate']?>
+     </div>
+  </div>
 
 <div class="con" style="display:none;" id="origin1">
 <?=$row['body']?>

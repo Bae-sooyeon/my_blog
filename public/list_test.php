@@ -1,4 +1,9 @@
 <?php
+include "../part/head.php"
+?>
+
+
+<?php
 $dbConn = mysqli_connect("site8.blog.oa.gg", "site8", "sbs123414", "site8", 3306) or die("DB CONNECTION ERROR");
 
 $cateItemId = $_GET['cateItemId'];
@@ -30,9 +35,23 @@ while ( true ) {
     $articleRows[] = $row;
 }
 ?>
-<h1>카테고리 : <?=$cateItemName?></h1>
+
+
 <?php foreach ( $articleRows as $article ) { ?>
-<div>
-    <a href="./detail.php?id=<?=$article['id']?>">번호 : <?=$article['id']?>, 제목 : <?=$article['title']?>, 작성날짜 : <?=$article['regDate']?></a>
+<div class="list-box-1 con">
+    <ul>
+        <li>
+            <a href="detail.php?id=<?=$article['id']?>">
+                <div class="img-bo flex">
+                    <img src="<?=$article['thumbImgUrl']?>" alt="" width="200">
+                    <div class="title flex"><?=$article['title']?></div>
+                </div>
+            </a>
+        </li>
+    </ul>
 </div>
 <?php } ?>
+
+<?php
+include "../part/foot.php"
+?>

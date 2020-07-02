@@ -675,10 +675,76 @@ body.active{
 /* about me 프로필박스 */
 
 .profile-box {
-    margin-top: 50px;
-    padding: 30px;
-    border: solid 1px #bdbdbd;
-    border-radius: 10px;
+    background-color: #22137D;
+    width:300px;
+    height:800px;
+ 
+}
+
+.profile-box > .profile-img > img {
+    margin-top:20px;
+}
+
+
+.profile-box > .name-box > .bae, .profile-box > .name-box > .sy {
+    color:white;
+    font-weight: bold;
+    font-size: 2.3rem;
+    margin-left: 55px;
+}
+
+.profile-box > .name-box > .korean {
+    text-align:right;
+    color:white;
+    margin-right:60px;
+    margin-left:60px;
+    position: relative;
+}
+
+.profile-box > .name-box > .korean::before {
+    content: "";
+    position:absolute;
+    left:0;
+    right:53px;
+    top:50%;
+    border-top:1px dotted white;
+}
+
+.profile-box > .about-me-box {
+    margin-left:50px;
+    margin-top:250px;
+    font-size: 0.8rem;
+    color:white;
+}
+
+.box-1 > .contents > .about-me {
+    font-weight: bold;
+    color: #22137D;
+    font-size: 2.5rem;
+    margin-top:70px;
+    margin-left:100px;
+    letter-spacing: -2px;
+    font-style:italic; 
+}
+
+
+.box-1 > .contents > .skills , .box-1 > .contents > .certificate {
+    margin-left: 150px;
+    color: #22137D;
+    font-weight: bold;
+    font-size:1.2rem;
+    position: relative;
+    margin-top:50px;
+}
+
+
+.box-1 > .contents > .skills::after , .box-1 > .contents > .certificate::after {
+    content: "";
+    position:absolute;
+    left:80px;
+    right:0px;
+    top:50%;
+    border-top:1px dotted #22137D;
 }
 
 
