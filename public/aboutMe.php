@@ -19,7 +19,7 @@ include "../part/head.php"
 
         <div class="about-me-box">
             2001.09.05 <br>
-            010-3397-5624 <br>
+            010-1111-1111 <br>
             qotndus5@naver.com <br>
             https://bsy.blog.oa.gg
         </div>
