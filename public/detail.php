@@ -36,12 +36,12 @@ $row = mysqli_fetch_assoc($rs);
 <!-- 토스트 UI 에디터, CSS 코어 -->
 <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css" />
 
-<div class="con">
+<div class="botton-box con">
     <button a href="#" onclick="history.back();">뒤로가기</a></button>
     <a href="/list.php">[리스트]</a>
 </div>
 
-<h1 class="title con"><?=$row['title']?></h1>
+<h1 class="title-2 con"><?=$row['title']?></h1>
 
 <div class="list-box flex con">
     <div class="list-name flex">
