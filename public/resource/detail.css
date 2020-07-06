@@ -13,3 +13,15 @@
 .list-box {
     margin-bottom:30px;
 }
+
+.wrap > .category > .name:hover > a {
+    color:#FF4D63;
+}
+
+.textZoom {
+    transition: transform 0.3s;
+}
+
+.textZoom:hover {
+    transform: scale(1.1);
+}

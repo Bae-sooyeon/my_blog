@@ -74,7 +74,7 @@ while ( $row = mysqli_fetch_assoc($rs) ) {
     <div class="category">
         <div class="category-box">Category</div>
         <?php foreach ($cateItems as $cateItem) { ?>
-        <div class="name"><a href="/list.php?cateItemId=<?=$cateItem['id']?>"><?=$cateItem['name']?></a></div>
+        <div class="name textZoom"><a class = "textZoom:hover" href="/list.php?cateItemId=<?=$cateItem['id']?>"><?=$cateItem['name']?></a></div>
         <?php } ?>
     </div>
 </div>
