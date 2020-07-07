@@ -19,6 +19,7 @@
 }
 
 .textZoom {
+    transform-origin: top left;
     transition: transform 0.3s;
 }
 
