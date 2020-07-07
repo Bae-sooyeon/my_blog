@@ -1,5 +1,11 @@
 <?php
-include "../part/head.php"
+include "../part/head_head.php"
+?>
+
+<link rel="stylesheet" href="/resource/aboutMe.css">
+
+<?php
+include "../part/head_body.php"
 ?>
 
 

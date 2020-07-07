@@ -1,5 +1,11 @@
 <?php
-include "../part/head.php";
+include "../part/head_head.php"
+?>
+
+<link rel="stylesheet" href="/resource/detail.css">
+
+<?php
+include "../part/head_body.php"
 ?>
 <?php
 $conn = mysqli_connect("site8.blog.oa.gg", "site8", "sbs123414", "site8", 3306);
@@ -10,7 +16,18 @@ FROM article
 WHERE id = {$id}
 ";
 $rs = mysqli_query($conn, $sql);
-$row = mysqli_fetch_assoc($rs);
+$article = mysqli_fetch_assoc($rs);
+
+$sql ="
+SELECT *
+FROM cateItem
+";
+$rs = mysqli_query($conn, $sql);
+$cateItems = [];
+
+while ( $row = mysqli_fetch_assoc($rs) ) {
+    $cateItems[] = $row;
+}
 ?>
 <!-- 하이라이트 라이브러리 추가, 토스트 UI 에디터에서 사용됨 -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
@@ -36,28 +53,35 @@ $row = mysqli_fetch_assoc($rs);
 <!-- 토스트 UI 에디터, CSS 코어 -->
 <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css" />
 
-<div class="botton-box con">
-    <button a href="#" onclick="history.back();">뒤로가기</a></button>
-    <a href="/list.php">[리스트]</a>
-</div>
+<div class="list-all-box flex con">
+  <div class="list-content-wrap">
+  
 
-<h1 class="title-2 con"><?=$row['title']?></h1>
+    <h1 class="title-2"><?=$article['title']?></h1>
 
-<div class="list-box flex con">
-    <div class="list-name flex">
-      배수연
+    <div class="list-box flex">
+        <div class="list-name flex">
+          배수연
+          </div>
+          <div class="regDate flex">
+          <?=$article['regDate']?>
+        </div>
       </div>
-      <div class="regDate flex">
-      <?=$row['regDate']?>
-     </div>
+
+    <div id="origin1" style="display:none;" >
+      <?=$article['body']?>
+    </div>
+    <div id="viewer1">
+    </div>
   </div>
-
-<div class="con" style="display:none;" id="origin1">
-<?=$row['body']?>
+  <div class="category">
+      <div class="category-box">Category</div>
+      <?php foreach ($cateItems as $cateItem) { ?>
+      <div class="name textZoom"><a class = "textZoom" href="/list.php?cateItemId=<?=$cateItem['id']?>"><?=$cateItem['name']?></a></div>
+      <?php } ?>
+  </div> 
 </div>
-<div class="con" id="viewer1">
 
-</div>
 
 <script>
 var editor1__initialValue = $('#origin1').html();
@@ -69,6 +93,8 @@ var editor1 = new toastui.Editor({
   plugins: [toastui.Editor.plugin.codeSyntaxHighlight]
 });
 </script>
+
+
 
 <?php
 include "../part/foot.php";

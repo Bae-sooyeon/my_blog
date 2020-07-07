@@ -1,6 +1,13 @@
 <?php
-include "../part/head.php"
+include "../part/head_head.php"
 ?>
+
+<link rel="stylesheet" href="/resource/list.css">
+
+<?php
+include "../part/head_body.php"
+?>
+
 <?php
 $dbConn = mysqli_connect("site8.blog.oa.gg","site8","sbs123414","site8");
 
@@ -64,7 +71,10 @@ while ( $row = mysqli_fetch_assoc($rs) ) {
                 <a href="detail.php?id=<?=$article['id']?>">
                     <div class="img-bo flex">
                         <img src="<?=$article['thumbImgUrl']?>" alt="" width="200">
-                        <div class="title flex"><?=$article['title']?></div>
+                        <div class="title-summary-box">
+                            <div class="title flex"><?=$article['title']?></div>
+                            <div class="summary"><?=$article['summary']?></div>
+                        </div>
                     </div>
                 </a>
             </li>

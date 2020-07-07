@@ -1,5 +1,11 @@
 <?php
-include "../part/head.php"
+include "../part/head_head.php"
+?>
+
+<script src="/resource/index.js"></script>
+
+<?php
+include "../part/head_body.php"
 ?>
 
 

@@ -1,18 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>블로그</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
-    <link rel="stylesheet" href="/resource/common.css">
-    <link rel="stylesheet" href="/resource/list.css">
-    <link rel="stylesheet" href="/resource/detail.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="/resource/common.js"></script>
-    <script src="/resource/index.js"></script>
-    <link rel="icon" href="/resource/img/icon.png">
 </head>
 
 <!-- 왼쪽 사이드바 팝업 -->
@@ -32,12 +17,13 @@
 <!-- 모바일 탑바 -->
 
 <body>
-    <div class="mobile-top-bar visible-sm-down flex">
+    <div class="mobile-top-bar visible-sm-down flex">   
         <a href="#" onclick="return false;" class="btn-toggle-mobile-side-bar flex-as-c">
             <div></div>
             <div></div>
             <div></div>
         </a>
+        <img class="flex-ai-c bd-red flex-jc-c" src="/resource/img/logo.png" alt="" width="70">
     </div>
     </div>
 
