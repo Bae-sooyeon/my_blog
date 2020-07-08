@@ -54,7 +54,7 @@ while ( $row = mysqli_fetch_assoc($rs) ) {
 <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css" />
 
 <div class="list-all-box flex con">
-  <div class="list-content-wrap">
+  <div class="list-content-wrap flex-grow-1">
   
 
     <h1 class="title-2"><?=$article['title']?></h1>
@@ -68,9 +68,7 @@ while ( $row = mysqli_fetch_assoc($rs) ) {
         </div>
       </div>
 
-    <div id="origin1" style="display:none;" >
-      <?=$article['body']?>
-    </div>
+    <script type="text/x-template" id="origin1" style="display:none;" ><?=$article['body']?> </script>
     <div id="viewer1">
     </div>
   </div>

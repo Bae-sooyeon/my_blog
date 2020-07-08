@@ -324,9 +324,12 @@ label[for] {
 
 
 .btn-toggle-mobile-side-bar {
+    position: absolute;
+    top: 50%;
+    left: 10px;
     width:30px;
     height:30px;
-    position: relative;
+    transform: translateY(-50%);
 }
 
 .btn-toggle-mobile-side-bar > div {
@@ -509,23 +512,30 @@ body.active{
     left:0;
     width:100%;
     height: 100px;
-    background-color: #22137D;
+    background-color: white;
 }
 
-.mobile-top-bar .btn-toggle-mobile-side-bar {
-    margin: 0 10px;
+.mobile-top-bar > img {
+    margin-left:auto;
+    margin-right:auto;
+
 }
+
+.mobile-top-bar > .btn-toggle-mobile-side-bar > div{
+    background-color:#22137D;
+}
+
 
 /* 모바일 탑바 끝*/
 
 /* 왼쪽 사이드바 시작*/
 .mobile-side-bar {
     position:fixed;
-    top: 50px;
+    top: 100px;
     left:-300px;
     width:230px;
     bottom:0;
-    background-color: white;
+    background-color: #22137D;
     transition: left .3s;
     z-index: 15;
 }
@@ -536,7 +546,7 @@ body.active{
 
 .mobile-side-bar-bg{
     position: fixed;
-    top:50px;
+    top:100px;
     left:0;
     right:0;
     bottom:0;
@@ -631,7 +641,7 @@ body.active{
     font-size:5rem;
     transition:transform 0.2s;
     margin:0 10px;
-    color:white;
+    color:0;
 }
 
 .slider .side-bar > div:active > span {
