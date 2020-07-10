@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>습관상점 홈페이지</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
@@ -80,6 +80,25 @@
         </div>
 
     </div>
+
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium reprehenderit, beatae cumque nisi necessitatibus fugiat sit tempore illo hic, sequi veniam, sunt optio ullam doloribus incidunt. Laudantium iste impedit delectus?
+    Laborum pariatur suscipit obcaecati et voluptatum earum iure iusto officia, quas quidem! Velit, cumque temporibus ipsa enim amet in ut totam et itaque corrupti quidem impedit quas debitis nulla necessitatibus!
+    In eum velit molestiae, eius dolores beatae perspiciatis libero illo dolorem autem voluptatibus dicta a nostrum provident voluptates debitis minima officia recusandae, ad sed, omnis quaerat veritatis? Placeat, eaque impedit.
+    Distinctio dolore voluptatum debitis accusamus facere! Incidunt, dicta sed voluptates veniam eum saepe facere labore voluptas nesciunt recusandae a molestias cumque quasi ea, voluptatum aliquid ratione, error et suscipit laborum.
+    Fugiat ab, perspiciatis numquam at eius quis aut architecto recusandae ea voluptatum mollitia obcaecati eos repudiandae tempore dicta. Ea nam eligendi laudantium suscipit architecto quod accusamus culpa fugit ipsam excepturi!
+    Blanditiis laboriosam expedita harum recusandae error reiciendis consequatur rerum repudiandae, eligendi deserunt sapiente ipsa animi? Distinctio perspiciatis nobis aperiam vero dicta! Beatae enim delectus, atque ab impedit officia quia commodi.
+    Eveniet unde aliquam inventore blanditiis eum necessitatibus nesciunt ad corporis provident iure odio et possimus magni itaque quasi nobis quos accusamus tempora, tenetur dignissimos ratione consectetur animi nostrum. Ratione, eligendi!
+    Sunt natus harum fugit? Voluptatum fugiat, modi, ut hic quod neque necessitatibus officiis fugit doloremque ipsa, sunt corrupti consectetur excepturi dolorum. Adipisci itaque quibusdam fugit vitae dignissimos obcaecati, numquam veritatis.
+    Doloremque quod nesciunt exercitationem voluptates, amet quidem eaque molestiae, voluptate obcaecati veritatis laborum tempore illum, reprehenderit quo eveniet in est ratione adipisci. Dolores similique cum non commodi ratione eius reprehenderit!
+    Inventore voluptates autem nisi aliquam saepe. Eum dolore cumque sunt ipsa, distinctio officia, cum a fugit veritatis dolorem in consequatur quae quam quos fugiat. Et excepturi odio voluptatem sit aliquid?
+    Architecto fugit ad obcaecati blanditiis quod natus, quae ex adipisci distinctio nisi qui cupiditate placeat temporibus. Accusamus, eum id adipisci ratione, neque alias commodi modi explicabo in rerum quos facilis!
+    Nihil harum earum voluptatem amet accusamus neque soluta debitis, quibusdam sequi, sit omnis fuga voluptates nemo labore dolore odit corrupti dicta nostrum iste laborum quam repellendus similique? Quasi, quos distinctio!
+    Error incidunt nemo illum asperiores repudiandae, minima harum delectus consequuntur, expedita necessitatibus soluta nostrum quod reiciendis ipsa quidem accusantium nobis alias beatae, ut distinctio rerum ipsam debitis quasi quibusdam! Maiores?
+    Praesentium suscipit magnam necessitatibus? Deleniti a odio, enim perspiciatis natus esse recusandae, sapiente laudantium reiciendis ipsa necessitatibus magnam ex quis odit et eaque porro iusto dolore, exercitationem temporibus at? Inventore.
+    Modi labore aliquam, nam dolorum tenetur ab minus laudantium facilis, dolores odit excepturi, voluptatem omnis minima quaerat distinctio non aspernatur! Obcaecati, itaque? Dicta fugiat distinctio voluptates. Expedita eos architecto iusto.
+    Rem, obcaecati, neque non repellat vitae ipsa numquam voluptates repudiandae, facilis ab voluptatem. Similique quo voluptates veritatis quasi iusto, ut hic. Eaque, totam architecto explicabo consectetur aliquam laborum quod facere.
+
+
 
 </body>
 
