@@ -36,8 +36,13 @@
                                 <li><a href="#">용품</a></li>
                             </ul>
                             <ul>
-                                <li><a href="#">NEW2020 썸머 쿨 컬렉션</a></li>
-                                <li><a href="#">NEW커버낫X처키 컬렉션</a></li>
+                                <li><a href="#" class="flex">
+                                        <div class="new flex">NEW</div>
+                                        2020 썸머 쿨 컬렉션
+                                    </a></li>
+                                <li><a href="#" class="flex">
+                                        <div class="new">NEW</div>커버낫X처키 컬렉션
+                                    </a></li>
                                 <li><a href="#">N2020 서퍼맨 컬렉션</a></li>
                                 <li><a href="#">커버낫X스누피 컬렉션</a></li>
                                 <li><a href="#">2020 여름 딜리버리</a></li>
@@ -155,7 +160,7 @@
 
 
     <!-- 아이템 리스트 -->
-    <div class="prod-list-box">
+    <div class="prod-list-box con">
         <ul class="flex flex-wrap">
             <li>
                 <a href="#">
@@ -239,15 +244,116 @@
         </ul>
     </div>
 
-    <div class="mid-bn-img">
+
+    <!-- 중간 배너 -->
+    <div class="mid-bn-img con flex">
         <div class="img-box">
-            <img src="" alt="">
-            <img src="" alt="">
+            <img src="https://covernat.net/SkinImg/img/main1.jpg" alt="">
+                <div class="text">커버낫 X 처키</div>
         </div>
+        <div class="img-box">
+            <img src="https://covernat.net/SkinImg/img/main2.jpg" alt="">
+        </div>     
     </div>
 
 
+    
+    <!-- 신상품 -->
+    <div class="best-product-box text-ai-c">
+        <div class="best-product-1">New Arrivals</div>
+        <div class="best-product-2">커버낫의 신상품을 지금 만나보세요!</div>
 
+        <a href="#">
+            <div class="best-product-bt text-ai-c">보러가기</div>
+        </a>
+    </div>
+
+
+    
+    <!-- 아이템 리스트 -->
+    <div class="prod-list-box con">
+        <ul class="flex flex-wrap">
+            <li>
+                <a href="#">
+                    <div class="img-box"><img
+                            src="https://covernat.net/web/product/small/20200622/72c50b78fbe1e26fac33dd1586203d87.jpg"
+                            alt=""></div>
+                    <div class="prod-name">쿨 코튼 스위밍 풀 티셔츠 화이트</div>
+                    <div class="prod-price">39,000원</div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="img-box"><img
+                            src="https://covernat.net/web/product/small/20200428/77ec0cc2f8b2a51b23e034a66057cc3b.jpg"
+                            alt=""></div>
+                    <div class="prod-name">CXPEANUTS 70th SURFING SNOOPY TEE WHITE</div>
+                    <div class="prod-price"><del>39,000원</del>
+                        <div class="dis">23,400원 40% 할인</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="img-box"><img
+                            src="https://covernat.net/web/product/small/202007/260fdc685b6720d9165881a46917803f.jpg"
+                            alt=""></div>
+                    <div class="prod-name">AUTHENTIC LOGO AUTOMATIC UMBRELLA BLACK</div>
+                    <div class="prod-price">15,900원<div class="dis">13,510원 15.03% 할인</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="img-box"><img
+                            src="https://covernat.net/web/product/small/20200616/2e66e9e06ef8c986b4efedb3b0c445ec.jpg"
+                            alt=""></div>
+                    <div class="prod-name">캡슐 로고 티셔츠 블루</div>
+                    <div class="prod-price">39,000원</div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="img-box"><img
+                            src="https://covernat.net/web/product/small/20200406/2eb0fc4f78f5519d0dc7b838aafca6ef.jpg"
+                            alt=""></div>
+                    <div class="prod-name">어센틱 로고 티셔츠 빈티지 그린</div>
+                    <div class="prod-price">39,000원<div class="dis">27,300원 30% 할인</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="img-box"><img
+                            src="https://covernat.net/web/product/small/20200410/fcc8d8675fcdf915101c3f81331d0799.jpg"
+                            alt=""></div>
+                    <div class="prod-name">[레드벨벳 예리]서퍼맨 티셔츠 블랙</div>
+                    <div class="prod-price">39,000원<div class="dis">23,400원 40% 할인</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="img-box"><img
+                            src="https://covernat.net/web/product/small/20200623/4d00cecf33825446c192886f4183a3f0.jpg"
+                            alt=""></div>
+                    <div class="prod-name">S/S ARCH LOGO TEE WHITE/RED</div>
+                    <div class="prod-price">39,000원<div class="dis">27,300원 30% 할인</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="img-box"><img
+                            src="https://covernat.net/web/product/small/20200428/b7f8ff418c4d50e56c37871a4a63d7e2.jpg"
+                            alt=""></div>
+                    <div class="prod-name">CXPEANUTS 70th PADDLING SNOOPY TEE BLACK</div>
+                    <div class="prod-price">39,000원<div class="dis">27,300원 30% 할인</div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
 
 
 

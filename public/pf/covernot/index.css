@@ -146,9 +146,18 @@ body {
     margin-left:-500px;
 }
 
+.menu-bar > .menu-box-1 > ul > li > .drop-box > .drop-box-wrap > ul > li {
+    padding:1px;
+}
+
 .menu-bar > .menu-box-1 > ul > li > .drop-box > .drop-box-wrap > ul > li > a {
     font-size: 13px;
 }
+
+.menu-bar > .menu-box-1 > ul > li > .drop-box > .drop-box-wrap > ul > li > a > .new {
+    color:red;
+}
+
 
 
 
@@ -294,3 +303,24 @@ body {
 /* 아이템 리스트 끝 */
 
 
+/* 중간 배너 시작 */
+.mid-bn-img {
+    margin-top:200px;
+}
+
+.mid-bn-img > .img-box {
+    padding:0 20px;
+}
+
+.mid-bn-img > .img-box:first-child > img{
+    border:1px solid red;
+    background:#000;
+    cursor: pointer;
+    position: relative;
+}
+
+.mid-bn-img > .img-box:first-child > img > .text {
+    position: absolute;
+}
+
+/* 중간 배너 끝 */
