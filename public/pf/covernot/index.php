@@ -12,16 +12,53 @@
 </head>
 
 <body>
+
+    <!-- 따라다니는 sns 박스 -->
+    <div class="sns-fixed-box">
+        <div class="kakao">
+            <a href="#"><img src="https://bae-sooyeon.github.io/img1/pf/covernot/quick_kakao.png" alt=""></a>
+        </div>
+        <div class="insta">
+            <a href="#"><img src="https://bae-sooyeon.github.io/img1/pf/covernot/quick_insta.png" alt=""></a>
+        </div>
+        <div class="face-book">
+            <a href="#"><img src="https://bae-sooyeon.github.io/img1/pf/covernot/quick_facebook.png" alt=""></a>
+        </div>
+        <div class="blog">
+            <a href="#"><img src="https://bae-sooyeon.github.io/img1/pf/covernot/quick_blog.png" alt=""></a>
+        </div>
+        <div class="youtube">
+            <a href="#"><img src="https://bae-sooyeon.github.io/img1/pf/covernot/quick_youtube.png" alt=""></a>
+        </div>
+        <div class="view">
+            <a href="#"><img src="https://bae-sooyeon.github.io/img1/pf/covernot/quick_view.png" alt=""></a>
+        </div>
+        <div class="quick-bt">
+            <div style="cursor:pointer;" onclick="window.scrollTo(0,0);"><img
+                    src="https://bae-sooyeon.github.io/img1/pf/covernot/quick_top.png" alt=""></div>
+            <div style="cursor:pointer;" onclick="window.scrollTo(10000,10000);"><img
+                    src="https://bae-sooyeon.github.io/img1/pf/covernot/quick_bottom.png" alt=""></div>
+        </div>
+    </div>
+
+
+    <!-- 최근 본 상품 -->
+
+    <div class="prod-view">
+        <div class="prod-view-text">최근 본 상품</div>
+    </div>
+
+    <!-- 이벤트 -->
     <div class="top-bar flex flex-ai-c flex-jc-c">출석체크하고 매일 500원씩 적립!</div>
 
-    <div class="menu-bar flex flex-ai-c con">
+    <!-- 메뉴바-->
+    <div class="menu-bar flex flex-ai-c">
         <!-- 로고 이미지-->
         <div class="img-box"><img src="https://bae-sooyeon.github.io/img1/pf/covernot/logo.jpg" alt=""></div>
-        <!-- 메뉴바-->
         <div class="menu-box-1 flex flex-grow-1 flex-ai-c flex-jc-c">
-            <ul class="flex">
+            <ul class="flex height-100p">
                 <li>
-                    <a href="#">Shop</a>
+                    <a href="#" class="height-100p flex flex-ai-c">Shop</a>
                     <div class="drop-box">
                         <div class="drop-box-wrap flex">
                             <ul>
@@ -36,7 +73,8 @@
                                 <li><a href="#">용품</a></li>
                             </ul>
                             <ul>
-                                <li><a href="#" class="flex">
+                                <li>
+                                    <a href="#" class="flex">
                                         <div class="new flex">NEW</div>
                                         2020 썸머 쿨 컬렉션
                                     </a></li>
@@ -50,11 +88,25 @@
                                 <li><a href="#">2020 아우터특가</a></li>
                                 <li><a href="#">주말특가</a></li>
                             </ul>
+                            <ul>
+                                <li>
+                                    <div class="img-box"><img
+                                            src="https://bae-sooyeon.github.io/img1/pf/covernot/bd190a43cec29138acdf7eaa1b5967ae.jpg"
+                                            alt=""></div>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <div class="img-box"><img
+                                            src="https://bae-sooyeon.github.io/img1/pf/covernot/fc8c9b791a4495e690c8dfb76c12c618.jpg"
+                                            alt=""></div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </li>
                 <li>
-                    <a href="#">Collection</a>
+                    <a href="#" class="height-100p flex flex-ai-c">Collection</a>
                     <div class="drop-box">
                         <div class="drop-box-wrap flex">
                             <ul>
@@ -79,16 +131,16 @@
                     </div>
                 </li>
                 <li>
-                    <a href="#">News</a>
+                    <a href="#" class="height-100p flex flex-ai-c">News</a>
                 </li>
                 <li>
-                    <a href="#">Event</a>
+                    <a href="#" class="height-100p flex flex-ai-c">Event</a>
                 </li>
                 <li>
-                    <a href="#">TV</a>
+                    <a href="#" class="height-100p flex flex-ai-c">TV</a>
                 </li>
                 <li>
-                    <a href="#">Community</a>
+                    <a href="#" class="height-100p flex flex-ai-c">Community</a>
                     <div class="drop-box">
                         <div class="drop-box-wrap flex">
                             <ul>
