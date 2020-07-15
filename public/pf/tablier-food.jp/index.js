@@ -33,8 +33,22 @@ function slideInterval(){
     setInterval(dotsClick, 3000);
 }
 
+function midImgSlider__init() {
+    $('.mid-img-slider > .owl-carousel').owlCarousel({
+      responsive:{
+        0:{
+          items:3
+        }
+      },
+      loop:true,
+      dots:false,
+      
+    });
+  }
+
 
 $(function() {
     dotSlide__init();
     slideInterval();
+    midImgSlider__init()
 });

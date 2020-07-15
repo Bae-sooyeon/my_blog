@@ -296,8 +296,8 @@ label[for] {
     flex: 1 0 0;
 }
 
-.bd-red{
-    border:1px solid red;
+.bd-red {
+    border: 1px solid red;
 }
 
 /* 공통 CSS */
@@ -315,76 +315,86 @@ label[for] {
 
 
 /* 커스텀 */
+
 @media (max-width:799px) {
     body {
-        padding-top:50px;
+        padding-top: 50px;
     }
 }
 
 .con {
-    max-width: 800px;
+    max-width: 1700px;
+}
+
+.top-bt > div > img{
+    position: absolute;
+    z-index: 300;
+    top:93%;
+    left:97%;
+    width:32px;
+    position: fixed;
 }
 
 .menu-bar {
-    width:100%;
+    width: 100%;
     height: 80px;
-    background:#fcfcf9;
+    background: #fcfcf9;
     position: fixed;
     z-index: 200;
 }
 
-.menu-bar > .logo > img {
-    width:202px;
-    padding:0 30px;
+.menu-bar>.logo>img {
+    width: 202px;
+    padding: 0 30px;
 }
 
-.menu-bar > .menu-box-1 {
-    margin-left:-150px;
+.menu-bar>.menu-box-1 {
+    margin-left: -150px;
 }
 
-.menu-bar > .menu-box-1 > ul > li {
-    padding:10px;
+.menu-bar>.menu-box-1>ul>li {
+    padding: 10px;
 }
 
-.menu-bar > .menu-box-1 > ul > li:hover > a {
-    color:#dfdfdf;
-    transition:.8s;
+.menu-bar>.menu-box-1>ul>li:hover>a {
+    color: #dfdfdf;
+    transition: .8s;
 }
 
-.menu-bar > .menu-box-1 > ul > li > a {
-    color:#5C5955;
-    transition:.8s;
+.menu-bar>.menu-box-1>ul>li>a {
+    color: #5C5955;
+    transition: .8s;
 }
 
-.menu-bar > .menu-right-box > a > img {
-    width:20px;
-    margin:5px 15px 0px 0px;
+.menu-bar>.menu-right-box>a>img {
+    width: 20px;
+    margin: 5px 20px 0px 0px;
 }
 
 
 /* 배너 이미지 시작 */
 
 .slider {
-    position:relative;
-    height: 920px;
-    user-select: none;    
-    margin-bottom:180px;
+    position: relative;
+    height: 1100px;
+    user-select: none;
+    margin-bottom: 180px;
 }
 
 
 .slider > .slides > div {
     position: absolute;
-    top:0;
-    left:0;
-    width:100%;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
     opacity: 0;
-    transition:opacity 0.5s;
+    transition: opacity 0.5s;
 
 }
 
 .slider > .slides > div.active {
-    opacity:1 ;
+    opacity: 1;
 }
 
 .slider > .slides > div {
@@ -398,25 +408,27 @@ label[for] {
     left: 98%;
     bottom: 44%;
     transform: translateX(-50%);
-    
+
 }
+
 .slider > .dots > ul > li {
     width: 8px;
     height: 8px;
     margin: 9px;
     border-radius: 100%;
-    background-color:#ffcc00;
+    background-color: #ffcc00;
     cursor: pointer;
 }
+
 .slider > .dots > ul > li.active {
     background-color: #08a400;
 }
 
 .slider > .bn-cover-img > img {
     position: absolute;
-    top:45%;
-    left:25%;
-    width:920px;
+    top: 45%;
+    left: 25%;
+    width: 920px;
 }
 
 /* 배너이미지 끝 */
@@ -424,63 +436,75 @@ label[for] {
 
 /* 중간 토마토, 파스타 시작 */
 .mid-bn-box > img:first-child {
-    width:394px;
-    height:84px;
+    width: 394px;
+    height: 84px;
 }
 
 .mid-bn-box > img:last-child {
-    width:363px;
-    height:85px;
+    width: 363px;
+    height: 85px;
 }
 
 .img-box > .red-fr > img {
-    width:360px;
+    width: 360px;
     position: absolute;
-    left:10%;
-    top:120%;
+    left: 15%;
+    top: 120%;
 }
 
 .img-box > .pasta > img {
-    width:475px;
+    width: 475px;
     position: absolute;
-    left:70%;
-    top:110%;
+    left: 69%;
+    top: 110%;
 }
 
 .small-title {
     text-align: center;
-    color:#109739;
-    font-size:25.25px;
-    margin-top:35px    
+    color: #109739;
+    font-size: 25.25px;
+    margin-top: 35px
 }
 
 .small-title-2 {
     text-align: center;
-    color:#5c5955;
+    color: #5c5955;
     letter-spacing: 2.5px;
-    margin-top:35px;
+    margin-top: 35px;
 }
+
 /* 중간 토마토, 파스타 끝 */
 
 /* 중간 이미지 슬라이더 시작 */
 .mid-img-slider {
-    margin-top:200px;
+    margin-top: 200px;
+    margin-bottom:-25px;
+}
+
+.mid-img-slider .item {
+    height: 450px;
+    font-size: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2px;
 }
 
 /* 중간 이미지 슬라이더 끝 */
 
 /* 어바웃 버튼 시작 */
 .about-bt {
-    width:200px;
+    width: 200px;
     height: 32px;
     background-color: #ffcc00;
     border-radius: 20px;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
 }
-.about-bt > a {
-    color:white;
+
+.about-bt>a {
+    color: white;
     font-size: 16px;
 }
 
@@ -489,15 +513,164 @@ label[for] {
 
 /* 중간 소배너 시작 */
 .mid-sm-bn {
-    width:800px;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:60px;
-    
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
 }
-.mid-sm-bn:hover > .img-box > img {
+
+.mid-sm-bn:hover>a>img {
     opacity: .6;
- 
+    transition: .8s;
 }
 
 /* 중간 소배너 끝 */
+
+/* 상품 리스트 시작 */
+.prod-list-box {
+    width: 100%;
+    height: 993px;
+    background-color: #f8f8f1;
+    margin-top: 180px;
+}
+
+.prod-list-box>.prod-title {
+    padding-top: 180px;
+    font-size: 18px;
+    color: #109739;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.prod-list-box >.line {
+    border: 1px solid #ffcc00;
+    width: 115px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.prod-list-box > .prod-list-box-2 {
+    margin-top: 56px;
+}
+
+.prod-list-box > .prod-list-box-2  > ul > li {
+    padding:0 10px;
+    transition:.4s;    
+}
+
+.prod-list-box > .prod-list-box-2  > ul > li:hover > a {
+    opacity: .6;
+    transition:.4s;
+}
+
+.prod-list-box > .prod-list-box-2 > ul > li > a > img {
+    width:360px;
+    height: 270px;
+}
+
+.prod-list-box > .prod-list-box-2 > ul > li > a > .prod-box-3 {
+    width:360px;
+    height: 156px;
+    background-color: white;
+    border-bottom:.3px solid #efefef;
+    margin-top:-5px;
+}
+
+.prod-list-box > .prod-list-box-2 > ul > li > a > .prod-box-3 > .prod-name {
+    font-size: 12px;
+    color:#ffcc00;
+    text-align: center;
+    padding-top:35px;
+}
+
+.prod-list-box > .prod-list-box-2 > ul > li > a > .prod-box-3 > .prod-ex {
+    text-align: center;
+    padding-top:20px;
+    font-size: 14px;
+}
+/* 상품 리스트 끝 */
+
+/* 상품 리스트 2 시작 */
+.prod-list-box-2nd {
+    width: 100%;
+    height: 1100px;
+    background-color: #fcfcf9;
+}
+
+.prod-list-box-2nd  >.prod-title {
+    padding-top: 180px;
+    font-size: 18px;
+    color: #109739;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.prod-list-box-2nd >.line {
+    border: 1px solid #ffcc00;
+    width: 115px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.prod-list-box-2nd > .prod-list-box-2 {
+    margin-top: 56px;
+}
+
+.prod-list-box-2nd > .prod-list-box-2  > ul > li {
+    padding:0 5px;
+    transition:.4s;    
+}
+
+.prod-list-box-2nd > .prod-list-box-2  > ul > li:hover > a {
+    opacity: .6;
+    transition:.4s;
+}
+
+.prod-list-box-2nd > .prod-list-box-2 > ul > li > a > img {
+    width:360px;
+    height: 270px;
+}
+
+.prod-list-box-2nd > .prod-list-box-2 > ul > li > a > .prod-box-3 {
+    width:360px;
+    height: 156px;
+    background-color: white;
+    border-bottom:.3px solid #efefef;
+    margin-top:-5px;
+}
+
+.prod-list-box-2nd > .prod-list-box-2 > ul > li > a > .prod-box-3 > .prod-name {
+    font-size: 12px;
+    color:#ffcc00;
+    text-align: center;
+    padding-top:20px;
+}
+
+.prod-list-box-2nd > .prod-list-box-2 > ul > li > a > .prod-box-3 > .prod-ex {
+    text-align: center;
+    padding-top:20px;
+    font-size: 14px;
+}
+
+.prod-list-box-2nd > .prod-list-box-2 > ul > li > a > .prod-box-3 > .prod-date {
+    text-align: center;
+    padding-top:10px;
+    font-size: 12px;
+    color:#89847f;
+}
+/* 상품 리스트 2 끝 */
+
+
+/* Footer 시작 */
+.prod-list-box-2nd .footer {
+    font-size: 12px;
+    color: #89847f;    
+    text-align: center;
+    margin-top: 200px;
+}
+
+/* Footer 끝 */
