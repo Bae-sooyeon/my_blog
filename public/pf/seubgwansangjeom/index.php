@@ -57,6 +57,7 @@
         </div>
     </div>
 
+    <!--슬라이더-->
     <div class="slider">
 
         <div class="slides">
@@ -81,24 +82,139 @@
 
     </div>
 
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium reprehenderit, beatae cumque nisi necessitatibus fugiat sit tempore illo hic, sequi veniam, sunt optio ullam doloribus incidunt. Laudantium iste impedit delectus?
-    Laborum pariatur suscipit obcaecati et voluptatum earum iure iusto officia, quas quidem! Velit, cumque temporibus ipsa enim amet in ut totam et itaque corrupti quidem impedit quas debitis nulla necessitatibus!
-    In eum velit molestiae, eius dolores beatae perspiciatis libero illo dolorem autem voluptatibus dicta a nostrum provident voluptates debitis minima officia recusandae, ad sed, omnis quaerat veritatis? Placeat, eaque impedit.
-    Distinctio dolore voluptatum debitis accusamus facere! Incidunt, dicta sed voluptates veniam eum saepe facere labore voluptas nesciunt recusandae a molestias cumque quasi ea, voluptatum aliquid ratione, error et suscipit laborum.
-    Fugiat ab, perspiciatis numquam at eius quis aut architecto recusandae ea voluptatum mollitia obcaecati eos repudiandae tempore dicta. Ea nam eligendi laudantium suscipit architecto quod accusamus culpa fugit ipsam excepturi!
-    Blanditiis laboriosam expedita harum recusandae error reiciendis consequatur rerum repudiandae, eligendi deserunt sapiente ipsa animi? Distinctio perspiciatis nobis aperiam vero dicta! Beatae enim delectus, atque ab impedit officia quia commodi.
-    Eveniet unde aliquam inventore blanditiis eum necessitatibus nesciunt ad corporis provident iure odio et possimus magni itaque quasi nobis quos accusamus tempora, tenetur dignissimos ratione consectetur animi nostrum. Ratione, eligendi!
-    Sunt natus harum fugit? Voluptatum fugiat, modi, ut hic quod neque necessitatibus officiis fugit doloremque ipsa, sunt corrupti consectetur excepturi dolorum. Adipisci itaque quibusdam fugit vitae dignissimos obcaecati, numquam veritatis.
-    Doloremque quod nesciunt exercitationem voluptates, amet quidem eaque molestiae, voluptate obcaecati veritatis laborum tempore illum, reprehenderit quo eveniet in est ratione adipisci. Dolores similique cum non commodi ratione eius reprehenderit!
-    Inventore voluptates autem nisi aliquam saepe. Eum dolore cumque sunt ipsa, distinctio officia, cum a fugit veritatis dolorem in consequatur quae quam quos fugiat. Et excepturi odio voluptatem sit aliquid?
-    Architecto fugit ad obcaecati blanditiis quod natus, quae ex adipisci distinctio nisi qui cupiditate placeat temporibus. Accusamus, eum id adipisci ratione, neque alias commodi modi explicabo in rerum quos facilis!
-    Nihil harum earum voluptatem amet accusamus neque soluta debitis, quibusdam sequi, sit omnis fuga voluptates nemo labore dolore odit corrupti dicta nostrum iste laborum quam repellendus similique? Quasi, quos distinctio!
-    Error incidunt nemo illum asperiores repudiandae, minima harum delectus consequuntur, expedita necessitatibus soluta nostrum quod reiciendis ipsa quidem accusantium nobis alias beatae, ut distinctio rerum ipsam debitis quasi quibusdam! Maiores?
-    Praesentium suscipit magnam necessitatibus? Deleniti a odio, enim perspiciatis natus esse recusandae, sapiente laudantium reiciendis ipsa necessitatibus magnam ex quis odit et eaque porro iusto dolore, exercitationem temporibus at? Inventore.
-    Modi labore aliquam, nam dolorum tenetur ab minus laudantium facilis, dolores odit excepturi, voluptatem omnis minima quaerat distinctio non aspernatur! Obcaecati, itaque? Dicta fugiat distinctio voluptates. Expedita eos architecto iusto.
-    Rem, obcaecati, neque non repellat vitae ipsa numquam voluptates repudiandae, facilis ab voluptatem. Similique quo voluptates veritatis quasi iusto, ut hic. Eaque, totam architecto explicabo consectetur aliquam laborum quod facere.
+    <!-- 상점 소식 -->
 
+    <div class="event-box con flex">
+        <div class="wrap-box">
+            <div class="shop-news-box flex flex-sp-b ">
+                <div class="shop-news-title flex-ai-c">
+                    상점소식
+                </div>
+                <div class="more-bt">
+                    <a href="#" class="flex-ai-c">more</a>
+                </div>
+            </div>
 
+            <div class="news flex flex-sp-b">
+                <div class="news-title">
+                    - [배송관련] 5월 연휴 및 공휴일 배송일정</div>
+                <div class="news-date">2020-04-30</div>
+            </div>
+            <div class="news flex flex-sp-b">
+                <div class="news-title">
+                    - [신상런칭] 습관상점 프리미엄 훈제연어 슬라이스 300g...</div>
+                <div class="news-date">2020-04-16</div>
+            </div>
+            <div class="news flex flex-sp-b">
+                <div class="news-title">
+                    - [이벤트] 습관상점 카카오톡 채널 추가하고 쿠폰받아요!</div>
+                <div class="news-date">2019-12-10</div>
+            </div>
+            <div class="news flex flex-sp-b">
+                <div class="news-title">
+                    - [이벤트] 후기쓰고 적립금 받자!</div>
+                <div class="news-date">2019-12-09</div>
+            </div>
+            <div class="news flex flex-sp-b">
+                <div class="news-title">
+                    - [이벤트] 2019년 3월 상점후기 호캉스 당첨자 발표</div>
+                <div class="news-date">2019-03-18</div>
+            </div>
+            <div class="news flex flex-sp-b">
+                <div class="news-title">
+                    - [보도기사] 습관상점 빠룬즙_2019.02.28 에이빙뉴...</div>
+                <div class="news-date">2019-03-07</div>
+            </div>
+        </div>
+
+        <div class="wrap-box event-pic-1">
+            <img src="https://bae-sooyeon.github.io/img1/pf/seubqwansangjeom/yg_bn_2_01.jpg" alt="">
+        </div>
+
+        <div class="wrap-box event-pic-2">
+            <img src="https://bae-sooyeon.github.io/img1/pf/seubqwansangjeom/yg_bn_3_01.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- 만나서 반가워요! -->
+    <div class="hello-1 text-align-center">
+        만나서 반가워요!
+    </div>
+    <div class="hello-2 text-align-center">
+        새로운 습관
+    </div>
+
+    <!-- 아이템 리스트 박스 -->
+    <div class="prod-list-box con">
+        <ul class="flex">
+            <li>
+                <a href="#">
+                    <div class="img-box"><img
+                            src="https://bae-sooyeon.github.io/img1/pf/seubqwansangjeom/451266b96c9495284d98b424213fa956.jpg"
+                            alt=""></div>
+                </a>
+                <div class="prod-name">이름</div>
+                <div class="prod-price">가격</div>
+                <div class="prod-ex">설명</div>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="img-box"><img
+                            src="https://bae-sooyeon.github.io/img1/pf/seubqwansangjeom/caf726a60a593f45bca21d662061da8d.jpg"
+                            alt=""></div>
+                </a>
+                <div class="prod-name">이름</div>
+                <div class="prod-price">가격</div>
+                <div class="prod-ex">설명</div>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="img-box"><img
+                            src="https://bae-sooyeon.github.io/img1/pf/seubqwansangjeom/fc43b7d109fd85cbd31b6d55e2212ab5.jpg"
+                            alt=""></div>
+                </a>
+                <div class="prod-name">이름</div>
+                <div class="prod-price">가격</div>
+                <div class="prod-ex">설명</div>
+            </li>
+
+            <li>
+                <a href="#">
+                    <div class="img-box"><img
+                            src="https://bae-sooyeon.github.io/img1/pf/seubqwansangjeom/76d96c1dbe6c81426bea6104cf4a78d0.jpg"
+                            alt=""></div>
+                </a>
+                <div class="prod-name">이름</div>
+                <div class="prod-price">가격</div>
+                <div class="prod-ex">설명</div>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="img-box"><img
+                            src="https://bae-sooyeon.github.io/img1/pf/seubqwansangjeom/98816a7e63f7bb3e0ffb6c1a07d77c64.jpg"
+                            alt=""></div>
+                </a>
+                <div class="prod-name">이름</div>
+                <div class="prod-price">가격</div>
+                <div class="prod-ex">설명</div>
+            </li>
+        </ul>
+    </div>
+
+    <!-- 습관상점이 더 궁금하다면 ? -->
+    <div class="youtube con">
+        <iframe width="957" height="538" src="https://www.youtube.com/embed/6BSEeOa1G_4" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="learn-more-box">
+            <div class="text-1">LEARN MORE</div>    
+            <div class="text-2">습관상점이 더 궁금하시다면?</div>
+            <div class="text-3">
+                #좋은 건 습관하자 <br>
+                #습관상점
+            </div>
+            <div class="text-4"><a href="#">습관상점 인스타그램 바로가기<br></a></div>            
+        </div>
+    </div>
 
 </body>
 

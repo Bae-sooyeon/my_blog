@@ -300,6 +300,17 @@ label[for] {
 *>.flex-1-0-0 {
     flex: 1 0 0;
 }
+
+.flex-sp-b {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-sp-a {
+    display: flex;
+    justify-content: space-around;
+}
+
 .bd-red {
     border:1px solid red;
 }
@@ -326,9 +337,8 @@ label[for] {
 }
 
 .con {
-    max-width: 800px;
+    max-width: 1350px;
 }
-
 
 
 .top-line {
@@ -349,6 +359,7 @@ label[for] {
     position:absolute;
     width:100%;
     z-index: 300;
+    border-bottom: 1px solid #bebdbb;
 }
 
 .top-bar > .logo > img {
@@ -460,3 +471,126 @@ label[for] {
 .slider > .dots > ul > li.active {
     background-color: #888888;
 }
+
+/* 슬라이더 끝 */
+
+
+/* 상점 소식 시작 */
+.event-box {
+    margin-top:30px;
+}
+
+.event-box .wrap-box {
+    padding:0 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.event-box .wrap-box:first-child {
+    width:400px;
+    height: 230px;
+    padding:0 15px;
+    text-align: center;
+    
+}
+
+.event-box .wrap-box > .shop-news-box {
+    border-bottom: 3px double #e0dfdd;
+    padding:0 0 10px 0;
+}
+
+.event-box .wrap-box > .shop-news-box > .shop-news-title {
+    font-weight: bold;
+}
+
+.event-box .wrap-box > .shop-news-box > .more-bt > a {
+    font-size: 11px;
+    color:#4444444;
+}
+
+.event-box .wrap-box > .news:last-child {
+    border-bottom: 1px solid #e0dfdd;
+}
+
+
+.event-box .wrap-box > .news > .news-title {
+    font-size: 12px;
+    color:#444444;
+    padding:8px 3px;
+}
+
+.event-box .wrap-box > .news > .news-date {
+    font-size: 11px;
+    color:#bbbbbb;
+    padding:5px 2px;
+}
+
+/* 상점 소식 끝 */
+
+
+/* 만나서 반가워요! 시작 */
+.hello-1 {
+    font-size:13px;
+    padding:0 0 3px;
+    color:#444444;
+    margin-top:100px;
+}
+
+.hello-2 {
+    font-size:24px;
+    color:#444444;
+    margin-bottom:50px;
+}
+
+/* 만나서 반가워요! 끝 */
+
+/* 아이템 리스트 박스 시작 */
+.prod-list-box > ul > li {
+    padding:20px 15px 30px;
+    margin:0 0 20px;
+    width:calc(100% / 3);
+    
+}
+
+.prod-list-box > ul > li > a > .img-box > img {
+    width:400px;
+}
+
+/* 아이템 리스트 박스 끝 */
+
+/* 습관상점이 더 궁금하다면? 시작 */
+.youtube {
+    padding: 70px 150px;
+}
+
+.youtube > .learn-more-box {
+    width: 380px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    left:60%;
+    top:200%;
+    box-shadow:gray 1px 1px 10px;
+    color:#444444;
+    padding:60px 40px;
+}
+.youtube > .learn-more-box > .text-1 {
+    font-size:12px;
+}
+
+.youtube > .learn-more-box > .text-2 {
+    font-size:23px;
+    margin:0 0 100px;
+}
+
+.youtube > .learn-more-box > .text-3 {
+    font-size:14px;
+}
+
+.youtube > .learn-more-box > .text-4 {
+    font-size:14px;
+    text-decoration: underline;
+    margin-top:20px;
+}
+
+/* 습관상점이 더 궁금하다면? 끝 */

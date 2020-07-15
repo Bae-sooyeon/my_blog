@@ -15,7 +15,7 @@
     </ul>
     <ul>
         <li>
-            <a href="/pf/tablier-food.jp/">tablider-food</a>
+            <a href="/pf/tablier-food.jp/">tablier-food</a>
         </li>
     </ul>
 </body>
