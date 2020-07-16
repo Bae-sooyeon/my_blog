@@ -399,7 +399,7 @@
                 </a>
                 <div class="review-box">
                     <div class="review-item">습관상점 프리미엄 훈제연어 슬라이스 300...</div>
-                    <div class="review-ex">짜지 않고 맛있어요 같이 먹은 친구들도 다들 짜지 않아 좋다고 하네요~</div>
+                    <div class="review-ex">짜지 않고 맛있어요 같이 먹은 친구들도 다들 짜지 않아 좋다고 하네요</div>
                 </div>
             </li>
         </ul>
@@ -409,6 +409,16 @@
     <div class="foot-bn con">
         <div class="img-box">
             <img src="https://bae-sooyeon.github.io/img1/pf/seubqwansangjeom/yg_bn_4_01.jpg" alt="">
+        </div>
+        <div class="foot-bn-box">
+            <div class="text-top">
+                습관상점 친구 맺기 이벤트!
+            </div>
+            <div class="text-mid">
+                습관상점 회원가입하면 <br>
+                즉시 사용 가능한 3,000원 적립금을 드려요~
+            </div>
+            <a href="#">습관상점 회원가입!</a>
         </div>
     </div>
 

@@ -411,7 +411,15 @@
     <div class="lower-bn con">
         <div class="img-box">
             <img src="https://covernat.net/SkinImg/img/main3.jpg" alt="">
-            <div class="text">COVERNAT X SNOOPY<div class="text-2">2020 스누피 콜라보레이션</div>
+            <div class="text">
+                <div class="text-1">
+                    COVERNAT X SNOOPY
+                </div>
+                <div class="text-2">
+                    <span>
+                        2020 스누피 콜라보레이션
+                    </span>
+                </div>
             </div>
         </div>
     </div>

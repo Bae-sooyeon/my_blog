@@ -34,17 +34,18 @@ function slideInterval(){
 }
 
 function midImgSlider__init() {
-    $('.mid-img-slider > .owl-carousel').owlCarousel({
-      responsive:{
-        0:{
-          items:3
-        }
-      },
-      loop:true,
-      dots:false,
-      
-    });
-  }
+  $('.mid-img-slider > .owl-carousel').owlCarousel({
+    responsive:{
+      0:{
+        items:3
+      }
+    },
+    loop:true,
+    dots:false,
+    autoplay:true,
+    autoplayTimeout:4000,
+  });
+}
 
 
 $(function() {

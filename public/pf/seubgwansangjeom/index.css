@@ -610,7 +610,7 @@ label[for] {
     background-color: white;
     position: absolute;
     left:60%;
-    top:272%;
+    top:278%;
     box-shadow:gray 1px 1px 10px;
     color:#444444;
     padding:60px 40px;
@@ -674,11 +674,40 @@ label[for] {
 
 /* 하단 배너 시작 */
 .foot-bn {
-    padding:70px 0 100px;
+    padding:70px 0 0;
+    cursor: pointer;
+    margin-bottom: 100px;
+    
+}
+
+.foot-bn:hover > .foot-bn-box {
+    opacity: 0.4;
+    transition:.3s;
 }
 
 .foot-bn > .img-box > img {
     height: 450px;
+}
+
+.foot-bn > .foot-bn-box {
+    position: absolute;
+    top:590%;
+    left:18%;
+    transition:.3s;
+}
+
+.foot-bn > .foot-bn-box > .text-top {
+    margin-bottom:10px;
+}
+
+.foot-bn > .foot-bn-box > .text-mid {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.foot-bn > .foot-bn-box > a {
+    font-size: 13px;
+    text-decoration: underline;
 }
 /* 하단 배너 끝 */
 

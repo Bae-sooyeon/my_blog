@@ -324,15 +324,15 @@ body {
 
 /* 추천 상품 */
 .best-product-box {
-    margin-top: 60px;
+    margin-top: 70px;
 }
 
 .best-product-box > .best-product-1 {
-    font-size: 2rem;
+    font-size: 30px;
 }
 
 .best-product-box > .best-product-2 {
-    font-size: 1.2rem;
+    font-size: 15px;
     margin-top: 5px;
 }
 
@@ -459,15 +459,24 @@ body {
     color: white;
     opacity: 0;
     z-index: 10;
+}
+
+.lower-bn > .img-box > .text > .text-1 {
     font-size:22px;
 }
 
 .lower-bn > .img-box > .text > .text-2 {
     font-size:15px;
-    text-align: center;
     margin-top: 10px;
+    text-align: center;
+}
+
+.lower-bn > .img-box > .text > .text-2 > span{
     border-bottom: 1px solid white;
 }
+
+
+
 
 .lower-bn > .img-box:hover > .text {
     opacity: 1;
