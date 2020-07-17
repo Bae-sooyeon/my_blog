@@ -7,16 +7,42 @@
     <title>Document</title>
 </head>
 <body>
+
+<h1>코딩 작업물</h1>
+<nav>
     <ul>
-        <li><a href="/pf/covernot/">커버낫</a></li>
-    </ul>
-    <ul>
-        <li><a href="/pf/seubgwansangjeom/">습관상점</a></li>
+        <li>
+            <a href="/pf/covernot/">커버낫</a>
+            <ul>
+                <li><a href="https://www.covernat.net/">원본</a></li>
+            </ul>
+        </li>
     </ul>
     <ul>
         <li>
-            <a href="/pf/tablier-food.jp/">tablier-food</a>
+            <a href="/pf/seubgwansangjeom/">습관상점</a>
+            <ul>
+                <li><a href="https://habitloom.com/">원본</a></li>
+            </ul>
         </li>
     </ul>
+    <ul>
+        <li>
+            <a href="/pf/tablier-food.jp/">tablier-food-jp</a>
+            <ul>
+                <li><a href="https://www.tablier-food.jp/">원본</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<h1>디자인 작업물</h1>
+<nav>
+    <ul>
+        <li>
+            <a href="https://bae-sooyeon.github.io/img1/pf/artworks/1/1.jpg">칠성사이다 광고배너</a>
+        </li>
+    </ul>
+</nav>
 </body>
 </html>
