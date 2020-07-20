@@ -21,9 +21,9 @@
                 <li><a href="#">패션</a></li>
                 <li><a href="#">화인 주얼리</a></li>
                 <li><a href="#">시계</a></li>
-                <li><a href="#">향수</a></li>
-                <li><a href="#">메이크업</a></li>
-                <li><a href="#">스킨케어</a></li>
+                <li><a href="#"><i class="fas fa-shopping-bag"></i>향수</a></li>
+                <li><a href="#"><i class="fas fa-shopping-bag"></i>메이크업</a></li>
+                <li><a href="#"><i class="fas fa-shopping-bag"></i>스킨케어</a></li>
                 <li><a href="#">인사이드 샤넬</a></li>
             </ul>
             <ul class="left-menu-box-3">
@@ -33,6 +33,7 @@
                 <li><a href="#">법률 성명</a></li>
                 <li><a href="#">개인정보처리방침</a></li>
                 <li><a href="#">위치 찾기</a></li>
+                <li><a href="#">대한민국 (KO)</a></a></li>
             </ul>
         </div>
     </div>

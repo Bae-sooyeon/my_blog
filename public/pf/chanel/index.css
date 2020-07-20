@@ -607,6 +607,10 @@ label[for] {
     left:0;
 }
 
+.mobile-side-bar > .left-menu-box > ul > li > a > i {
+  padding-right:7px;
+  
+}
 /* 왼쪽 사이드바 끝 */
 
 /* footer 시작 */
