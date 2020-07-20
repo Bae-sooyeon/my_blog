@@ -34,6 +34,22 @@
             </ul>
         </li>
     </ul>
+    <ul>
+        <li>
+            <a href="/pf/chanel/">샤넬</a>
+            <ul>
+                <li><a href="https://www.chanel.com/ko_KR/">원본</a></li>
+            </ul>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <a href="/pf/tada/">타다</a>
+            <ul>
+                <li><a href="https://tadatada.com/">원본</a></li>
+            </ul>
+        </li>
+    </ul>
 </nav>
 
 <h1>디자인 작업물</h1>
