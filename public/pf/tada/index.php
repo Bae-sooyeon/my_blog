@@ -33,7 +33,7 @@
     </div>
 
     <!-- 배너 이미지 -->
-    <div class="img-box">
+    <div class="top-bn-img img-box">
         <img src="https://tadatada.com/static/images/bg_main_desktop.jpg" alt="">
     </div>
 
@@ -119,17 +119,65 @@
     <div class="tada-line-up con">
         타다 라인업
     </div>
-    <div class="line-up-menu-box con">
-        <ul class="line-up-menu-1 flex">
-            <li><a href="#">PREMIUM</a></li>
-            <div class="dot"></div>
-            <li><a href="#">AIR</a></li>
-            <div class="dot"></div>
-            <li><a href="#">PRIVATE</a></li>
-            <div class="dot"></div>
-            <li><a href="#">GOLF</a></li>
-        </ul>
+
+
+    <!-- 배너이미지 -->
+
+    <div class="slider  con">
+
+        <div class="slides">
+            <div class="slides-img bd-red flex active">
+                <div class="img">
+                    <img src="https://bae-sooyeon.github.io/img1/pf/tada/bg_lineup_premium.png" alt="">
+                </div>
+                <div class="slides-box-1 bd-red">
+                    <div class="slides-title">PREMIUM</div>
+                    <div class="slides-title-2">준고급 세단과 전문 드라이버</div>
+                    <div class="slides-contents">
+                        <div class="br">- 호출 즉시 시스템으로 바로배차</div>
+                        <div class="br">- 2,800cc 이상 프리미엄 세단의 편안한 승차감</div>
+                        <div class="br">- 베테랑 전문 드라이버의 안정적인 운행</div>
+                        <div class="br">- 중요한 비즈니스, 특별한 약속, 의전을 위한 이동</div>
+                    </div>
+                </div>
+            </div>
+            <div class="slides-img bd-red">
+                <div class="img">
+                    <img src="https://bae-sooyeon.github.io/img1/pf/tada/bg_lineup_air.png" alt="">
+                </div>
+                <div class="slides-box-1 bd-red">
+                    <div class="slides-title">PREMIUM</div>
+                    <div class="slides-title-2">준고급 세단과 전문 드라이버</div>
+                    <div class="slides-contents">
+                        <div class="br">- 호출 즉시 시스템으로 바로배차</div>
+                        <div class="br">- 2,800cc 이상 프리미엄 세단의 편안한 승차감</div>
+                        <div class="br">- 베테랑 전문 드라이버의 안정적인 운행</div>
+                        <div class="br">- 중요한 비즈니스, 특별한 약속, 의전을 위한 이동</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dots">
+            <ul class="flex">
+                <li class="active">PREMIUM</li>
+                <li>AIR</li>
+                <li>PRIVATE</li>
+                <li>GOLF</li>
+            </ul>
+        </div>
+
+        <div class="btn-slide">
+            <div class="left-btn">
+                <img src="https://bae-sooyeon.github.io/img1/pf/tada/btn_lineup_left@3x.png" alt="">
+            </div>
+            <div class="right-btn">
+                <img src="https://bae-sooyeon.github.io/img1/pf/tada/btn_lineup_right@3x.png" alt="">
+            </div>
+        </div>
     </div>
+
+
 </body>
 
 </html>
