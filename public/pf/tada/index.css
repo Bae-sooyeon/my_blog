@@ -454,4 +454,21 @@ label[for] {
     margin-top: 99px;
 }
 
+.line-up-menu-box > .line-up-menu-1 {
+    padding-top:40px;
+}
+
+.line-up-menu-box > .line-up-menu-1 > li > a {
+    font-size: 18px;
+    color: #9da0ae;
+}
+
+.line-up-menu-box > .line-up-menu-1 > .dot {
+    width:3px;
+    height: 3px;
+    background-color:#9da0ae;
+    margin-top: 12px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
 /* 타다 라인업 끝 */

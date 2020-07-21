@@ -79,6 +79,11 @@ label[for] {
   box-sizing:border-box;
 }
 
+.cell-center {
+  float:center;
+  box-sizing:border-box;
+}
+
 .cell-right {
   float:right;
   box-sizing:border-box;
@@ -433,7 +438,7 @@ label[for] {
     width:100%;
     height: 100%;
     opacity: 0;
-    transition:opacity 0.5s;
+    transition:opacity 1.2s;
 
 }
 
@@ -449,36 +454,82 @@ label[for] {
 }
 
 
+.slider > .dots {
+  position: absolute;
+  left: 50%;
+  top:108%;
+  transform: translateX(-50%);
+}
+.slider > .dots > ul > li {
+  margin: 0 7px;
+  border: 1px solid white;
+  background-color: transparent;
+  cursor: pointer;
+}
+.slider > .dots > ul > li.active {
+  background-color: white;
+}
+
+
 
 /* 배너이미지 끝 */
 
 
 
 /* 메뉴 바 */
-.menu-bar .menu-box-1 {
+
+
+.dots .menu-box-1 {
     margin-top:65px;
 }
 
-.menu-bar .menu-box-2 {
+.dots .menu-box-2 {
     margin-top:20px;
     margin-bottom:-10px;
 }
 
-.menu-bar > .menu-box-1 > ul > li > a , .menu-bar > .menu-box-2 > ul > li > a {
+.dots > .menu-box-1 > ul > li > a , .dots > .menu-box-2 > ul > li > a {
     padding:0 20px;
     color:#767676;
 }
 
-.menu-bar > .menu-box-1 > ul > li > a:hover , .menu-bar > .menu-box-2 > ul > li:hover > a {
+.dots > .menu-box-1 > ul > li > a:hover , .dots > .menu-box-2 > ul > li:hover > a {
     color:black;
+}
+
+.menu-box-1>ul {
+  margin:0 30px;
+}
+
+.menu-box-1>ul>li {
+  width: calc(100%/5);
+  white-space: nowrap;
+
+}
+.menu-box-1>ul>li:nth-child(6){
+  margin-left:108px;
+  margin-top:10px;
+}
+
+.menu-box-1>ul>li:nth-child(7){
+  margin-top:10px;
+}
+
+.menu-box-1>ul>li:nth-child(8){
+  margin-top:10px;
+}
+
+.menu-box-1>ul>li>a {
+  display: inline-block;
 }
 
 /* 샤넬 뷰티 공식 온라인 스토어 */
 .hr-sect {
     display:inline-block;
     padding:0 33px;
-    position:relative;
-    
+    position: absolute;
+    left: 44%;
+    top:85.5%;
 }
 
 .hr-sect::before {
@@ -617,7 +668,7 @@ label[for] {
 
 .footer {
     margin:0 20px;
-    margin-top:120px;
+    margin-top:265px;
 }
 
 .footer > .footer-box > .left-footer > li {
@@ -712,4 +763,3 @@ label[for] {
     overflow:hidden;
   }
   /* 팝업 1 끝 */
-  

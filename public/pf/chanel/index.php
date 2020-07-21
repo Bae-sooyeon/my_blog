@@ -60,25 +60,14 @@
 
         <div class="slides">
             <div class="active"
-                style="background-image:url(https://bae-sooyeon.github.io/img1/pf/chanel/1920_BRIDAL_JEWELLERY_JP_KR_0420.jpg);">
-            </div>
-
-            <div
-                style="background-image:url(https://bae-sooyeon.github.io/img1/pf/chanel/1920_Chance_fragrance_0119.jpg);">
+                style="background-image:url(https://bae-sooyeon.github.io/img1/pf/chanel/1920_Haute_couture.jpg);">
             </div>
 
             <div style="background-image:url(https://bae-sooyeon.github.io/img1/pf/chanel/333.jpg);">
             </div>
 
-            <div style="background-image:url(https://bae-sooyeon.github.io/img1/pf/chanel/1920_Haute_couture.jpg);">
-            </div>
-
             <div
-                style="background-image:url(https://bae-sooyeon.github.io/img1/pf/chanel/1920_HYDRA_BEAUTY_KR_0720.jpg);">
-            </div>
-
-            <div
-                style="background-image:url(https://bae-sooyeon.github.io/img1/pf/chanel/1920_Inside_chanel_KR_0420_.jpg);">
+                style="background-image:url(https://bae-sooyeon.github.io/img1/pf/chanel/1920_BRIDAL_JEWELLERY_JP_KR_0420.jpg);">
             </div>
 
             <div
@@ -86,47 +75,41 @@
             </div>
 
             <div
-                style="background-image:url(https://bae-sooyeon.github.io/img1/pf/chanel/1920_LES_BEIGES_SUMMER_GLOW_0520_MU.jpg);">
+                style="background-image:url(https://bae-sooyeon.github.io/img1/pf/chanel/1920_Inside_chanel_KR_0420_.jpg);">
+            </div>
+
+            <div
+                style="background-image:url(https://bae-sooyeon.github.io/img1/pf/chanel/1920_Chance_fragrance_0119.jpg);">
+            </div>
+
+            <div style="background-image:url(https://bae-sooyeon.github.io/img1/pf/chanel/1920_LES_BEIGES_SUMMER_GLOW_0520_MU.jpg);">
+            </div>
+
+            <div
+                style="background-image:url(https://bae-sooyeon.github.io/img1/pf/chanel/1920_HYDRA_BEAUTY_KR_0720.jpg);">
             </div>
         </div>
 
         <div class="dots">
-            <ul class="flex">
-                <li class="active"></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+            <div class="menu-box-1">
+                <ul class="row text-align-center">
+                    <li class="cell active"><a href="#">오뜨 꾸뛰르</a></li>
+                    <li class="cell"><a href="#">패션</a></li>
+                    <li class="cell"><a href="#">화인 주얼리</a></li>
+                    <li class="cell"><a href="#">시계</a></li>
+                    <li class="cell"><a href="#">인사이드 샤넬</a></li>
+                    <li class="cell"><a href="#">향수</a></li>
+                    <li class="cell"><a href="#">메이크업</a></li>
+                    <li class="cell"><a href="#">스킨케어</a></li>
+                </ul>
+            </div>
+            <div class="menu-box-2">
+                <ul class="flex flex-jc-c">
+                </ul>
+            </div>
         </div>
 
     </div>
-
-
-
-
-    <!-- 메뉴 바 -->
-    <nav class="menu-bar con">
-        <div class="menu-box-1 text-align-center">
-            <ul>
-                <li class="inline-block"><a href="#">오뜨 꾸뛰르</a></li>
-                <li class="inline-block"><a href="#">패션</a></li>
-                <li class="inline-block"><a href="#">화인 주얼리</a></li>
-                <li class="inline-block"><a href="#">시계</a></li>
-                <li class="inline-block"><a href="#">인사이드 샤넬</a></li>
-            </ul>
-        </div>
-        <div class="menu-box-2 text-align-center">
-            <ul>
-                <li class="inline-block"><a href="#">향수</a></li>
-                <li class="inline-block"><a href="#">메이크업</a></li>
-                <li class="inline-block"><a href="#">스킨케어</a></li>
-            </ul>
-        </div>
-    </nav>
 
     <!-- 샤넬 공식 온라인 스토어 -->
     <div class="hr-sect-box text-align-center">
@@ -159,7 +142,7 @@
             </div>
             <ul class="body">
                 <div class="fir-text">
-                샤넬에 오신 것을 환영합니다</div>
+                    샤넬에 오신 것을 환영합니다</div>
                 언어를 선택하십시오
                 <li class="first-chi"><a href="#">AMERICA</a></li>
                 <li><a href="#">EUROPE</a></li>

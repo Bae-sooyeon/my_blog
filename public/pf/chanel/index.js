@@ -14,15 +14,15 @@ function dotSlide() {
 }
 
 function dotSlide__init() {
-    $('.dots > ul > li').click(dotSlide);
+    $('.dots > .menu-box-1 > ul > li').mouseenter(dotSlide);
 }
 
 function dotsClick() {
-    var $actived = $('.dots > ul > li.active');
+    var $actived = $('.dots > .menu-box-1 > ul > li.active');
     var $post = $actived.next();
 
     if ($post.length == 0) {
-        $('.dots > ul > li:first-child').click();
+        $('.dots > .menu-box-1 > ul > li:first-child').click();
     } else {
         $post.click();
     }

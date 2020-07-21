@@ -119,6 +119,17 @@
     <div class="tada-line-up con">
         타다 라인업
     </div>
+    <div class="line-up-menu-box con">
+        <ul class="line-up-menu-1 flex">
+            <li><a href="#">PREMIUM</a></li>
+            <div class="dot"></div>
+            <li><a href="#">AIR</a></li>
+            <div class="dot"></div>
+            <li><a href="#">PRIVATE</a></li>
+            <div class="dot"></div>
+            <li><a href="#">GOLF</a></li>
+        </ul>
+    </div>
 </body>
 
 </html>
