@@ -1,3 +1,18 @@
+var $html =  $('html');
+
+function MenuBar_init() {
+    $(window).scroll(function() {
+      var scrollTop = $(window).scrollTop();
+      if ( scrollTop > 80 ) {
+        $html.addClass('menu-bar-hidden');
+      }
+      else {
+        $html.removeClass('menu-bar-hidden');
+      }
+    });
+  }
+
+
 function dotSlide() {
     var $this = $(this);
     var $slider = $this.closest('.slider');
@@ -35,7 +50,10 @@ function slider(){
     var $this = $(this);
     var $parent = $this.closest('.slider');
     var $actSlide = $parent.find(' > .slides > .active');
+    var $dot = $parent.find(' > .dots > ul > li');
+    var $actDot = $parent.find(' > .dots > ul > li.active');
     var $post;
+    var postIndex;
     
     if ( $this.index() == 0 ) {
         $post = $actSlide.prev();
@@ -50,8 +68,13 @@ function slider(){
         }
     }
     
+    postIndex = $post.index();
+    
+    
     $actSlide.removeClass('active');
     $post.addClass('active');
+    $actDot.removeClass('active');
+    $dot.eq(postIndex).addClass('active');
 }
 
 
@@ -63,5 +86,6 @@ function slider__init(){
 $(function() {
     dotSlide__init();
     slider__init();
+    MenuBar_init();
 });
    
