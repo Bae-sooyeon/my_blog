@@ -6,9 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <script src="./index.js"></script>
+
 </head>
 
 <body>
@@ -211,20 +216,110 @@
         </div>
     </div>
 
+    <!-- 스마트폰 슬라이더 -->
+
+
     <!-- 타다 이용 방법 -->
     <div class="content-wrapper">
-        <div class="text-title-box">
-            <div class="text-title-1">
-                타다 이용방법
-            </div>
-            <div class="text-content-box">
-                회원가입
-            </div>
-            <div class="text-content-box-1">
-                휴대폰 번호로 간편하게 가입한 후,<br>
-                결제 카드 정보를 입력해주세요.
+        <div class="my-slider-1-wrap">
+            <div class="my-slider-1">
+                <div class="owl-carousel owl-theme">
+                    <div class="item"><img src="https://bae-sooyeon.github.io/img1/pf/tada/bg_howto_1_mobile@3x.jpg"
+                            alt="">
+                    </div>
+                    <div class="item"><img src="https://bae-sooyeon.github.io/img1/pf/tada/bg_howto_2_mobile@3x.jpg"
+                            alt="">
+                    </div>
+                    <div class="item"><img src="https://bae-sooyeon.github.io/img1/pf/tada/bg_howto_3_mobile@3x.jpg"
+                            alt="">
+                    </div>
+                    <div class="item"><img src="https://bae-sooyeon.github.io/img1/pf/tada/bg_howto_4_mobile@3x.jpg"
+                            alt="">
+                    </div>
+                    <div class="item"><img src="https://bae-sooyeon.github.io/img1/pf/tada/bg_howto_5_mobile@3x.jpg"
+                            alt="">
+                    </div>
+                </div>
             </div>
         </div>
+
+
+        <div class="hi-wrap">
+            <div class="hi active">
+                <div class="text-title-box">
+                    <div class="text-title-1">
+                        타다 이용 방법
+                    </div>
+                </div>
+
+                <div class="text-content-box">
+                    회원가입
+                </div>
+                <div class="text-content-box-1">
+                    휴대폰 번호로 간편하게 가입한 후,<br>
+                    결제 카드 정보를 입력해주세요.
+                </div>
+            </div>
+            <div class="hi">
+                <div class="text-title-box">
+                    <div class="text-title-1">
+                        타다 이용방법
+                    </div>
+                </div>
+                <div class="text-content-box">
+                    예상금액 확인
+                </div>
+                <div class="text-content-box-1">
+                    원하는 목적지를 입력하고 예상 금액 확인 후,
+                    차량을 호출하세요.
+                </div>
+            </div>
+            <div class="hi">
+                <div class="text-title-box">
+                    <div class="text-title-1">
+                        타다 이용방법
+                    </div>
+                </div>
+                <div class="text-content-box">
+                    탑승 확인
+                </div>
+                <div class="text-content-box-1">
+                    탑승 알림이 오면 호출한 타다 차량에 탑승하시고
+                    마음 편히 이동하세요.
+                </div>
+            </div>
+            <div class="hi">
+                <div class="text-title-box">
+                    <div class="text-title-1">
+                        타다 이용방법
+                    </div>
+                </div>
+                <div class="text-content-box">
+                    결제 완료
+                </div>
+                <div class="text-content-box-1">
+                    하차 후 입력하신 카드 정보로 자동 결제되며,
+                    탑승하신 차량의 기사를 평가할 수 있어요.
+                </div>
+            </div>
+            <div class="hi">
+                <div class="text-title-box">
+                    <div class="text-title-1">
+                        타다 이용방법
+                    </div>
+                </div>
+                <div class="text-content-box">
+                    예약하기
+                </div>
+                <div class="text-content-box-1">
+                    상황에 따라 원하는 시간만큼
+                    타다를 예약할 수도 있어요.
+                </div>
+            </div>
+        </div>
+
+
+
     </div>
 
     <!-- 타다 이용 안내 -->

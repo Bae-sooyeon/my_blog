@@ -1,4 +1,5 @@
 var $html =  $('html');
+var $window = $(window);
 
 function MenuBar_init() {
     $(window).scroll(function() {
@@ -83,9 +84,68 @@ function slider__init(){
 }
 
 
+var wheelScrollMoveWidth = 100;
+
+$(window).on('wheel', function(event) {
+    var scrollTop = $window.scrollTop();
+    
+    if ( event.originalEvent.deltaY < 0 ) {
+        MenuBar__show();
+    }
+    else {
+        MenuBar__hide();
+    }
+});
+
+function MenuBar__show() {
+    $('html').addClass('menu-bar-actived');
+}
+
+function MenuBar__hide() {
+    $('html').removeClass('menu-bar-actived');
+}
+
+$(window).on('keyup', function(event) {
+    if ( event.keyCode == 38 || event.keyCode == 36 || event.keyCode == 33 ) {
+        MenuBar__show();
+    }
+    else if ( event.keyCode == 40 || event.keyCode == 35 || event.keyCode == 34 ) {
+        MenuBar__hide();
+    }
+});
+
+function MySlider1__init() {
+    $('.my-slider-1 > .owl-carousel').owlCarousel({
+      responsive:{
+        0:{
+          items:1
+        }
+      },
+      loop:true,
+      dots:true,
+      nav:false
+    });
+  }
+  
+  
+  function click__init(){
+      $('.owl-theme .owl-dots .owl-dot').click(function(){
+          var $this = $(this);
+          var indexThis = $this.index();
+          
+          $('.hi-wrap > .hi').removeClass('active');
+          $('.hi-wrap > .hi').eq(indexThis).addClass('active');
+      })
+  }
+  
+
 $(function() {
     dotSlide__init();
     slider__init();
     MenuBar_init();
+    MenuBar__show();
+    MenuBar__hide();
+    MySlider1__init();
+    click__init();
 });
    
