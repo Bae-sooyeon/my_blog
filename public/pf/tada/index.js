@@ -123,7 +123,7 @@ function MySlider1__init() {
       },
       loop:true,
       dots:true,
-      nav:false
+      nav:true
     });
   }
   

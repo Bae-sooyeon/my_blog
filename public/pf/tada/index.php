@@ -238,6 +238,7 @@
                     </div>
                     <div class="item"><img src="https://bae-sooyeon.github.io/img1/pf/tada/bg_howto_5_mobile@3x.jpg"
                             alt="">
+
                     </div>
                 </div>
             </div>
