@@ -7,6 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <script src="./index.js"></script>
@@ -45,8 +49,22 @@
     </div>
 
     <!-- 슬라이더 -->
-    <div class="slider">
-
+    <div class="content-wrapper">
+        <div class="my-slider-1-wrap">
+            <div class="my-slider-1">
+                <div class="owl-carousel owl-theme">
+                    <div class="item"><img src="https://bae-sooyeon.github.io/img1/pf/mohenic/main_n_01.jpg"
+                            alt="">
+                    </div>
+                    <div class="item"><img src=https://bae-sooyeon.github.io/img1/pf/mohenic/mm_01.jpg
+                            alt="">
+                    </div>
+                    <div class="item"><img src=https://bae-sooyeon.github.io/img1/pf/mohenic/mm_06_.jpg
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 
@@ -132,26 +150,30 @@
             </ul>
         </div>
         <div class="footer-line con"></div>
-        
+
         <div class="copy-wrap-box con">
-            <div class="copy-box-1 flex"> 
+            <div class="copy-box-1 flex">
                 <div class="copy-box">
-                Copyright © 2017 Mohenic Garages. 모든 권리 보유.
+                    Copyright © 2017 Mohenic Garages. 모든 권리 보유.
                 </div>
                 <ul class="flex">
-                    <li><a href="#">개인정보 취급방침</a></li><div class="stick">|</div>
-                    <li><a href="#">약관</a></li><div class="stick">|</div>
-                    <li><a href="#">판매 및 한불</a></li><div class="stick">|</div>
-                    <li><a href="#">법적고지</a></li><div class="stick">|</div>
+                    <li><a href="#">개인정보 취급방침</a></li>
+                    <div class="stick">|</div>
+                    <li><a href="#">약관</a></li>
+                    <div class="stick">|</div>
+                    <li><a href="#">판매 및 한불</a></li>
+                    <div class="stick">|</div>
+                    <li><a href="#">법적고지</a></li>
+                    <div class="stick">|</div>
                     <li><a href="#">사이트맵</a></li>
                 </ul>
             </div>
 
             <div class="copy-box">
-            (주)모헤닉스테이얼라이언스 l 대표이사 : 김태성 l 사업자등록번호 : 567-81-00860 l 통신판매업신고번호 : 제2019-서울마포-0213 l
+                (주)모헤닉스테이얼라이언스 l 대표이사 : 김태성 l 사업자등록번호 : 567-81-00860 l 통신판매업신고번호 : 제2019-서울마포-0213 l
             </div>
             <div class="copy-box">
-            사업장 소재지 : 서울특별시 마포구 독막로3길 24-11, 1층 l 전화 : 1661-0339 l 이메일 : mh@mohenic.com
+                사업장 소재지 : 서울특별시 마포구 독막로3길 24-11, 1층 l 전화 : 1661-0339 l 이메일 : mh@mohenic.com
             </div>
             <div class="footer-right-bt con">
                 <a href="#">사업자 정보확인</a>
