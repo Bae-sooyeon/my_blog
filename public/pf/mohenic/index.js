@@ -7,9 +7,11 @@ function MySlider1__init() {
         },
         loop: true,
         dots: false,
-        nav: true
+        nav: true,
+        autoplay:true
     });
 }
+
 
 $(function () {
     MySlider1__init();

@@ -53,14 +53,12 @@
         <div class="my-slider-1-wrap">
             <div class="my-slider-1">
                 <div class="owl-carousel owl-theme">
-                    <div class="item"><img src="https://bae-sooyeon.github.io/img1/pf/mohenic/main_n_01.jpg"
-                            alt="">
+                    <div class="item">
+                        <img src="https://bae-sooyeon.github.io/img1/pf/mohenic/main_n_01.jpg" alt="">
                     </div>
-                    <div class="item"><img src=https://bae-sooyeon.github.io/img1/pf/mohenic/mm_01.jpg
-                            alt="">
+                    <div class="item"><img src=https://bae-sooyeon.github.io/img1/pf/mohenic/mm_01.jpg alt="">
                     </div>
-                    <div class="item"><img src=https://bae-sooyeon.github.io/img1/pf/mohenic/mm_06_.jpg
-                            alt="">
+                    <div class="item"><img src=https://bae-sooyeon.github.io/img1/pf/mohenic/mm_06_.jpg alt="">
                     </div>
                 </div>
             </div>

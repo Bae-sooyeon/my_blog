@@ -365,15 +365,33 @@ label[for] {
     height: 958px;
 }
 
-.content-wrapper > .my-slider-1-wrap > .my-slider-1 > .owl0carousel > .item > img {
+.content-wrapper > .my-slider-1-wrap > .my-slider-1 > .owl-carousel > .item > img {
   height: 958px;
+}
+
+
+.content-wrapper>.my-slider-1-wrap>.my-slider-1>.owl-carousel>.owl-nav>button {
+  position: absolute;
+  font-size: 6rem;
+  z-index: 1000;
+  color: #333;
+}
+
+.content-wrapper>.my-slider-1-wrap>.my-slider-1>.owl-carousel>.owl-nav>.owl-prev {
+  left: 20px;
+  top: 40%;
+}
+
+.content-wrapper>.my-slider-1-wrap>.my-slider-1>.owl-carousel>.owl-nav>.owl-next {
+  right: 20px;
+  top: 40%;
 }
 
 /* 슬라이더 끝 */
 
 /* 중간 이미지 메뉴 시작 */
 .mid-img-menu {
-  padding-top:98px;
+  margin-top:-7px;
 }
 
 .mid-img-menu > ul > li {
@@ -383,6 +401,7 @@ label[for] {
 .mid-img-menu > ul > li > a > .img-box > img {
     border:2px solid white;
 }
+
 /* 중간 이미지 메뉴 끝 */
 
 
