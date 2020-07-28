@@ -71,7 +71,7 @@
 
     <!-- 인트로 슬로건 -->
     <div class="intro-slogan">
-        <div class="slogan con flex flex-ai-c">
+        <div class="slogan active-on-visible con flex flex-ai-c"data-active-on-visible-delay="0">
             <div class="slogan-left">
                 당신은 언제나<br>더 나은 이동을<br>선택할 수 있습니다.
             </div>

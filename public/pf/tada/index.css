@@ -427,25 +427,36 @@ label[for] {
     height: 300px;
     width: 100%;
     background-color: #19254D;
-
+    position: relative;
 }
 
-.intro-slogan>.slogan {
+.intro-slogan > .slogan {
+    position: absolute;
     padding-top: 70px;
+    opacity: 0;
+    left:0;
+    margin-left:18%;
+    transition:left 1s, opacity 1s;
 }
 
-.intro-slogan>.slogan>.slogan-left {
+.intro-slogan > .slogan.active {
+    left:20px;
+    opacity: 1;
+}
+
+.intro-slogan> .slogan > .slogan-left {
     color: white;
     font-size: 30px;
     line-height: 50px;
     margin-left: 30px;
 }
 
-.intro-slogan>.slogan>.slogan-right {
+.intro-slogan > .slogan > .slogan-right {
     margin-left: 370px;
     color: #e6e9ef;
     line-height: 30px;
 }
+
 
 /* 인트로 슬로건 끝 */
 
@@ -464,6 +475,7 @@ label[for] {
     width: 336px;
 }
 
+
 .content-box .content-wrap-box>.content-wrap>.content-title {
     font-size: 28px;
     padding-top: 30px;
@@ -474,6 +486,7 @@ label[for] {
     font-size: 16px;
     padding-top: 14px;
 }
+
 
 /* 더 편안하게 내용 끝 */
 
@@ -664,20 +677,33 @@ label[for] {
 
 .content-wrapper>.my-slider-1-wrap>.my-slider-1>.owl-carousel>.owl-nav>button {
     position: absolute;
-    font-size: 6rem;
     z-index: 300;
     color: white;
 }
-
-.content-wrapper>.my-slider-1-wrap>.my-slider-1>.owl-carousel>.owl-nav>.owl-prev {
+  
+  .content-wrapper>.my-slider-1-wrap>.my-slider-1>.owl-carousel>.owl-nav>.owl-prev {
+    width:70px;
+    height:70px;
     left: -150px;
-    top: 30%;
-}
-
-.content-wrapper>.my-slider-1-wrap>.my-slider-1>.owl-carousel>.owl-nav>.owl-next {
+    top: 40%;
+  }
+  
+  .content-wrapper>.my-slider-1-wrap>.my-slider-1>.owl-carousel>.owl-nav>.owl-prev > img {
+    width:70px;
+    height:70px;
+  }
+  
+  .content-wrapper>.my-slider-1-wrap>.my-slider-1>.owl-carousel>.owl-nav>.owl-next {
+    width:70px;
+    height:70px;
     right: -150px;
-    top: 30%;
-}
+    top: 40%;
+  }
+  
+  .content-wrapper>.my-slider-1-wrap>.my-slider-1>.owl-carousel>.owl-nav>.owl-next > img {
+    width:70px;
+    height:70px;
+  }
 
 /* 스마트폰 슬라이더 끝 */
 

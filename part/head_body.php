@@ -23,7 +23,6 @@
             <div></div>
             <div></div>
         </a>
-        <img class="flex-ai-c bd-red flex-jc-c" src="/resource/img/logo.png" alt="" width="100">
     </div>
     </div>
 
