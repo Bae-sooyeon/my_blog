@@ -157,7 +157,7 @@
 
         <!-- 유튜브 영상 -->
         <div class="youtube-vid con">
-            <iframe width="1790" height="1016" src="https://www.youtube.com/embed/5SC7809tysE" frameborder="0"
+            <iframe src="https://www.youtube.com/embed/5SC7809tysE" frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         </div>
@@ -464,7 +464,7 @@
                     CORPORATE ROCK&ROLL
                 </div>
 
-                <div class="footer-ct-2 flex">
+                <div class="footer-ct-2 flex flex-wrap">
                     <div class="footer-ct-2-1 flex-1-0-0 font-15p">
                         © 2020 vivastudio co.
                     </div>

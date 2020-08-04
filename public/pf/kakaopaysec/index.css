@@ -405,26 +405,44 @@ label[for] {
     top:0;
     left:0;
     width:100%;
-    z-index:5;
+    z-index:8;
 }
-
 
 .top-bar .menu-box-1 > ul > li {
   position: relative;
+  padding:0 27px;
 }
 
-
 .top-bar .menu-box-1 > ul > li a {
-    padding:0 27px;
     font-weight: bold;
     font-size:17px;
 }
 
+.top-bar .menu-box-1 > ul > li > a{
+  position: relative;
+}
+
+.top-bar .menu-box-1 > ul > li > a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background-color: black;
+  transition: width .2s;
+}
+
+
+.top-bar .menu-box-1 > ul > li:hover > a::after {
+  display: block;
+  width:100%;
+}
 
 .top-bar .menu-box-1 > ul ul {
     position: absolute;
     top:100%;
-    left:21px;
+    left:27px;
     visibility: hidden;
     opacity: 0;
 }
@@ -567,6 +585,10 @@ label[for] {
     padding-bottom:20px;
 }
 
+.main-bt {
+  opacity: 0;
+}
+
 .main-bt > a {
     color: #222 !important;
     background-color: #ffdf00;
@@ -592,7 +614,7 @@ label[for] {
 .inner-wrap-box > .img-box::before {
   content:"";
   display: block;
-  padding-top:43.4375%;
+  padding-top:31.25%;
 }
 
 .inner-wrap-box > .img-box > img {
@@ -600,11 +622,13 @@ label[for] {
   top:50%;
   left:50%;
   transform: translate(-50%, -50%);
+  opacity: 0;
+}
+.img-ani-2.active {
   animation-name: img-ani-2;
   animation-duration: 1.3s;
   animation-fill-mode: forwards;
 }
-
 
 @keyframes img-ani-2 {
   0% {
@@ -619,14 +643,11 @@ label[for] {
   }
 }
 
-.inner-wrap-box > .img-box > img {
-  height:720px;
-}
-
 .inner-wrap-box > .inner-content-box {
   position: absolute;
   top:38%;
   left:31%;
+  opacity: 0;
 }
 
 .inner-wrap-box > .main-bt {

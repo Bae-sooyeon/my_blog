@@ -97,10 +97,10 @@
 
     <!-- 카카오페이 증권 인재 시작-->
     <div class="inner-wrap-box">
-        <div class="img-box active-on-visible">
-            <img src="https://bae-sooyeon.github.io/img1/pf/kakaopaysec/main-recruit-bg.jpg" alt="">
+        <div class="img-box">
+            <img class="img-ani-2 active-on-visible" data-active-on-visible-diff-y="-200" src="https://bae-sooyeon.github.io/img1/pf/kakaopaysec/main-recruit-bg.jpg" alt="">
         </div>
-        <div class="inner-content-box flex fadeInUp active-on-visible">
+        <div class="inner-content-box flex fadeInUp active-on-visible" style="animation-delay: 1s;">
             <div class="inner-text-1">
                 카카오페이증권
             </div>
@@ -108,8 +108,8 @@
                 인재모집
             </div>
         </div>
-        <div class="main-bt fadeInUp active-on-visible">
-            <a href="#">회사 소개</a>
+        <div class="main-bt fadeInUp active-on-visible" style="animation-delay: 1.5s;">
+            <a href="#">채용 정보</a>
         </div>
     </div>
 
