@@ -339,6 +339,37 @@ label[for] {
     z-index: -1;
 }
 
+/* 왼쪽 네비 시작 */
+#menu{
+  position:fixed;
+  top:50%;
+  left:0;
+  height: 40px;
+  z-index: 70;
+  width: 100%;
+  padding: 0;
+  margin:0;
+  transform: translatey(-50%);
+  color:white;
+}
+
+#menu > li > div {
+  width: 25px;
+  height: 2px;
+  margin:0 10px 0 20px;
+  background-color: white;
+  opacity: 0;
+}
+#menu > li.active > div {
+  opacity: 1;
+}
+
+#menu > li.active > a {
+  font-weight: bold;
+}
+/* 왼쪽 네비 끝 */
+
+
 /* 탑바 시작 */
 .home .top-bar {
     padding-top:40px;
@@ -404,6 +435,45 @@ label[for] {
   background-position: center;
   background-size: cover;
 }
+
+.story .story-h1 {
+  color:white;
+  font-weight: bold;
+  font-size:2rem;
+  text-align: center;
+  padding-top:40px;
+}
+
+.story .story-h2 {
+  font-size:1.8rem;
+  color:#E56786;
+  text-align: center;
+  padding-top:80px;
+}
+
+.mousemove-effect-1-el {
+  position:absolute;
+}
+
+.mousemove-effect-1-el > img {
+  width:100%;
+  display:block;
+}
+
+.mousemove-effect-1-el-1 {
+  left:0;
+  top:50px;
+  width:500px;
+  
+}
+
+.mousemove-effect-1-el-2 {
+  right:0;
+  top:0;
+  width:500px;
+}
+
+
 /* 스토리 끝 */
 
 

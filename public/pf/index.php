@@ -96,6 +96,11 @@
             <a href="https://bae-sooyeon.github.io/img1/pf/artworks/1/2.jpg">마스크 착용</a>
         </li>
     </ul>
+    <ul>
+        <li>
+            <a href="https://bae-sooyeon.github.io/img1/pf/artworks/1/insideout.jpg">인사이드아웃</a>
+        </li>
+    </ul>
 </nav>
 </body>
 </html>
