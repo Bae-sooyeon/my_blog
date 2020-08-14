@@ -353,6 +353,10 @@ label[for] {
   color:white;
 }
 
+#menu > li {
+  padding-top:5px;
+}
+
 #menu > li > div {
   width: 25px;
   height: 2px;
@@ -445,10 +449,43 @@ label[for] {
 }
 
 .story .story-h2 {
-  font-size:1.8rem;
+  font-size:2.1rem;
   color:#E56786;
   text-align: center;
-  padding-top:80px;
+  padding-top:70px;
+  font-weight: bold;
+}
+
+.story .story-ct-1 {
+  color:white;
+  text-align: center;
+  padding-top:30px;
+  line-height: 2;
+}
+
+
+.story .story-dots {
+  padding-top:10px;
+}
+
+.story .story-dots > div {
+  margin-left:auto;
+  margin-right:auto;
+  width:4px;
+  height: 4px;
+  background-color:white;
+  opacity: 0.5;
+  padding:10 0px;
+  border-radius: 100%;
+  margin-top:5px;
+}
+
+.story .story-ct-2 {
+  font-size:1.2rem;
+  font-weight: 400;
+  color:white;
+  text-align: center;
+  padding-top:15px;
 }
 
 .mousemove-effect-1-el {
@@ -472,10 +509,40 @@ label[for] {
   top:0;
   width:500px;
 }
-
-
 /* 스토리 끝 */
 
+/* 캐릭터 시작 */
+.characters .bg .bg-img {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://bae-sooyeon.github.io/img1/pf/insideout/characters-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.active.fadeInUp {
+  animation-name: fadeInUp;
+  animation-duration: 1500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate(0, 100%);
+    transform: translate(0, 100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+
+/* 캐릭터 끝 */
 
 
 

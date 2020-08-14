@@ -69,13 +69,29 @@
             </div>
 
             <div class="story-h1">
-            STORY
+                STORY
             </div>
 
-            <div class="story-h2">
-            “괜찮아, 다 잘 될 거야! 우리가 행복하게 만들어 줄게”
+            <div class="story-h2 fadeInUp active-on-visible">
+                “괜찮아, 다 잘 될 거야! 우리가 행복하게 만들어 줄게”
             </div>
-            
+
+            <div class="story-ct-1 fadeInUp active-on-visible">
+                모든 사람의 머릿속에 존재하는 감정 컨트롤 본부. <br>
+                그곳에서 불철주야 열심히 일하는 기쁨, 슬픔, 버럭, 까칠, 소심 다섯 감정들. <br>
+                이사 후 새로운 환경에 적응해야 하는 ‘라일리’를 위해 바쁘게 감정의 신호를 보내지만,<br>
+                실수로 ‘기쁨’과 ‘슬픔’이 본부를 이탈하게 되고, '라일리’의 마음 속에 큰 변화가 찾아온다. <br>
+                '라일리'가 예전의 모습을 되찾기 위해서는 ‘기쁨’과 ‘슬픔’이 본부로 돌아가야만 한다!
+            </div>
+            <div class="story-dots">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="story-ct-2 fadeInUp active-on-visible fadeInUp active-on-visible">
+            과연, ‘라일리’는 다시 행복해질 수 있을까?
+            </div>
+
             <div class="mousemove-effect-1-el mousemove-effect-1-el-1" data-mousemove-effect1-hor-res="0.01"
                 data-mousemove-effect1-ver-res="0.05">
                 <img src="https://bae-sooyeon.github.io/img1/pf/insideout/story-effect-2.png" alt="">
@@ -89,7 +105,13 @@
         </div>
 
 
-        <div class="characters section">Section 3</div>
+        <div class="characters section">
+            <div class="bg">
+                <div class="bg-img"></div>
+            </div>
+        </div>
+
+
         <div class="trailer section">Section 4</div>
         <div class="trailer section">Section 5</div>
 
