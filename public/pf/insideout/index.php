@@ -6,9 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.19/lodash.min.js"></script>
     <script src="https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="./index.css">
     <script src="./index.js"></script>
 </head>
@@ -24,10 +29,10 @@
             <!-- 탑바 -->
             <div class="top-bar flex-jc-c">
                 <ul class="flex">
-                    <li><a href="#anchor2">STORY</a></li>
-                    <li><a href="#anchor3">CHARACTERS</a></li>
-                    <li><a href="#anchor4">TRAILER</a></li>
-                    <li><a href="#anchor5">GALLERY</a></li>
+                    <li><a href="#anchor2" class="font-1">STORY</a></li>
+                    <li><a href="#anchor3" class="font-1">CHARACTERS</a></li>
+                    <li><a href="#anchor4" class="font-1">TRAILER</a></li>
+                    <li><a href="#anchor5" class="font-1">GALLERY</a></li>
                 </ul>
             </div>
             <!-- 인사이드 아웃 로고 -->
@@ -38,7 +43,7 @@
                     src=https://bae-sooyeon.github.io/img1/pf/insideout/out.png alt="">
             </div>
             <!-- 왼쪽 네비 -->
-            <ul id="menu">
+            <ul id="menu" class="flex">
                 <li data-menuanchor="anchor1" class="flex flex-ai-c">
                     <div class="line"></div>
                     <a href="#anchor1">HOME</a>
@@ -57,7 +62,7 @@
                 </li>
                 <li data-menuanchor="anchor5" class="flex flex-ai-c">
                     <div class="line"></div>
-                    <a href="#anchor5">GALERY</a>
+                    <a href="#anchor5">GALLERY</a>
                 </li>
             </ul>
         </div>
@@ -68,7 +73,7 @@
                 <div class="bg-img"></div>
             </div>
 
-            <div class="story-h1">
+            <div class="story-h1 font-1">
                 STORY
             </div>
 
@@ -89,7 +94,7 @@
                 <div></div>
             </div>
             <div class="story-ct-2 fadeInUp active-on-visible fadeInUp active-on-visible">
-            과연, ‘라일리’는 다시 행복해질 수 있을까?
+                과연, ‘라일리’는 다시 행복해질 수 있을까?
             </div>
 
             <div class="mousemove-effect-1-el mousemove-effect-1-el-1" data-mousemove-effect1-hor-res="0.01"
@@ -109,11 +114,86 @@
             <div class="bg">
                 <div class="bg-img"></div>
             </div>
+            <div class="characters-h1 font-1">
+                CHARACTERS
+            </div>
+
+            <div class="box-1 con-1 relative">
+                <div class="slider-1">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <a href="#">
+                                <div class="img-box">
+                                    <img src="https://bae-sooyeon.github.io/img1/pf/insideout/joy.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item"><a href="#">
+                                <div class="img-box">
+                                    <img src="https://bae-sooyeon.github.io/img1/pf/insideout/disgus.jpg" alt="">
+                                </div>
+                            </a></div>
+                        <div class="item"><a href="#">
+                                <div class="img-box">
+                                    <img src="https://bae-sooyeon.github.io/img1/pf/insideout/sad.jpg" alt="">
+                                </div>
+                            </a></div>
+                        <div class="item"><a href="#">
+                                <div class="img-box">
+                                    <img src="https://bae-sooyeon.github.io/img1/pf/insideout/ang.jpg" alt="">
+                                </div>
+                            </a></div>
+                        <div class="item"><a href="#">
+                                <div class="img-box">
+                                    <img src="https://bae-sooyeon.github.io/img1/pf/insideout/fear.jpg" alt="">
+                                </div>
+                            </a></div>
+                    </div>
+                    <div class="nav flex">
+                    </div>
+                </div>
+            </div>
+
+
+
         </div>
 
 
-        <div class="trailer section">Section 4</div>
-        <div class="trailer section">Section 5</div>
+        <div class="trailer section">
+            <div class="bg">
+                <div class="bg-img"></div>
+            </div>
+            <div class="trailer-h1 font-1">
+                TRAILER
+            </div>
+            <!-- 유튜브 영상 -->
+            <div class="youtube-vid con">
+                <iframe src="https://www.youtube.com/embed/1KGZtWbZtq8" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+
+
+
+        <div class="gallery section">
+            <div class="bg">
+                <div class="bg-img"></div>
+            </div>
+
+            <div class="gallery-h1 font-1">
+                GALLERY
+            </div>
+
+            <div class="top-bt-wrapper">
+                <div class="top-bt" style="cursor:pointer;" onclick="window.scrollTo(0,0);">
+                    <div class="top-text text-align-center font-1">TOP</div>
+                    <img src="https://bae-sooyeon.github.io/img1/pf/insideout/top-bt.png" alt="">
+                </div>
+            </div>
+
+
+        </div>
 
 
     </div>
