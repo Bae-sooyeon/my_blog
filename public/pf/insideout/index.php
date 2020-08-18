@@ -148,6 +148,20 @@
                                     <img src="https://bae-sooyeon.github.io/img1/pf/insideout/fear.jpg" alt="">
                                 </div>
                             </a></div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="img-box">
+                                    <img src="https://bae-sooyeon.github.io/img1/pf/insideout/ril.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="img-box">
+                                    <img src="https://bae-sooyeon.github.io/img1/pf/insideout/bingbong.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
                     </div>
                     <div class="nav flex">
                     </div>
@@ -183,6 +197,29 @@
 
             <div class="gallery-h1 font-1">
                 GALLERY
+            </div>
+
+
+            <div class="my-1">
+                <div class="owl-carousel owl-theme">
+                    <!-- 필수 : .owl-carousel와 .owl-theme -->
+                    <div class="item"
+                        style="background-image:url(https://bae-sooyeon.github.io/img1/pf/insideout/home.jpg);"></div>
+                    <div class="item"
+                        style="background-image:url(https://bae-sooyeon.github.io/img1/pf/insideout/00InsideOut.jpg);">
+                    </div>
+                    <div class="item"
+                        style="background-image:url(https://bae-sooyeon.github.io/img1/pf/insideout/bn-1.jpg);"></div>
+                    <div class="item"
+                        style="background-image:url(https://bae-sooyeon.github.io/img1/pf/insideout/characters-bg.jpg);">
+                    </div>
+                    <div class="item"
+                        style="background-image:url(https://bae-sooyeon.github.io/img1/pf/insideout/trailer-bg-2.jpg);">
+                    </div>
+                    <div class="item"
+                        style="background-image:url(https://bae-sooyeon.github.io/img1/pf/insideout/trailer-bg.jpg);">
+                    </div>
+                </div>
             </div>
 
             <div class="top-bt-wrapper">

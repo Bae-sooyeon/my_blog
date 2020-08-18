@@ -1,9 +1,9 @@
 $(function () {
   new fullpage('#fullpage', {
-    sectionsColor: ['white', 'orange', '#C0C0C0', '#ADD8E6','white'],
+    sectionsColor: ['white', 'orange', '#C0C0C0', '#ADD8E6', 'white'],
     verticalCentered: false,
     scrollBar: true,
-    anchors: ['anchor1', 'anchor2', 'anchor3', 'anchor4','anchor5'],
+    anchors: ['anchor1', 'anchor2', 'anchor3', 'anchor4', 'anchor5'],
     menu: '#menu',
   });
 })
@@ -116,19 +116,35 @@ function MousemoveEffect1__init() {
   });
 }
 
-$(function(){
+$(function () {
   $('.slider-1 > .owl-carousel').owlCarousel({
-      responsive:{
-          0:{
-              items:4
-          }
-      },
-      margin:250,
-      loop:true,
-      dots:false,
-      nav:true,
-      navText: ['<i class="fas fa-chevron-left bd-1"></i>', '<i class="fas fa-chevron-right bd-1"></i>'],
-      navContainer: '.slider-1 .nav',
+    responsive: {
+      0: {
+        items: 4
+      }
+    },
+    margin: 250,
+    loop: true,
+    dots: false,
+    nav: true,
+    navText: ['<i class="fas fa-chevron-left bd-1"></i>', '<i class="fas fa-chevron-right bd-1"></i>'],
+    navContainer: '.slider-1 .nav',
+  });
+})
+
+$(function () {
+  $('.my-1 > .owl-carousel').owlCarousel({
+    loop: true,
+    margin: 10,
+    center: true,
+    nav: true,
+    stagePadding: 300,
+    dots: false,
+    responsive: {
+      0: {
+        items: 1
+      }
+    }
   });
 })
 
