@@ -466,6 +466,7 @@ body {
   text-align: center;
   padding-top:70px;
   font-weight: bold;
+  opacity: 0;
 }
 
 .story .story-ct-1 {
@@ -473,11 +474,13 @@ body {
   text-align: center;
   padding-top:30px;
   line-height: 2;
+  opacity: 0;
 }
 
 
 .story .story-dots {
   padding-top:10px;
+  opacity: 0;
 }
 
 .story .story-dots > div {
@@ -498,6 +501,7 @@ body {
   color:white;
   text-align: center;
   padding-top:15px;
+  opacity: 0;
 }
 
 .mousemove-effect-1-el {
@@ -562,6 +566,13 @@ body {
   padding-top:40px;
 }
 
+.characters > .bb-bg > img {
+  position: absolute;
+  top:25%;
+  width:98%;
+  opacity: 0.5;
+}
+
 /* 캐릭터 슬라이더 시작 */
 .con-1 {
   margin-left:220px;
@@ -592,33 +603,68 @@ body {
   top:115%;
   margin-bottom: 50px;
   left:0;
-  border:2px solid pink;
-  width:100px;
+  width:125px;
   height:50px;
   z-index: 300;
+  display:flex;
+  justify-content: space-between;
 }
 
 .slider-1 > .nav > .owl-prev {
-  width:50%;
+  width:60px;
   height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right:20px;
+  cursor: pointer;
 }
 
 .slider-1 > .nav > .owl-next {
-  width:50%;
+  width:60px;
   height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.slider-1 > .nav > .owl-prev > i, .slider-1 > .nav > .owl-next > i {
+  font-size:2rem;
 }
 
 .item > a > .img-box{
   height: 430px;
+  position: relative;
 }
 
 .item > a > .img-box > img {
   width: 400px;
   height: 600px;
+  position: relative;
 }
 
+.item > a > .img-box > .text {
+  width: 400px;
+  height:200px;
+  position: absolute;
+  top:92.5%;
+  background-color:black;
+  opacity: .8;
+  color:white;
+}
+
+.item > a > .img-box > .text > .text-name {
+  font-size:1.5rem;
+  color:white;
+  font-weight: bold;
+  text-align: center;
+  margin-top:20px;
+}
+
+
 .owl-carousel .owl-item  {
-  height:600px;
+  height: 700px;
 }
 
 .box-1 .item .date{
@@ -703,24 +749,17 @@ body {
 
 /* 갤러리 슬라이더 */
 .my-1 {
-    width:1100px;
+    width:1250px;
     margin:0 auto;
     margin-top:50px;
 }
 
-.my-1 > .owl-carousel {
-  border:2px solid goldenrod;
-}
-
-.my-1 > .owl-carousel > .owl-stage-outer > .owl-stage {
-    background-color:red;
-}
 
 .my-1 > .owl-carousel > .owl-stage-outer > .owl-stage > .owl-item > .item {
     background-size:cover;
     background-repeat:no-repeat;
     background-position:center;
-    margin:163px 0;
+    margin:163px 0 100px 0;
 }
 
 .my-1 > .owl-carousel > .owl-stage-outer > .owl-stage > .owl-item > .item::after {
@@ -734,7 +773,7 @@ body {
 }
 
 .my-1 > .owl-carousel > .owl-stage-outer > .owl-stage > .owl-item.center {
-    transform:scale(2);
+    transform:scale(1.5);
     z-index:10;
 }
 

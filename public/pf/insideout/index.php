@@ -77,23 +77,23 @@
                 STORY
             </div>
 
-            <div class="story-h2 fadeInUp active-on-visible">
+            <div class="story-h2 fadeInUp active-on-visible" style="animation-delay: 0.5s;">
                 “괜찮아, 다 잘 될 거야! 우리가 행복하게 만들어 줄게”
             </div>
 
-            <div class="story-ct-1 fadeInUp active-on-visible">
+            <div class="story-ct-1 fadeInUp active-on-visible" style="animation-delay: 1.2s;">
                 모든 사람의 머릿속에 존재하는 감정 컨트롤 본부. <br>
                 그곳에서 불철주야 열심히 일하는 기쁨, 슬픔, 버럭, 까칠, 소심 다섯 감정들. <br>
                 이사 후 새로운 환경에 적응해야 하는 ‘라일리’를 위해 바쁘게 감정의 신호를 보내지만,<br>
                 실수로 ‘기쁨’과 ‘슬픔’이 본부를 이탈하게 되고, '라일리’의 마음 속에 큰 변화가 찾아온다. <br>
                 '라일리'가 예전의 모습을 되찾기 위해서는 ‘기쁨’과 ‘슬픔’이 본부로 돌아가야만 한다!
             </div>
-            <div class="story-dots">
+            <div class="story-dots fadeInUp active-on-visible fadeInUp active-on-visible" style="animation-delay: 1.8s;"">
                 <div></div>
                 <div></div>
                 <div></div>
             </div>
-            <div class="story-ct-2 fadeInUp active-on-visible fadeInUp active-on-visible">
+            <div class="story-ct-2 fadeInUp active-on-visible fadeInUp active-on-visible" style="animation-delay: 2.3s;">
                 과연, ‘라일리’는 다시 행복해질 수 있을까?
             </div>
 
@@ -118,6 +118,9 @@
                 CHARACTERS
             </div>
 
+            <div class="bb-bg">
+                <img src="https://bae-sooyeon.github.io/img1/pf/insideout/bingbong-bg.png" alt="">
+            </div>
             <div class="box-1 con-1 relative">
                 <div class="slider-1">
                     <div class="owl-carousel owl-theme">
@@ -131,6 +134,13 @@
                         <div class="item"><a href="#">
                                 <div class="img-box">
                                     <img src="https://bae-sooyeon.github.io/img1/pf/insideout/disgus.jpg" alt="">
+                                    <div class="text bd-red">
+                                        <div class="text-name">
+                                            까칠
+                                        </div>
+                                    성격 : <br>    
+                                    상징색 : 초록
+                                    </div>
                                 </div>
                             </a></div>
                         <div class="item"><a href="#">
@@ -204,20 +214,20 @@
                 <div class="owl-carousel owl-theme">
                     <!-- 필수 : .owl-carousel와 .owl-theme -->
                     <div class="item"
-                        style="background-image:url(https://bae-sooyeon.github.io/img1/pf/insideout/home.jpg);"></div>
+                        style="background-image:url(https://bae-sooyeon.github.io/img1/pf/insideout/io_heads9.jpg);"></div>
                     <div class="item"
-                        style="background-image:url(https://bae-sooyeon.github.io/img1/pf/insideout/00InsideOut.jpg);">
+                        style="background-image:url(https://bae-sooyeon.github.io/img1/pf/insideout/io_dream12.jpg);">
                     </div>
                     <div class="item"
-                        style="background-image:url(https://bae-sooyeon.github.io/img1/pf/insideout/bn-1.jpg);"></div>
-                    <div class="item"
-                        style="background-image:url(https://bae-sooyeon.github.io/img1/pf/insideout/characters-bg.jpg);">
+                        style="background-image:url(https://bae-sooyeon.github.io/img1/pf/insideout/io_dream10.jpg);">
                     </div>
                     <div class="item"
-                        style="background-image:url(https://bae-sooyeon.github.io/img1/pf/insideout/trailer-bg-2.jpg);">
+                        style="background-image:url(https://bae-sooyeon.github.io/img1/pf/insideout/io_islands5.jpg);"></div>
+                    <div class="item"
+                        style="background-image:url(https://bae-sooyeon.github.io/img1/pf/insideout/io_islands6.jpg);">
                     </div>
                     <div class="item"
-                        style="background-image:url(https://bae-sooyeon.github.io/img1/pf/insideout/trailer-bg.jpg);">
+                        style="background-image:url(https://bae-sooyeon.github.io/img1/pf/insideout/io_islands8.jpg);">
                     </div>
                 </div>
             </div>
