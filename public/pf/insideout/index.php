@@ -37,9 +37,9 @@
             </div>
             <!-- 인사이드 아웃 로고 -->
             <div class="bn-logo">
-                <img class="inside block fadeInLeft active-on-visible"
+                <img class="inside block fadeInLeft active-on-visible" style="animation-delay: .8s;"
                     src=https://bae-sooyeon.github.io/img1/pf/insideout/inside.png alt="">
-                <img class="out fadeInLeft active-on-visible" style="animation-delay: .3s;"
+                <img class="out fadeInLeft active-on-visible" style="animation-delay: 1.5s;"
                     src=https://bae-sooyeon.github.io/img1/pf/insideout/out.png alt="">
             </div>
             <!-- 왼쪽 네비 -->
@@ -93,7 +93,8 @@
                 <div></div>
                 <div></div>
             </div>
-            <div class="story-ct-2 fadeInUp active-on-visible fadeInUp active-on-visible" style="animation-delay: 2.3s;">
+            <div class=" story-ct-2 fadeInUp active-on-visible fadeInUp active-on-visible"
+                style="animation-delay: 2.3s;">
                 과연, ‘라일리’는 다시 행복해질 수 있을까?
             </div>
 
@@ -128,47 +129,78 @@
                             <a href="#">
                                 <div class="img-box">
                                     <img src="https://bae-sooyeon.github.io/img1/pf/insideout/joy.jpg" alt="">
+                                    <div class="text">
+                                        <div class="text-box">
+                                            <div class="text-name">
+                                                기쁨
+                                            </div>
+                                            <div class="ch-chat">"모든 게 다 잘 될거야!"</div>
+                                            <div class="ch-chat-2">밝아도 너무 밝아서 탈! 24시간 긍정모드</div>
+                                        </div>                                        
+                                    </div>
                                 </div>
                             </a>
                         </div>
                         <div class="item"><a href="#">
                                 <div class="img-box">
                                     <img src="https://bae-sooyeon.github.io/img1/pf/insideout/disgus.jpg" alt="">
-                                    <div class="text bd-red">
-                                        <div class="text-name">
-                                            까칠
-                                        </div>
-                                    성격 : <br>    
-                                    상징색 : 초록
+                                    <div class="text">
+                                        <div class="text-box">
+                                            <div class="text-name">
+                                                까칠
+                                            </div>
+                                            <div class="ch-chat">"어쩌라고?"</div>
+                                            <div class="ch-chat-2">매일매일 삐딱하게! 세상 모든 게 불만이다.</div>
+                                        </div>                                        
                                     </div>
-                                </div>
-                            </a></div>
-                        <div class="item"><a href="#">
-                                <div class="img-box">
-                                    <img src="https://bae-sooyeon.github.io/img1/pf/insideout/sad.jpg" alt="">
-                                </div>
-                            </a></div>
-                        <div class="item"><a href="#">
-                                <div class="img-box">
-                                    <img src="https://bae-sooyeon.github.io/img1/pf/insideout/ang.jpg" alt="">
-                                </div>
-                            </a></div>
-                        <div class="item"><a href="#">
-                                <div class="img-box">
-                                    <img src="https://bae-sooyeon.github.io/img1/pf/insideout/fear.jpg" alt="">
-                                </div>
-                            </a></div>
-                        <div class="item">
-                            <a href="#">
-                                <div class="img-box">
-                                    <img src="https://bae-sooyeon.github.io/img1/pf/insideout/ril.jpg" alt="">
                                 </div>
                             </a>
                         </div>
                         <div class="item">
                             <a href="#">
                                 <div class="img-box">
-                                    <img src="https://bae-sooyeon.github.io/img1/pf/insideout/bingbong.jpg" alt="">
+                                    <img src="https://bae-sooyeon.github.io/img1/pf/insideout/sad.jpg" alt="">
+                                    <div class="text">
+                                        <div class="text-box">
+                                            <div class="text-name">
+                                                슬픔
+                                            </div>
+                                            <div class="ch-chat">"세상은 너무 슬퍼!"</div>
+                                            <div class="ch-chat-2">툭 치면 흑! 365일 눈물이 마를 날 없다.</div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="img-box">
+                                    <img src="https://bae-sooyeon.github.io/img1/pf/insideout/ang.jpg" alt="">
+                                    <div class="text">
+                                        <div class="text-box">
+                                            <div class="text-name">
+                                                버럭
+                                            </div>
+                                            <div class="ch-chat">"화가 난다 화가 나!"</div>
+                                            <div class="ch-chat-2">참을성0%! 건들면 폭발한다!</div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="img-box">
+                                    <img src="https://bae-sooyeon.github.io/img1/pf/insideout/fear.jpg" alt="">
+                                    <div class="text">
+                                        <div class="text-box">
+                                            <div class="text-name">
+                                                소심
+                                            </div>
+                                            <div class="ch-chat">"앉으나 서나 걱정이군"</div>
+                                            <div class="ch-chat-2">안절부절 눈만 뜨면 걱정이다.</div>
+                                        </div>                                        
+                                    </div>
                                 </div>
                             </a>
                         </div>
@@ -214,7 +246,8 @@
                 <div class="owl-carousel owl-theme">
                     <!-- 필수 : .owl-carousel와 .owl-theme -->
                     <div class="item"
-                        style="background-image:url(https://bae-sooyeon.github.io/img1/pf/insideout/io_heads9.jpg);"></div>
+                        style="background-image:url(https://bae-sooyeon.github.io/img1/pf/insideout/io_heads9.jpg);">
+                    </div>
                     <div class="item"
                         style="background-image:url(https://bae-sooyeon.github.io/img1/pf/insideout/io_dream12.jpg);">
                     </div>
@@ -222,7 +255,8 @@
                         style="background-image:url(https://bae-sooyeon.github.io/img1/pf/insideout/io_dream10.jpg);">
                     </div>
                     <div class="item"
-                        style="background-image:url(https://bae-sooyeon.github.io/img1/pf/insideout/io_islands5.jpg);"></div>
+                        style="background-image:url(https://bae-sooyeon.github.io/img1/pf/insideout/io_islands5.jpg);">
+                    </div>
                     <div class="item"
                         style="background-image:url(https://bae-sooyeon.github.io/img1/pf/insideout/io_islands6.jpg);">
                     </div>
