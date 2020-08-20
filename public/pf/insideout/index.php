@@ -125,13 +125,13 @@
             <div class="box-1 con-1 relative">
                 <div class="slider-1">
                     <div class="owl-carousel owl-theme">
-                        <div class="item">
+                        <div class="item item1">
                             <a href="#">
                                 <div class="img-box">
                                     <img src="https://bae-sooyeon.github.io/img1/pf/insideout/joy.jpg" alt="">
                                     <div class="text">
                                         <div class="text-box">
-                                            <div class="text-name">
+                                            <div class="text-name font-3">
                                                 기쁨
                                             </div>
                                             <div class="ch-chat">"모든 게 다 잘 될거야!"</div>
@@ -141,7 +141,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="item"><a href="#">
+                        <div class="item item2"><a href="#">
                                 <div class="img-box">
                                     <img src="https://bae-sooyeon.github.io/img1/pf/insideout/disgus.jpg" alt="">
                                     <div class="text">
@@ -156,7 +156,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="item">
+                        <div class="item item3">
                             <a href="#">
                                 <div class="img-box">
                                     <img src="https://bae-sooyeon.github.io/img1/pf/insideout/sad.jpg" alt="">
@@ -172,7 +172,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="item">
+                        <div class="item item4">
                             <a href="#">
                                 <div class="img-box">
                                     <img src="https://bae-sooyeon.github.io/img1/pf/insideout/ang.jpg" alt="">
@@ -188,7 +188,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="item">
+                        <div class="item item5">
                             <a href="#">
                                 <div class="img-box">
                                     <img src="https://bae-sooyeon.github.io/img1/pf/insideout/fear.jpg" alt="">
@@ -267,10 +267,10 @@
             </div>
 
             <div class="top-bt-wrapper">
-                <div class="top-bt" style="cursor:pointer;" onclick="window.scrollTo(0,0);">
+                <a href="#anchor1" class="top-bt">
                     <div class="top-text text-align-center font-1">TOP</div>
                     <img src="https://bae-sooyeon.github.io/img1/pf/insideout/top-bt.png" alt="">
-                </div>
+                </a>
             </div>
 
 
