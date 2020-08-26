@@ -71,16 +71,18 @@
                 </svg>
             </div>
             <div class="name-2">
-                <img class="active-on-visible fadeInUp" src="https://bae-sooyeon.github.io/img1/pf/portfolio/portfolio-main-1.png" alt="" style="animation-delay: 3s;">
+                <img class="active-on-visible fadeInUp"
+                    src="https://bae-sooyeon.github.io/img1/pf/portfolio/portfolio-main-1.png" alt=""
+                    style="animation-delay: 3s;">
             </div>
         </div>
 
         <div class="bt-right">
             <div class="bt-right-text">
-            WEB DESIGNER
+                WEB DESIGNER
             </div>
             <div class="bt-right-text-2">
-            BAE SOO YEON
+                BAE SOO YEON
             </div>
         </div>
     </div>
@@ -89,7 +91,92 @@
     <div class="profile-logo">
         <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/profile.png" alt="">
     </div>
-    
+
+    <div class="profile-wrap flex flex-sp-b con">
+        <div class="profile-box">
+            <div class="my-pic">
+            </div>
+
+            <div class="my-ex">
+                <div class="name">
+                    배수연
+                </div>
+                <div class="birth">
+                    2001.09.05
+                </div>
+                <div class="phone">
+                    010-3397-5624
+                </div>
+                <div class="email">
+                    qotndus5@naver.com
+                </div>
+            </div>
+        </div>
+
+        <!-- 오른쪽 박스 -->
+        <div class="right-box">
+
+            <div class="edu-box">
+                <div class="title-line">EDUCATION</div>
+                <div class="title-box text-align-right">
+                    <div class="ct-1">
+                        2019.12 대전산업정보고등학교 그래픽디자인과 수료
+                    </div>
+                    <div class="ct-2">
+                        2020.03 대전유성여자고등학교 졸업
+                    </div>
+                    <div class="ct-3">
+                        2020.04 - 2020.10  대전 SBS아카데미 UX/UI 디자이너 과정 수료
+                    </div>
+                </div>
+            </div>
+
+            <div class="certi-box">
+                <div class="title-line">CERTIFICATE</div>
+                <div class="title-box text-align-right">
+                    <div class="ct-1">
+                    2019.07 GTQ 포토샵 1급
+                    </div>
+                    <div class="ct-2">
+                    2019.11 GTQ 일러스트 1급
+                    </div>
+                    <div class="ct-3">
+                    2019.12 전자출판기능사
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="title-line text-align-center">SKILL</div>
+
+                <div class="graph-wrap flex flex-sp-b">
+                    <div class="box">
+                        <div class="stick"></div>
+                        <div class="name">Ai</div>
+                    </div>
+                    <div class="box">
+                        <div class="stick"></div>
+                        <div class="name">Ps</div>
+                    </div>
+                    <div class="box">
+                        <div class="stick"></div>
+                        <div class="name">HTML</div>
+                    </div>
+                    <div class="box">
+                        <div class="stick"></div>
+                        <div class="name">CSS</div>
+                    </div>
+                    <div class="box">
+                        <div class="stick"></div>
+                        <div class="name">JS</div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
 
 
 </body>
