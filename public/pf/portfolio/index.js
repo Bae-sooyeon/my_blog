@@ -53,7 +53,21 @@ function ActiveOnVisible__checkAndActive() {
 
 /* 발견되면 활성화시키는 라이브러리 끝 */
 
+function MainPage__init() {
+    setTimeout(function() {
+        // 웹 페이지가 열린 후, 5초 뒤에 체크
+        var scrollTop = $(window).scrollTop();
+
+        // 아직도 사용자가 첫 페이지를 보고 있다면?
+        if ( scrollTop < 200 ) {
+            // 아래를 이용해서 첫 페이지를 넘긴다.
+            $('html').animate({scrollTop:$(window).height()}, 500);
+        }
+    }, 4200);
+}
 
 $(function() {
+    MainPage__init();
+
     ActiveOnVisible__init();
 });

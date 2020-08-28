@@ -331,6 +331,9 @@ html, body {
 }
 
 /* 포트폴리오 메인 시작 */
+.pf-main {
+  position: relative;
+}
 .pf-main > .top-left {
     writing-mode: vertical-rl;
     text-orientation: upright;
@@ -392,6 +395,8 @@ html, body {
 .pf-main > .bt-right > .bt-right-text-2 {
     font-family: 'Roboto';
     font-weight: bold;
+    justify-content: flex-end;
+    align-items: flex-end;
     padding-top:8px;
     position: relative;
     letter-spacing: 3px;
@@ -399,18 +404,18 @@ html, body {
 
 .pf-main > .bt-right > .bt-right-text-2::before {
     content:"";
-    display: block;
-    position: absolute;
-    top:88%;
-    right:9%;
-    width:3.5%;
-    height:1px;
+    margin-bottom: 3px;
+    margin-right: 5px;
+    width: 57px;
+    height: 1px;
     background-color:black;
 }
 
 .pf-main > .bg-img {
-    position: absolute;
-    z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://bae-sooyeon.github.io/img1/pf/portfolio/bn-img.png");
 }
 
 .line1 {
@@ -550,11 +555,16 @@ html, body {
 }
 
 .profile-logo{
-    padding-top:90px;
+    padding-top:70px;
+    padding-left:50px;
+    padding-bottom:20px;
+}
+.profile-logo > img {
+  width:500px;
 }
 
 .profile-wrap .profile-box {
-  padding-top:50px;
+  padding-top:90px;
 }
 
 .profile-wrap .profile-box > .my-pic {
@@ -566,17 +576,17 @@ html, body {
 .profile-wrap .profile-box > .my-ex > .name {
   font-weight: bold;
   letter-spacing: 3px;
-  padding:50px 0 5px 0;
+  padding:50px 0 10px 0;
   font-size:1.3rem;
 }
 
 .profile-wrap .profile-box > .my-ex > .phone {
-  padding:5px 0 5px 0;
+  padding:7px 0 7px 0;
 }
 
 .profile-wrap .profile-box > .my-ex > .birth,.profile-wrap .profile-box > .my-ex > .phone,.profile-wrap .profile-box > .my-ex > .email {
   font-size:1.2rem;
-  font-weight: 350;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 
@@ -608,7 +618,6 @@ html, body {
 .profile-wrap > .right-box > div > .title-box {
   padding:10px 0;
   font-size:1.2rem;
-  font-weight: 400;
 }
 
 .profile-wrap > .right-box > div > .title-box > .ct-2 {
@@ -625,7 +634,11 @@ html, body {
   margin-left:auto;
 }
 
-.profile-wrap .right-box > .skill-box > .graph-wrap > .box:nth-child(1) > .stick {
+.profile-wrap .right-box > .skill-box > .graph-wrap > .box > .wrap {
+  overflow: hidden;
+}
+
+.profile-wrap .right-box > .skill-box > .graph-wrap > .box > .wrap:nth-child(1) > .stick {
   width:35px;
   height:140px;
   margin-top:20px;
@@ -634,7 +647,7 @@ html, body {
   margin-right:auto;
 }
 
-.profile-wrap .right-box > .skill-box > .graph-wrap > .box:nth-child(2) > .stick {
+.profile-wrap .right-box > .skill-box > .graph-wrap > .box:nth-child(2) > .wrap > .stick {
   width:35px;
   height:130px;
   margin-top:30px;
@@ -643,7 +656,7 @@ html, body {
   margin-right:auto;
 }
 
-.profile-wrap .right-box > .skill-box > .graph-wrap > .box:nth-child(3) > .stick {
+.profile-wrap .right-box > .skill-box > .graph-wrap > .box:nth-child(3) > .wrap > .stick {
   width:35px;
   height:110px;
   margin-top:50px;
@@ -652,7 +665,7 @@ html, body {
   margin-right:auto;
 }
 
-.profile-wrap .right-box > .skill-box > .graph-wrap > .box:nth-child(4) > .stick {
+.profile-wrap .right-box > .skill-box > .graph-wrap > .box:nth-child(4) > .wrap > .stick {
   width:35px;
   height:115px;
   margin-top:45px;
@@ -661,7 +674,7 @@ html, body {
   margin-right:auto;
 }
 
-.profile-wrap .right-box > .skill-box > .graph-wrap > .box:nth-child(5) > .stick {
+.profile-wrap .right-box > .skill-box > .graph-wrap > .box:nth-child(5) > .wrap > .stick {
   width:35px;
   height:90px;
   margin-top:70px;
@@ -676,9 +689,96 @@ html, body {
   font-size: 1.2rem;
   padding-top:15px;
 }
-
-
-
-
-
 /* 프로필 끝 */
+
+
+/* 포트폴리오 시작 */
+.pf-logo{
+  padding-top:70px;
+  padding-left:50px;
+  padding-bottom:30px;
+}
+
+.pf-logo > img {
+width:500px;
+}
+
+.pf-wrap .fr-text {
+  text-align:center;
+  font-weight:bold;
+  font-size:1.5rem;
+  padding-bottom: 30px;
+}
+
+.pf-wrap > .ct-wrap-box {
+  padding-bottom: 80px;
+}
+
+.pf-wrap > .ct-wrap-box > ul{
+  flex-wrap: wrap;
+}
+
+.pf-wrap > .ct-wrap-box > ul > li {
+  position: relative;
+  width: calc(100% / 3 - 50px);
+  margin-bottom: 50px;
+  border:1px solid #afafaf;
+  box-sizing: border-box;
+}
+
+.pf-wrap > .ct-wrap-box > ul > li::before {
+  content: "";
+  display: block;
+  padding-bottom:100%;
+}
+
+.pf-wrap > .ct-wrap-box > ul > li > a {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width:100%;
+  height:100%;
+}
+
+.pf-wrap > .ct-wrap-box > ul > li:hover > a {
+
+}
+
+.pf-wrap > .ct-wrap-box > ul > li > a > .text-box {
+  display: none;
+}
+
+.pf-wrap > .ct-wrap-box > ul > li:hover > a > .text-box {
+  display: block;
+  text-align: center;
+}
+
+.pf-wrap > .ct-wrap-box > ul > li:hover > a > .text-box > .site-name {
+  font-size:1.9rem;
+  font-weight: bold;
+  font-weight: 1px;
+}
+
+.pf-wrap > .ct-wrap-box > ul > li:hover > a > .text-box > .site-ex {
+  font-size:1rem;
+  font-weight:700;
+  margin-top:15px;
+  margin-bottom:10px;
+}
+
+.pf-wrap > .ct-wrap-box > ul > li:hover > a > .text-box > .site-ex-2 {
+  font-weight: 900;
+  font-size:.9rem;
+}
+
+.pf-wrap > .ct-wrap-box > ul > li:hover > a > .img-box {
+  display: none;
+}
+
+.pf-wrap > .ct-wrap-box > ul > li > a > .img-box {
+  width: 40%;
+}
+/* 포트폴리오 끝 */

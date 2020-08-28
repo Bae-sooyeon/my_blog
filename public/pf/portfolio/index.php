@@ -13,9 +13,7 @@
 <body>
     <!-- 포트폴리오 메인 -->
     <div class="pf-main">
-        <div class="bg-img">
-            <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/bn-img.png" alt="">
-        </div>
+        <div class="bg-img"></div>
 
         <div class="top-left">
             2020
@@ -81,7 +79,7 @@
             <div class="bt-right-text">
                 WEB DESIGNER
             </div>
-            <div class="bt-right-text-2">
+            <div class="bt-right-text-2 flex">
                 BAE SOO YEON
             </div>
         </div>
@@ -126,7 +124,7 @@
                         2020.03 대전유성여자고등학교 졸업
                     </div>
                     <div class="ct-3">
-                        2020.04 - 2020.10  대전 SBS아카데미 UX/UI 디자이너 과정 수료
+                        2020.04 - 2020.10 대전 SBS아카데미 UX/UI 디자이너 과정 수료
                     </div>
                 </div>
             </div>
@@ -135,13 +133,13 @@
                 <div class="title-line">CERTIFICATE</div>
                 <div class="title-box text-align-right">
                     <div class="ct-1">
-                    2019.07 GTQ 포토샵 1급
+                        2019.07 GTQ 포토샵 1급
                     </div>
                     <div class="ct-2">
-                    2019.11 GTQ 일러스트 1급
+                        2019.11 GTQ 일러스트 1급
                     </div>
                     <div class="ct-3">
-                    2019.12 전자출판기능사
+                        2019.12 전자출판기능사
                     </div>
                 </div>
             </div>
@@ -151,32 +149,137 @@
 
                 <div class="graph-wrap flex flex-sp-b">
                     <div class="box">
-                        <div class="stick"></div>
+                        <div class="wrap">
+                            <div class="stick active-on-visible fadeInUp"></div>
+                        </div>
                         <div class="name">Ai</div>
                     </div>
                     <div class="box">
-                        <div class="stick"></div>
+                        <div class="wrap">
+                            <div class="stick active-on-visible fadeInUp"></div>
+                        </div>
                         <div class="name">Ps</div>
                     </div>
                     <div class="box">
-                        <div class="stick"></div>
+                        <div class="wrap">
+                            <div class="stick active-on-visible fadeInUp"></div>
+                        </div>
                         <div class="name">HTML</div>
                     </div>
                     <div class="box">
-                        <div class="stick"></div>
+                        <div class="wrap">
+                            <div class="stick active-on-visible fadeInUp"></div>
+                        </div>
                         <div class="name">CSS</div>
                     </div>
                     <div class="box">
-                        <div class="stick"></div>
+                        <div class="wrap">
+                            <div class="stick active-on-visible fadeInUp"></div>
+                        </div>
                         <div class="name">JS</div>
                     </div>
                 </div>
-
             </div>
+        </div>
+    </div>
 
+    <!-- 포트폴리오 -->
+    <div class="pf-logo">
+        <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/portfolio.png" alt="">
+    </div>
+
+    <div class="pf-wrap">
+
+        <div class="fr-text">
+            WEB DESIGN
         </div>
 
+        <div class="ct-wrap-box con">
+            <ul class="flex flex-sp-b">
+                <li>
+                    <a href="https://site8.blog.oa.gg/pf/tada/" target="_blank">
+                        <div class="text-box">
+                            <div class="site-name">타다</div>
+                            <div class="site-ex">
+                                기업 페이지
+                            </div>
+                            <div class="site-ex-2">
+                            (웹 / 적응형)
+                            </div>
+                        </div>
+                        <div class="img-box">
+                            <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/tada.png" alt="">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://site8.blog.oa.gg/pf/kakaopaysec/" target="_blank">
+                        <div class="text-box">
+                            <div class="site-name">카카오페이증권</div>
+                            <div class="site-ex">
+                                기업 페이지
+                            </div>
+                            <div class="site-ex-2">
+                            (웹 / 적응형)
+                            </div>
+                        </div>
+                        <div class="img-box">
+                            <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/kakaopaysec.png" alt="">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href=https://site8.blog.oa.gg/pf/vivastudio/" target="_blank">
+                        <div class="text-box">
+                            <div class="site-name">비바스튜디오</div>
+                            <div class="site-ex">
+                                쇼핑몰 페이지
+                            </div>
+                            <div class="site-ex-2">
+                            (웹 / 반응형)
+                            </div>
+                        </div>
+                        <div class="img-box">
+                            <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/viva.png" alt="">
+                        </div>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="#">
+                        <div class="img-box">
+                            <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/covernat.png" alt="">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img-box">
+                            <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/seub-1.png" alt="">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://site8.blog.oa.gg/pf/tablier-food.jp/" target="_blank">
+                        <div class="img-box">
+                            <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/tabiler.png" alt="">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img-box">
+                            <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/mohenic.png" alt="">
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+
     </div>
+
+
 
 
 </body>
