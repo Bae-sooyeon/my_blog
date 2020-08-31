@@ -198,64 +198,108 @@
             <ul class="flex flex-sp-b">
                 <li>
                     <a href="https://site8.blog.oa.gg/pf/tada/" target="_blank">
-                        <div class="text-box">
-                            <div class="site-name">타다</div>
-                            <div class="site-ex">
-                                기업 페이지
-                            </div>
-                            <div class="site-ex-2">
-                            (웹 / 적응형)
-                            </div>
-                        </div>
                         <div class="img-box">
-                            <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/tada.png" alt="">
+                            <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/tada.png" alt="">                        
+                        </div>
+                        <div class="copy-box">
+                            모작
+                        </div>
+                        <div class="text-box">
+                            <div class="text-box-wrap">
+                                <div class="site-name">타다</div>
+                                <div class="site-ex">
+                                    기업 페이지
+                                </div>
+                                <div class="site-ex-2">
+                                (웹 / 적응형)
+                                </div>
+                            </div>
                         </div>
                     </a>
                 </li>
                 <li>
                     <a href="https://site8.blog.oa.gg/pf/kakaopaysec/" target="_blank">
-                        <div class="text-box">
-                            <div class="site-name">카카오페이증권</div>
-                            <div class="site-ex">
-                                기업 페이지
-                            </div>
-                            <div class="site-ex-2">
-                            (웹 / 적응형)
-                            </div>
-                        </div>
                         <div class="img-box">
                             <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/kakaopaysec.png" alt="">
                         </div>
+                        <div class="copy-box">
+                            모작
+                        </div>
+                        <div class="text-box">
+                            <div class="text-box-wrap">
+                                <div class="site-name">카카오페이증권</div>
+                                <div class="site-ex">
+                                    기업 페이지
+                                </div>
+                                <div class="site-ex-2">
+                                (웹 / 적응형)
+                                </div>
+                            </div>
+                        </div>                        
                     </a>
                 </li>
                 <li>
                     <a href=https://site8.blog.oa.gg/pf/vivastudio/" target="_blank">
-                        <div class="text-box">
-                            <div class="site-name">비바스튜디오</div>
-                            <div class="site-ex">
-                                쇼핑몰 페이지
-                            </div>
-                            <div class="site-ex-2">
-                            (웹 / 반응형)
-                            </div>
-                        </div>
                         <div class="img-box">
                             <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/viva.png" alt="">
                         </div>
+                        <div class="copy-box">
+                            모작
+                        </div>
+                        <div class="text-box">
+                            <div class="text-box-wrap">
+                                <div class="site-name">비바스튜디오</div>
+                                <div class="site-ex">
+                                    쇼핑몰 페이지
+                                </div>
+                                <div class="site-ex-2">
+                                (웹 / 반응형)
+                                </div>
+                            </div> 
+                        </div>                        
                     </a>
                 </li>
                 
                 <li>
                     <a href="#">
                         <div class="img-box">
-                            <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/covernat.png" alt="">
+                            <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/covernat-cap.png" alt="">
                         </div>
+                        <div class="copy-box">
+                            모작
+                        </div>
+                        <div class="text-box">
+                            <div class="text-box-wrap">
+                                <div class="site-name">커버낫</div>
+                                <div class="site-ex">
+                                    쇼핑몰 페이지
+                                </div>
+                                <div class="site-ex-2">
+                                (웹 / 적응형)
+                                </div>
+                            </div>
+                        </div>
+                        
                     </a>
                 </li>
                 <li>
                     <a href="#">
                         <div class="img-box">
-                            <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/seub-1.png" alt="">
+                            <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/seub.png" alt="">
+                        </div>
+                        <div class="copy-box">
+                            모작
+                        </div>
+                        <div class="text-box">
+                            <div class="text-box-wrap">
+                                <div class="site-name">습관상점</div>
+                                <div class="site-ex">
+                                    쇼핑몰 페이지
+                                </div>
+                                <div class="site-ex-2">
+                                (웹 / 적응형)
+                                </div>
+                            </div>
                         </div>
                     </a>
                 </li>
@@ -264,6 +308,20 @@
                         <div class="img-box">
                             <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/tabiler.png" alt="">
                         </div>
+                        <div class="copy-box">
+                            모작
+                        </div>
+                        <div class="text-box">
+                            <div class="text-box-wrap">
+                                <div class="site-name">테이블러 JP</div>
+                                <div class="site-ex">
+                                    기업 페이지
+                                </div>
+                                <div class="site-ex-2">
+                                (웹 / 적응형)
+                                </div>
+                            </div>
+                        </div>
                     </a>
                 </li>
                 <li>
@@ -271,12 +329,74 @@
                         <div class="img-box">
                             <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/mohenic.png" alt="">
                         </div>
+                        <div class="copy-box">
+                            모작
+                        </div>
+                        <div class="text-box">
+                            <div class="text-box-wrap">
+                                <div class="site-name">모헤닉</div>
+                                <div class="site-ex">
+                                    기업 페이지
+                                </div>
+                                <div class="site-ex-2">
+                                (웹 / 적응형)
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://site8.blog.oa.gg/pf/kakaopaysec/" target="_blank">
+                        <div class="img-box">
+                            <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/kakaopaysec.png" alt="">
+                        </div>
+                        <div class="creat-box">
+                            창작
+                        </div>
+                        <div class="text-box">
+                            <div class="text-box-wrap">
+                                <div class="site-name">인사이드아웃</div>
+                                <div class="site-ex">
+                                    홍보 페이지
+                                </div>
+                                <div class="site-ex-2">
+                                (웹 / 적응형)
+                                </div>
+                            </div>
+                        </div>                        
+                    </a>
+                </li>
+                <li>
+                    <a href="https://site8.blog.oa.gg/pf/kakaopaysec/" target="_blank">
+                        <div class="img-box">
+                            <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/kakaopaysec.png" alt="">
+                        </div>
+                        <div class="re-box">
+                            리디자인
+                        </div>
+                        <div class="text-box">
+                            <div class="text-box-wrap">
+                                <div class="site-name">크라상점</div>
+                                <div class="site-ex">
+                                    기업 페이지
+                                </div>
+                                <div class="site-ex-2">
+                                (웹 / 적응형)
+                                </div>
+                            </div>
+                        </div>                        
                     </a>
                 </li>
             </ul>
         </div>
+    </div>
 
+    <!-- 그래픽디자인 -->
 
+    <div class="grap-de-wrap">
+        <div class="grap-h1">
+        GRAPHIC DESIGN
+        </div>
     </div>
 
 
