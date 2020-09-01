@@ -729,7 +729,6 @@ width:500px;
 @media ( max-width : 767px ) {
   .pf-wrap > .ct-wrap-box > ul > li {
     width: calc(100% / 1);
-    border:1px solid red;
   }
 }
 

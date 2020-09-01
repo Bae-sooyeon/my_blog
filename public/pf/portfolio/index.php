@@ -239,7 +239,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href=https://site8.blog.oa.gg/pf/vivastudio/" target="_blank">
+                    <a href="https://site8.blog.oa.gg/pf/vivastudio/" target="_blank">
                         <div class="img-box">
                             <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/viva.png" alt="">
                         </div>
@@ -261,7 +261,7 @@
                 </li>
                 
                 <li>
-                    <a href="#">
+                    <a href="https://site8.blog.oa.gg/pf/covernot/" target="_blank">
                         <div class="img-box">
                             <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/covernat-cap.png" alt="">
                         </div>
@@ -283,7 +283,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="https://site8.blog.oa.gg/pf/seubgwansangjeom/" target="_blank">
                         <div class="img-box">
                             <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/seub.png" alt="">
                         </div>
@@ -325,7 +325,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="https://site8.blog.oa.gg/pf/mohenic/" target="_blank">
                         <div class="img-box">
                             <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/mohenic.png" alt="">
                         </div>
@@ -346,9 +346,9 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://site8.blog.oa.gg/pf/kakaopaysec/" target="_blank">
+                    <a href="https://site8.blog.oa.gg/pf/insideout/" target="_blank">
                         <div class="img-box">
-                            <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/kakaopaysec.png" alt="">
+                            <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/insideout.jpg" alt="">
                         </div>
                         <div class="creat-box">
                             창작
@@ -367,9 +367,9 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://site8.blog.oa.gg/pf/kakaopaysec/" target="_blank">
+                    <a href="https://site8.blog.oa.gg/pf/crasang/" target="_blank">
                         <div class="img-box">
-                            <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/kakaopaysec.png" alt="">
+                            <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/crasang.png" alt="">
                         </div>
                         <div class="re-box">
                             리디자인
@@ -396,6 +396,9 @@
     <div class="grap-de-wrap">
         <div class="grap-h1">
         GRAPHIC DESIGN
+        </div>
+        <div>
+            <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/grap-1.png" alt="">
         </div>
     </div>
 
