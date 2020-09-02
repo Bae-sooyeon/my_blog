@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>포트폴리오</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- 아울 캐러셀 불러오기, 제이쿼리 보다 밑에 있어야 합니다. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" href="./index.css">
     <script src="./index.js"></script>
 </head>
@@ -100,12 +108,15 @@
                     배수연
                 </div>
                 <div class="birth">
+                    <i class="fas fa-birthday-cake"></i>
                     2001.09.05
                 </div>
                 <div class="phone">
+                    <i class="fas fa-phone-alt"></i>
                     010-3397-5624
                 </div>
                 <div class="email">
+                    <i class="fas fa-envelope"></i>
                     qotndus5@naver.com
                 </div>
             </div>
@@ -199,7 +210,7 @@
                 <li>
                     <a href="https://site8.blog.oa.gg/pf/tada/" target="_blank">
                         <div class="img-box">
-                            <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/tada.png" alt="">                        
+                            <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/tada.png" alt="">
                         </div>
                         <div class="copy-box">
                             모작
@@ -211,7 +222,7 @@
                                     기업 페이지
                                 </div>
                                 <div class="site-ex-2">
-                                (웹 / 적응형)
+                                    (웹 / 적응형)
                                 </div>
                             </div>
                         </div>
@@ -232,10 +243,10 @@
                                     기업 페이지
                                 </div>
                                 <div class="site-ex-2">
-                                (웹 / 적응형)
+                                    (웹 / 적응형)
                                 </div>
                             </div>
-                        </div>                        
+                        </div>
                     </a>
                 </li>
                 <li>
@@ -253,13 +264,13 @@
                                     쇼핑몰 페이지
                                 </div>
                                 <div class="site-ex-2">
-                                (웹 / 반응형)
+                                    (웹 / 반응형)
                                 </div>
-                            </div> 
-                        </div>                        
+                            </div>
+                        </div>
                     </a>
                 </li>
-                
+
                 <li>
                     <a href="https://site8.blog.oa.gg/pf/covernot/" target="_blank">
                         <div class="img-box">
@@ -275,11 +286,11 @@
                                     쇼핑몰 페이지
                                 </div>
                                 <div class="site-ex-2">
-                                (웹 / 적응형)
+                                    (웹 / 적응형)
                                 </div>
                             </div>
                         </div>
-                        
+
                     </a>
                 </li>
                 <li>
@@ -297,7 +308,7 @@
                                     쇼핑몰 페이지
                                 </div>
                                 <div class="site-ex-2">
-                                (웹 / 적응형)
+                                    (웹 / 적응형)
                                 </div>
                             </div>
                         </div>
@@ -318,7 +329,7 @@
                                     기업 페이지
                                 </div>
                                 <div class="site-ex-2">
-                                (웹 / 적응형)
+                                    (웹 / 적응형)
                                 </div>
                             </div>
                         </div>
@@ -339,7 +350,7 @@
                                     기업 페이지
                                 </div>
                                 <div class="site-ex-2">
-                                (웹 / 적응형)
+                                    (웹 / 적응형)
                                 </div>
                             </div>
                         </div>
@@ -360,10 +371,10 @@
                                     홍보 페이지
                                 </div>
                                 <div class="site-ex-2">
-                                (웹 / 적응형)
+                                    (웹 / 적응형)
                                 </div>
                             </div>
-                        </div>                        
+                        </div>
                     </a>
                 </li>
                 <li>
@@ -381,10 +392,10 @@
                                     기업 페이지
                                 </div>
                                 <div class="site-ex-2">
-                                (웹 / 적응형)
+                                    (웹 / 적응형)
                                 </div>
                             </div>
-                        </div>                        
+                        </div>
                     </a>
                 </li>
             </ul>
@@ -392,13 +403,67 @@
     </div>
 
     <!-- 그래픽디자인 -->
-
     <div class="grap-de-wrap">
         <div class="grap-h1">
-        GRAPHIC DESIGN
+            GRAPHIC DESIGN
         </div>
-        <div>
-            <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/grap-1.png" alt="">
+        <!-- 그래픽디자인 슬라이더 -->
+        <div class="slider-1-outer-box">
+            <div class="con relative">
+                <div class="slider-1 absolute-top absolute-center">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div
+                                style="background-image:url(https://bae-sooyeon.github.io/img1/pf/portfolio/grap-1.jpg);">
+                            </div>
+                                <a class="more-bt flex flex-ai-c flex-jc-c" data-title="크라상점" data-lightbox="example-set" href="https://bae-sooyeon.github.io/img1/pf/portfolio/grpa-1-plus.jpg">자세히보기</a>                                
+                        </div>
+                        <div class="item">
+                            <div
+                                style="background-image:url(https://bae-sooyeon.github.io/img1/pf/portfolio/grap-2.jpg);">
+                            </div>
+                                <a class="more-bt flex flex-ai-c flex-jc-c" data-title="인사이드아웃" data-lightbox="example-set" href="https://bae-sooyeon.github.io/img1/pf/portfolio/inside-plus.jpg">자세히보기</a>
+                        </div>
+                        <div class="item">
+                            <div
+                                style="background-image:url(https://bae-sooyeon.github.io/img1/pf/portfolio/grap-3.jpg);">
+                            </div>
+                                <a class="more-bt flex flex-ai-c flex-jc-c" data-title="서울아프리카페스티벌" data-lightbox="example-set" href="https://bae-sooyeon.github.io/img1/pf/portfolio/seoulafrica.jpg">자세히보기</a>
+                        </div>
+                        <div class="item">
+                            <div
+                                style="background-image:url(https://bae-sooyeon.github.io/img1/pf/portfolio/grap-4.jpg);">
+                            </div>
+                                <a class="more-bt flex flex-ai-c flex-jc-c" data-title="INDIA" data-lightbox="example-set" href="https://bae-sooyeon.github.io/img1/pf/portfolio/india.jpg">자세히보기</a>
+                        </div>
+                        <div class="item">
+                            <div
+                                style="background-image:url(https://bae-sooyeon.github.io/img1/pf/portfolio/grap-5.jpg);">
+                            </div>
+                                <a class="more-bt flex flex-ai-c flex-jc-c" data-title="SEOUL" data-lightbox="example-set" href="https://bae-sooyeon.github.io/img1/pf/portfolio/seoul.jpg">자세히보기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="thankYou">
+            <img src="https://bae-sooyeon.github.io/img1/pf/portfolio/footer.png" alt="">
+            <div class="text-1">
+            끝까지 봐주셔서 감사합니다 :)
+            </div>
+            <div class="text-2 flex flex-jc-c">
+                <div class="number">
+                    <i class="fas fa-phone-alt"></i>+82 10.3397.5624
+                </div>
+                <div class="email">
+                    <i class="fas fa-envelope"></i>qotndus5@naver.com
+                </div>
+            </div>            
         </div>
     </div>
 

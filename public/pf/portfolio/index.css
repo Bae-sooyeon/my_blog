@@ -841,4 +841,131 @@ width:500px;
   color:white;
   padding:100px 0 40px 0;
 }
+
+/* 슬라이더 */
+.slider-1 {
+  width:3690px;
+}
+
+.slider-1-outer-box > .con {
+  height:1000px;
+}
+
+.slider-1 .item {
+  position:relative;
+  box-shadow:0 10px 10px rgba(0,0,0,0.4);
+  margin-bottom:20px;
+  transform:scale(0.8);
+  transition:transform 1s;
+  margin-left:-71px;
+  margin-right:-71px;
+}
+
+.slider-1 .item::before {
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:rgba(0,0,0,0.7);
+  z-index:10;
+  visibility:visible;
+  transition:background-color 1s, visibility 1s;
+}
+
+.slider-1 .center {
+  z-index:100;
+}
+
+.slider-1 .center .item {
+  transform:scale(1);
+}
+
+.slider-1 .center .item::before {
+  visibility:hidden;
+  background-color:rgba(0,0,0,0);
+}
+
+.slider-1 .item::after {
+  content:"";
+  display:block;
+  padding-top:63.8297%;
+  background-color:red;
+}
+
+.slider-1 .item > div {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.slider-1 .item > .more-bt {
+  position: absolute;
+  border:1.2px solid black;
+  width:140px;
+  height:42px;
+  top:65%;
+  left:7%;
+}
+
+
+
+.slider-1 > .owl-carousel.owl-theme.owl-loaded > .owl-nav > * {
+  border-radius:0;
+  font-weight:bold;
+  font-size:2rem;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translateX(-50%) translateY(-50%);
+}
+
+.slider-1 > .owl-carousel.owl-theme.owl-loaded > .owl-nav > :first-child {
+  left:calc(50% - 600px);
+}
+
+.slider-1 > .owl-carousel.owl-theme.owl-loaded > .owl-nav > :last-child {
+  left:calc(50% + 600px);
+}
 /* 그래픽디자인 끝 */
+
+
+/* footer 시작 */
+.footer {
+  margin:100px 0 80px 0;
+}
+
+.footer > .thankYou {
+  text-align: center;
+}
+
+.footer > .thankYou > .text-1 {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight:500;
+  margin:10px 0 30px 0;
+  letter-spacing: .9px;
+}
+
+.footer > .thankYou > .text-2 {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 500;
+}
+
+.footer > .thankYou > .text-2 > .number {
+  padding-right:20px;
+}
+
+.footer > .thankYou > .text-2 > .email {
+  padding-left:20px;
+}
+
+.footer > .thankYou > .text-2 > div > i {
+  padding-right:10px;
+}
+/* footer 끝 */

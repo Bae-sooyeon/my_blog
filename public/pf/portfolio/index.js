@@ -66,8 +66,33 @@ function MainPage__init() {
     }, 4200);
 }
 
+function Slider1__init() {
+  $('.slider-1 .owl-carousel').owlCarousel({
+    loop:true,
+    margin:20,
+    nav:false,
+    dots:false,
+    center:true,
+    autoPlay : true,
+    responsive:{
+      0:{
+        items:3
+      }
+    }
+  });
+}
+
+lightbox.option({
+    resizeDuration: 200,
+    wrapAround: true,
+    disableScrolling: false,
+    fitImagesInViewport:false
+  })
+
+
+
 $(function() {
     MainPage__init();
-
     ActiveOnVisible__init();
+    Slider1__init();
 });
