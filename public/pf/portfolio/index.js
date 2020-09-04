@@ -61,7 +61,7 @@ function MainPage__init() {
         // 아직도 사용자가 첫 페이지를 보고 있다면?
         if ( scrollTop < 200 ) {
             // 아래를 이용해서 첫 페이지를 넘긴다.
-            $('html').animate({scrollTop:$(window).height()}, 500);
+            $('html').animate({scrollTop:$(window).height()}, 700);
         }
     }, 4200);
 }

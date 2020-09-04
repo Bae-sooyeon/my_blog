@@ -416,31 +416,31 @@
                             <div
                                 style="background-image:url(https://bae-sooyeon.github.io/img1/pf/portfolio/grap-1.jpg);">
                             </div>
-                                <a class="more-bt flex flex-ai-c flex-jc-c" data-title="크라상점" data-lightbox="example-set" href="https://bae-sooyeon.github.io/img1/pf/portfolio/grpa-1-plus.jpg">자세히보기</a>                                
+                                <a class="more-bt flex flex-ai-c flex-jc-c" data-title="크라상점" data-lightbox="example-set1" href="https://bae-sooyeon.github.io/img1/pf/portfolio/grpa-1-plus.jpg">자세히보기</a>                                
                         </div>
                         <div class="item">
                             <div
                                 style="background-image:url(https://bae-sooyeon.github.io/img1/pf/portfolio/grap-2.jpg);">
                             </div>
-                                <a class="more-bt flex flex-ai-c flex-jc-c" data-title="인사이드아웃" data-lightbox="example-set" href="https://bae-sooyeon.github.io/img1/pf/portfolio/inside-plus.jpg">자세히보기</a>
+                                <a class="more-bt flex flex-ai-c flex-jc-c" data-title="인사이드아웃" data-lightbox="example-set2" href="https://bae-sooyeon.github.io/img1/pf/portfolio/inside-plus.jpg">자세히보기</a>
                         </div>
                         <div class="item">
                             <div
                                 style="background-image:url(https://bae-sooyeon.github.io/img1/pf/portfolio/grap-3.jpg);">
                             </div>
-                                <a class="more-bt flex flex-ai-c flex-jc-c" data-title="서울아프리카페스티벌" data-lightbox="example-set" href="https://bae-sooyeon.github.io/img1/pf/portfolio/seoulafrica.jpg">자세히보기</a>
+                                <a class="more-bt flex flex-ai-c flex-jc-c" data-title="서울아프리카페스티벌" data-lightbox="example-set3" href="https://bae-sooyeon.github.io/img1/pf/portfolio/seoulafrica.jpg">자세히보기</a>
                         </div>
                         <div class="item">
                             <div
                                 style="background-image:url(https://bae-sooyeon.github.io/img1/pf/portfolio/grap-4.jpg);">
                             </div>
-                                <a class="more-bt flex flex-ai-c flex-jc-c" data-title="INDIA" data-lightbox="example-set" href="https://bae-sooyeon.github.io/img1/pf/portfolio/india.jpg">자세히보기</a>
+                                <a class="more-bt flex flex-ai-c flex-jc-c" data-title="INDIA" data-lightbox="example-set4" href="https://bae-sooyeon.github.io/img1/pf/portfolio/india.jpg">자세히보기</a>
                         </div>
                         <div class="item">
                             <div
                                 style="background-image:url(https://bae-sooyeon.github.io/img1/pf/portfolio/grap-5.jpg);">
                             </div>
-                                <a class="more-bt flex flex-ai-c flex-jc-c" data-title="SEOUL" data-lightbox="example-set" href="https://bae-sooyeon.github.io/img1/pf/portfolio/seoul.jpg">자세히보기</a>
+                                <a class="more-bt flex flex-ai-c flex-jc-c" data-title="SEOUL" data-lightbox="example-set5" href="https://bae-sooyeon.github.io/img1/pf/portfolio/seoul.jpg">자세히보기</a>
                         </div>
                     </div>
                 </div>
