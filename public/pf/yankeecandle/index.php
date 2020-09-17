@@ -13,7 +13,7 @@
 
 <body>
     <!-- 탑바 -->
-    <div class="top-bar flex flex-sp-b flex-ai-c bd-red">
+    <div class="top-bar flex flex-sp-b flex-ai-c">
         <div class="logo flex-ai-c">
             <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/yklogo.png" alt="">
         </div>
@@ -22,16 +22,15 @@
                 <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/searchBt.png" alt="">
             </a>
             <a href="#" class="ham-bt">
-            햄
+                <div></div>
+                <div></div>
+                <div></div>
             </a>
         </div>
     </div>
 
     <!-- 메인 배너이미지 -->
     <div class="main-bn">
-        <div class="img-box">
-            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/blackCherryBn.jpg" alt="">
-        </div>
     </div>
     
 
