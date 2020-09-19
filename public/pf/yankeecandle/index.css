@@ -324,55 +324,131 @@ label[for] {
     border:1px solid red;
 }
 
+body {
+  height:10000px;
+}
 
 /* 탑바 시작 */
+.top-bar {
+  height:100px;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  background-color:gold;
+  transition: transform .3s, opacity .3s;
+}
+
+.top-bar.hide {
+  opacity: 0;
+  transform:translateY(-100%);
+}
+
+.top-bar.hide + .btn-toggle-side-bar {
+  top:-60px;
+}
+
+.btn-toggle-side-bar {
+  position:fixed;
+  z-index: 10;
+  right:30px;
+  top:30px;
+  transition:top 0.3s;
+}
+
+.side-bar {
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  height:100%;
+  background-color:pink;
+  transition:left 1s;
+  left:100%;
+}
+
+.side-bar-actived .side-bar {
+  left:0;
+}
+
+.side-bar-actived, .side-bar-actived > body {
+  overflow: hidden;
+}
+
+.side-bar-actived {
+  overflow-y:scroll;
+}
+
+.side-bar-actived > body {
+  height:100%;
+  overflow:hidden;
+}
+
+/* 사이드바 버튼 */
+.btn-toggle-side-bar > div {
+  width:40px;
+  height: 40px;
+  position: relative;
+}
+
+.btn-toggle-side-bar > div > div {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:10%;
+  background-color:black;
+}
+
+.btn-toggle-side-bar > div > div:nth-child(2) {
+  top:45%;
+}
+
+.btn-toggle-side-bar > div > div:nth-child(3) {
+  top:90%;
+}
+
+.side-bar-actived .btn-toggle-side-bar > div {
+  margin-top:5px;
+  height:30px;
+}
+
+.btn-toggle-side-bar > div > div {
+  transition: 0.7s, width 0.7s;
+}
+
+.btn-toggle-side-bar > div > div:nth-child(1) {
+  transform-origin:left top ;
+}
+
+.side-bar-actived .btn-toggle-side-bar > div > div:nth-child(1) {
+  transform: rotate(45deg);
+}
+
+.side-bar-actived .btn-toggle-side-bar > div > div:nth-child(2) {
+  width:0;
+}
+
+.btn-toggle-side-bar > div > div:nth-child(3) {
+  transform-origin: left bottom;
+}
+
+.side-bar-actived .btn-toggle-side-bar > div > div:nth-child(3) {
+  transform: rotate(-45deg);
+}
+
+
+
+
+
+
 .top-bar > .logo > img{
     width:17%;
     margin-left:25px;
 }
 
 .top-bar > .right-box {
-  margin-right:25px;
-}
-
-.top-bar > .right-box > .ham-bt {
-  width:35px;
-  height:35px;
-  position: relative;
-}
-
-.top-bar > .right-box > .ham-bt > div {
-  position: absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:8%;
-  background-color:black;
-  transition:top .5s, transform .5s, opacity 0s .3s;
-}
-
-.top-bar > .right-box > .ham-bt > div:nth-child(2) {
-    top:40%;    
-}
-
-.top-bar > .right-box > .ham-bt > div:nth-child(3) {
-    top:80%;    
-}
-
-.top-bar > .right-box > .ham-bt:hover > div {
-    top:40%;
-}
-
-.top-bar > .right-box > .ham-bt:hover > div:nth-child(1) {
-    transform:rotate(45deg);
-}
-
-.top-bar > .right-box > .ham-bt:hover > div:nth-child(3) {
-    transform:rotate(-45deg);
-}
-
-.top-bar > .right-box > .ham-bt:hover > div:nth-child(2) {
-    opacity:0;
+  margin-right:105px;
 }
 /* 탑바 끝 */
 
