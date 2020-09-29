@@ -1,5 +1,5 @@
 /* 폰트적용 */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+KR:wght@100;300;400;500;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+KR:wght@100;300;400;500;700&family=Noto+Serif+KR:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 html {
   font-family: "Noto Sans KR", sans-serif;
@@ -12,6 +12,10 @@ html {
 .font-2 {
   font-family: 'Roboto', sans-serif;
 }  
+
+.font-3 {
+  font-family: 'Noto Serif KR', serif;
+}
 
 /* 노말라이즈 */
 body, ul, li, h1 {
@@ -371,11 +375,63 @@ label[for] {
 
 /* 메뉴바 시작 */
 .menu-bar {
+  position: relative;
+}
+.menu-bar .bg-border{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #b7b7b7;
+  z-index: -1;
+}
+.menu-bar > ul {
+  box-sizing: border-box;
+}
+.menu-bar > ul > li {
   padding-top:20px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
 }
 
-.menu-bar > ul ul {
+.menu-bar > ul div {
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: 50%;
+  width: calc(100vw - 17px);
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  justify-content: center;
+  z-index: 2;
+}
+
+/* .menu-bar > ul ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
   display:none;
+} */
+.menu-bar > ul > li:hover div{
+  display:flex;
+}
+
+.menu-bar > ul ul > li{
+  white-space: nowrap;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.menu-bar > ul ul > li > a {
+  color:#6A6D6B;
+  font-weight: 500;
+  
+}
+
+.menu-bar > ul ul > li + li{
+  margin-left: 40px;
 }
 
 .menu-bar > ul > li > a {
@@ -384,10 +440,234 @@ label[for] {
   font-weight: 500;
 }
 
-.menu-bar > ul > li:hover ul{
+
+/* .menu-bar > ul > li:hover ul{
   display:flex;
+  justify-content: space-between;
+} */
+
+/* 메뉴바 끝 */
+
+/* 메인 슬라이더 시작 */
+.main-slide-box {
+  position: relative;
 }
 
 
 
-/* 메뉴바 끝 */
+.main-slide-box .arrows > .next{
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  width: 50px;
+  height: 70px;
+  background-image: url('https://bae-sooyeon.github.io/img1/pf/yankeecandle/bn-prev-bt.png');
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+.main-slide-box .arrows > .prev{
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  width: 50px;
+  height: 70px;
+  background-image: url('https://bae-sooyeon.github.io/img1/pf/yankeecandle/bn-next-bt.png');
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+
+
+
+
+.main-slide-box .dots {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.main-slide-box .dots > .slick-dots {
+  display: flex;
+}
+.main-slide-box .dots > .slick-dots > li + li{
+  margin-left: 10px;
+}
+.main-slide-box .dots > .slick-dots > li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+}
+.main-slide-box .dots > .slick-dots > li.slick-active {
+  background-color: white;
+  width:25px;
+  border-radius: 50px;
+}
+
+.box {
+  width: 100%;
+  height: 600px;
+}
+.box .slick-list,
+.box .slick-list .slick-track{
+  height: 100%;
+}
+.box .item{
+  position:relative;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  outline: 0;
+}
+.box .item1 {
+  background-image: url('https://bae-sooyeon.github.io/img1/pf/yankeecandle//main-bn-1.jpg');
+}
+.box .item2 {
+  background-image: url('https://cdn.pixabay.com/photo/2020/09/11/00/11/landscape-5561678_960_720.jpg');
+}
+.box .item3 {
+  background-image: url('https://cdn.pixabay.com/photo/2020/06/07/12/01/currants-5270094_1280.jpg');
+}
+
+.box .item .bg{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0%;
+  height: 100%;
+  opacity: 0;
+  transition: width 0s 1s, opacity 1s;
+} 
+.box .item.slick-current .bg{
+  width: 42%;
+  opacity: 0.5;
+  transition: width 1s, opacity 1s;
+}
+.box .item1 .bg{
+  background-color: #B1B8DA;
+}
+.box .item2 .bg{
+  background-color: blue;
+}
+.box .item3 .bg{
+  background-color: green;
+}
+.box .item .txt-wrap{
+  position: absolute;
+  right: 0;
+  width: 42%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s 0.7s;
+  font-size: 4rem;
+  color: #fff;
+} 
+
+/* 슬라이더 텍스트 내용 박스 */
+.box .item.slick-current .txt-wrap{
+  opacity: 1;
+}
+
+.box > .slick-list > .slick-track > .item > .txt-wrap > .text-wrap-box {
+  position: absolute;
+  top:50%;
+  left:12%;
+  transform: translate(0,-50%);
+  text-align: right;
+}
+
+.box > .slick-list > .slick-track > .item > .txt-wrap .h1-text {
+  font-size:35px;
+  font-weight: 500;
+}
+
+.box > .slick-list > .slick-track > .item > .txt-wrap .h2-text {
+  font-size:20px;
+  padding-top:5px;
+  padding-bottom:25px;
+  letter-spacing: 1px;
+}
+
+.box > .slick-list > .slick-track > .item > .txt-wrap .h3-text {
+  font-size:17px;
+  letter-spacing: 1px;
+}
+
+.box > .slick-list > .slick-track > .item > .txt-wrap .view-bt {
+  font-size:14px;
+  border:2px solid white;
+  padding:10px 23px;
+  font-weight: 600;
+  letter-spacing: .5px;
+}
+/* 메인 슬라이더 끝 */
+
+/* MD's pcik 시작 */
+.md-text {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 171px;
+}
+
+.md-text2 {
+  color:#6A6D6B;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom:50px;
+}
+
+/* MD's pcik 끝 */
+.my-slider-1 .item > .item-img{
+  height: 30vh;
+  overflow: hidden;
+}
+
+.my-slider-1 .item > .prod-box {
+  text-align: center;
+}
+
+.my-slider-1 .item > .prod-box > .prod-name {
+  font-family: 'Noto Serif KR', serif;
+  font-weight: 600;
+  margin-top:15px;
+  font-size:18px;
+}
+
+.my-slider-1 .item > .prod-box > .prod-en {
+  font-weight: 300;
+  color:#6A6D6B;
+  padding-top:3px;
+  font-size:15px;
+}
+
+.my-slider-1 .item > .item-img > img{
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  height: 100%;
+}
+
+/* 슬라이더 네비 버튼 */
+.my-slider-1 .owl-nav {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 100%;
+}
+
+.my-slider-1 .owl-prev > img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -5%;
+}
+
+.my-slider-1 .owl-next > img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -5%;
+}

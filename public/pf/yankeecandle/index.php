@@ -8,6 +8,13 @@
     <title>양키캔들 리디자인</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <!-- 아울 캐러셀 불러오기 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
     <link rel="stylesheet" href="./index.css">
     <script src="./index.js"></script>
 </head>
@@ -38,11 +45,13 @@
     </div>
 
     <!-- 메뉴바 -->
-    <div class="menu-bar con flex-jc-c">
-        <ul class="flex">
+    <div class="menu-bar con">
+        <div class="bg-border"></div>
+        <ul class="flex-jc-c">
             <li>
                 <a href="#">제품</a>
-                    <ul>
+                <div class="second-menu">
+                    <ul class="flex-ai-c">
                         <li><a href="#">캔들</a></li>
                         <li><a href="#">디퓨저·아로마오일
                             </a></li>
@@ -52,6 +61,7 @@
                         <li><a href="#">메종베르제</a></li>
                         <li><a href="#">코스메틱</a></li>
                     </ul>
+                </div>
             </li>
             <li><a href="#">아울렛</a></li>
             <li><a href="#">매장안내</a></li>
@@ -60,8 +70,135 @@
         </ul>
     </div>
 
+    <!-- 메인 슬라이더 -->
+    <div class="main-slide-box">
+        <div class="box slide">
+            <div class="item item1">
+                <div class="bg"></div>
+                <div class="txt-wrap font-3">
+                    <div class="text-wrap-box">
+                        <div class="h1-text">
+                            롤리타 렘피카
+                        </div>
+                        <div class="h2-text">
+                            Lolita Lempicka Collection
+                        </div>
+                        <div class="h3-text">
+                            달콤하면서 관능적이고 사람을 끌어당기는<br>
+                            마력을 가진 매혹적인 향
+                        </div>
+                        <a class="view-bt font-2" href="#">
+                            자세히 보기
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item item2">
+                <div class="bg"></div>
+                <div class="txt-wrap">
+                    <h2>안녕</h2>
+                </div>
+            </div>
+            <div class="item item3">
+                <div class="bg"></div>
+                <div class="txt-wrap">
+                    <h2>안녕</h2>
+                </div>
+            </div>
+        </div>
+        <div class="dots"></div>
+        <div class="arrows">
+        </div>
+    </div>
 
+    <!-- MD's pick -->
+    <div class="md-text font-3">
+        MD's PICK
+    </div>
+    <div class="md-text2">
+        이달의 추천상품
+    </div>
 
+    <!-- MD's pick 슬라이더 -->
+    <div class="my-slider-1 con">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="item-img">
+                    <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/prod-1.png" alt="">
+                </div>
+                <div class="prod-box">
+                    <div class="prod-name">
+                        레몬 라벤더
+                    </div>
+                    <div class="prod-en">
+                        Lemon Lavender
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-img">
+                    <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/prod-2.png" alt="">
+                </div>
+                <div class="prod-box">
+                    <div class="prod-name">
+                        롤리타 렘피카 컬렉션
+                    </div>
+                    <div class="prod-en">
+                        Lolita Lempicka Collection
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-img">
+                    <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/prod-3.png" alt="">
+                </div>
+                <div class="prod-box">
+                    <div class="prod-name">
+                        미드 썸머나잇
+                    </div>
+                    <div class="prod-en">
+                        Midsummer's Night
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-img">
+                    <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/prod-4.png" alt="">
+                </div>
+                <div class="prod-box">
+                    <div class="prod-name">
+                        미드 썸머나잇
+                    </div>
+                    <div class="prod-en">
+                        Midsummer's Night
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-img">
+                    <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/prod-5.png" alt="">
+                </div>
+                <div class="prod-box">
+                    <div class="prod-name">
+                        소프트블랭킷
+                    </div>
+                    <div class="prod-en">
+                        Soft Blanket
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-img">
+                    <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/prod-6.png" alt="">
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-img">
+                    <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/prod-7.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 
