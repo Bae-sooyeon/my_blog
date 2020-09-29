@@ -191,10 +191,26 @@
                 <div class="item-img">
                     <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/prod-6.png" alt="">
                 </div>
+                <div class="prod-box">
+                    <div class="prod-name">
+                    자캔들(소) 3종 세트
+                    </div>
+                    <div class="prod-en">
+                    Gift Set
+                    </div>
+                </div>
             </div>
             <div class="item">
                 <div class="item-img">
                     <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/prod-7.png" alt="">
+                </div>
+                <div class="prod-box">
+                    <div class="prod-name">
+                    미니캔들워머
+                    </div>
+                    <div class="prod-en">
+                    Beacon Mini Warmer
+                    </div>
                 </div>
             </div>
         </div>
