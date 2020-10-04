@@ -216,6 +216,20 @@
         </div>
     </div>
 
+    <!-- 소배너 -->
+    <div class="small-bn img-box">
+        <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/sm-bn.jpg" alt="">
+    </div>
+
+    <!-- fragrance -->
+    <div class="md-text font-3">
+        FRAGRANCE
+    </div>
+    <div class="md-text2">
+        향기별 제품 모아보기
+    </div>
+
+
 </body>
 
 </html>
