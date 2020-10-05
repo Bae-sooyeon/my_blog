@@ -301,12 +301,84 @@
 
     <!-- Best Product -->
     <div class="md-text font-3">
-    Best Product
+        Best Product
     </div>
     <div class="md-text2">
         양키캔들의 베스트상품을 소개합니다.
     </div>
 
+    <!-- Best Product 탭메뉴 -->
+    <div class="box-list-1 con">
+        <div class="flex flex-row-wrap">
+            <div class="box">
+                <div class="content tab-type-1">
+                    <div class="head">
+                        <ul class="flex">
+                            <li class="flex-1-0-0 active" data-tab-name="box-1" data-tab-head-item-name="1"><a>Gift Set Candles</a>
+                            </li>
+                            <li class="flex-1-0-0" data-tab-name="box-1" data-tab-head-item-name="2"><a>Reed Diffusers</a></li>
+                            <li class="flex-1-0-0" data-tab-name="box-1" data-tab-head-item-name="3"><a>Car & Small Spaces</a></li>
+                            <li class="flex-1-0-0" data-tab-name="box-1" data-tab-head-item-name="4"><a>Maison Berger</a></li>
+                        </ul>
+                    </div>
+                    <div class="body">
+                        <ul>
+                            <li class="active" data-tab-name="box-1" data-tab-body-item-name="1">
+                                <div class="prod-list-box flex flex-sp-b">
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/gift-set-1.jpg" alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            자캔들(대/중) 신향 2종 세트 (Y18A)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            74,000
+                                        </div>
+                                    </div>
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/gift-set-1.jpg" alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            자캔들(대/중) 신향 2종 세트 (Y18A)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            74,000
+                                        </div>
+                                    </div>
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/gift-set-1.jpg" alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            자캔들(대/중) 신향 2종 세트 (Y18A)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            74,000
+                                        </div>
+                                    </div>
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/gift-set-1.jpg" alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            자캔들(대/중) 신향 2종 세트 (Y18A)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            74,000
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li data-tab-name="box-1" data-tab-body-item-name="2">입찰공고 내용</li>
+                            <li data-tab-name="box-1" data-tab-body-item-name="3">입찰공고2 내용</li>
+                            <li data-tab-name="box-1" data-tab-body-item-name="4">입찰공고2 내용</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 </body>
 
 </html>
