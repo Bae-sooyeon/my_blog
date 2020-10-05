@@ -27,9 +27,32 @@ function MySlider1__init() {
       navText: ['<img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/bn-prev-bt.png" alt="">','<img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/bn-next-bt.png" alt="">']
     });
   }
+
+  function fr_slider__init() {
+    $('.fr-slick').slick({
+      infinite: true,
+      dots:false,
+      variableWidth: true,
+      speed: 250,
+      slidesToShow: 3,
+      appendArrows: $('.fr-slider-arrows'),
+      nextArrow: '<div class="next"><img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/bn-next-bt.png" alt=""></div>',
+      prevArrow: '<div class="prev"><img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/bn-prev-bt.png" alt=""></div>'
+    });
+    // $('.fr-slider > .owl-carousel').owlCarousel({
+    //   autoWidth:true,
+    //   loop:true,
+    //   dots:false,
+    //   nav:true,
+    //   navText: ['<', '>'],
+    //   callbacks: true,
+      
+    // });
+  }
   
 
 $(function () {
     SlickSlider__init();
     MySlider1__init();
+    fr_slider__init();
 });

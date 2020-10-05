@@ -193,10 +193,10 @@
                 </div>
                 <div class="prod-box">
                     <div class="prod-name">
-                    자캔들(소) 3종 세트
+                        자캔들(소) 3종 세트
                     </div>
                     <div class="prod-en">
-                    Gift Set
+                        Gift Set
                     </div>
                 </div>
             </div>
@@ -206,10 +206,10 @@
                 </div>
                 <div class="prod-box">
                     <div class="prod-name">
-                    미니캔들워머
+                        미니캔들워머
                     </div>
                     <div class="prod-en">
-                    Beacon Mini Warmer
+                        Beacon Mini Warmer
                     </div>
                 </div>
             </div>
@@ -229,6 +229,83 @@
         향기별 제품 모아보기
     </div>
 
+    <!-- 향기별 슬라이더 -->
+    <div class="fr-slider con">
+        <div class="fr-slick">
+            <div class="item">
+                <div class="item-img">
+                    <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/fr-1.jpg" alt="">
+                </div>
+                <div class="item-txt-box font-3">
+                    <div class="inner">
+                        <div class="text-1-box flex">
+                            <div class="text-1">새콤달콤</div>
+                            <div class="item-txt-img flex-ai-c">
+                                <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/fr-ic-3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="text-2-box">
+                            <div class="text-2">과일향이 좋다면?</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item-img">
+                    <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/fr-2.jpg" alt="">
+                </div>
+                <div class="item-txt-box font-3">
+                    <div class="inner">
+                        <div class="text-1-box flex">
+                            <div class="text-1">향긋한</div>
+                            <div class="item-txt-img flex-ai-c">
+                                <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/fr-ic-2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="text-2-box">
+                            <div class="text-2">꽃향기가 좋다면?</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item-img">
+                    <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/fr-3.jpg" alt="">
+                </div>
+                <div class="item-txt-box font-3">
+                    <div class="inner">
+                        <div class="text-1-box flex">
+                            <div class="text-1">차분한</div>
+                            <div class="item-txt-img flex-ai-c">
+                                <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/fr-ic-1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="text-2-box">
+                            <div class="text-2">허브향이 좋다면?</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <h4>4</h4>
+            </div>
+            <div class="item">
+                <h4>5</h4>
+            </div>
+        </div>
+        <div class="fr-slider-arrows"></div>
+    </div>
+
+    <!-- Best Product -->
+    <div class="md-text font-3">
+    Best Product
+    </div>
+    <div class="md-text2">
+        양키캔들의 베스트상품을 소개합니다.
+    </div>
 
 </body>
 
