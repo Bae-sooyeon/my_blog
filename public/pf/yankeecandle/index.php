@@ -314,20 +314,26 @@
                 <div class="content tab-type-1">
                     <div class="head">
                         <ul class="flex">
-                            <li class="flex-1-0-0 active" data-tab-name="box-1" data-tab-head-item-name="1"><a>Gift Set Candles</a>
+                            <li class="flex-1-0-0 active" data-tab-name="box-1" data-tab-head-item-name="1"><a>Gift
+                                    Set</a>
                             </li>
-                            <li class="flex-1-0-0" data-tab-name="box-1" data-tab-head-item-name="2"><a>Reed Diffusers</a></li>
-                            <li class="flex-1-0-0" data-tab-name="box-1" data-tab-head-item-name="3"><a>Car & Small Spaces</a></li>
-                            <li class="flex-1-0-0" data-tab-name="box-1" data-tab-head-item-name="4"><a>Maison Berger</a></li>
+                            <li class="flex-1-0-0" data-tab-name="box-1" data-tab-head-item-name="2"><a>Candles</a></li>
+                            <li class="flex-1-0-0" data-tab-name="box-1" data-tab-head-item-name="3"><a>Reed
+                                    Diffusers</a></li>
+                            <li class="flex-1-0-0" data-tab-name="box-1" data-tab-head-item-name="4"><a>Car & Small
+                                    Spaces</a></li>
+                            <li class="flex-1-0-0" data-tab-name="box-1" data-tab-head-item-name="5"><a>Maison
+                                    Berger</a></li>
                         </ul>
                     </div>
                     <div class="body">
                         <ul>
                             <li class="active" data-tab-name="box-1" data-tab-body-item-name="1">
-                                <div class="prod-list-box flex flex-sp-b">
+                                <div class="prod-list-box flex flex-wrap">
                                     <div class="prod-box">
                                         <a href="#">
-                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/gift-set-1.jpg" alt="">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/gift-set-1.jpg"
+                                                alt="">
                                         </a>
                                         <div class="prod-name">
                                             자캔들(대/중) 신향 2종 세트 (Y18A)
@@ -338,43 +344,495 @@
                                     </div>
                                     <div class="prod-box">
                                         <a href="#">
-                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/gift-set-1.jpg" alt="">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/gift-set-2.jpg"
+                                                alt="">
                                         </a>
                                         <div class="prod-name">
-                                            자캔들(대/중) 신향 2종 세트 (Y18A)
+                                            자캔들(중) 신향 2종 세트 (Y10)
                                         </div>
                                         <div class="prod-price font-1">
-                                            74,000
+                                            68,000
                                         </div>
                                     </div>
                                     <div class="prod-box">
                                         <a href="#">
-                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/gift-set-1.jpg" alt="">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/gift-set-3.jpg"
+                                                alt="">
                                         </a>
                                         <div class="prod-name">
-                                            자캔들(대/중) 신향 2종 세트 (Y18A)
+                                            자캔들(중) 신향 2종 세트 (Y10)
                                         </div>
                                         <div class="prod-price font-1">
-                                            74,000
+                                            68,000
                                         </div>
                                     </div>
                                     <div class="prod-box">
                                         <a href="#">
-                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/gift-set-1.jpg" alt="">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/gift-set-4.jpg"
+                                                alt="">
                                         </a>
                                         <div class="prod-name">
-                                            자캔들(대/중) 신향 2종 세트 (Y18A)
+                                            보티브 6종세트 (Y17)
                                         </div>
                                         <div class="prod-price font-1">
-                                            74,000
+                                            27,900
                                         </div>
                                     </div>
-
+                                    <!---->
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/gift-set-5.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            자캔들(소) 3종 세트 (Y15)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            46,500
+                                        </div>
+                                    </div>
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/gift-set-6.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            자캔들(대) 신향 2종 세트 (Y18B)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            80,000
+                                        </div>
+                                    </div>
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/gift-set-7.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            자캔들&일루마리드 세트 (Y11A)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            123,000
+                                        </div>
+                                    </div>
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/gift-set-8.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            허리케인 브론즈 + 캔들(대) 세트
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            84,000
+                                        </div>
+                                    </div>
                                 </div>
                             </li>
-                            <li data-tab-name="box-1" data-tab-body-item-name="2">입찰공고 내용</li>
-                            <li data-tab-name="box-1" data-tab-body-item-name="3">입찰공고2 내용</li>
-                            <li data-tab-name="box-1" data-tab-body-item-name="4">입찰공고2 내용</li>
+                            <li data-tab-name="box-1" data-tab-body-item-name="2">
+                                <div class="prod-list-box flex flex-wrap">
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/can-1.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            화이트 스트로베리 벨리니<br> (White Strawberry Bellini)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            15,000
+                                        </div>
+                                    </div>
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/can-2.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            솔트 미스트 로즈 <br>(Salt Mist Rose,1990)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            39,000
+                                        </div>
+                                    </div>
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/can-3.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            블랙체리 <br>(Black Cherry)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            15,000
+                                        </div>
+                                    </div>
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/can-4.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            플러피 타월 <br>(Fluffy Towels)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            15,000
+                                        </div>
+                                    </div>
+                                    <!---->
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/can-5.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            카멜리아 블라썸 <br>(Camellia Blossom)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            15,000
+                                        </div>
+                                    </div>
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/can-6.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            미드썸머나잇<br> (Midsummer's Night)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            15,000
+                                        </div>
+                                    </div>
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/can-7.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            쿠반 모히토 <br>(Cuban Mojito)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            15,000
+                                        </div>
+                                    </div>
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/can-8.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            딜리셔스 구아바<br> (Delicious Guava)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            15,000
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li data-tab-name="box-1" data-tab-body-item-name="3">
+                                <div class="prod-list-box flex flex-wrap">
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/reed-1.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            검리프 오가닉 에센셜 오일 <br>(Gumleaf Organic Essential Oils)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            18,000
+                                        </div>
+                                    </div>
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/reed-2.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            검리프 퓨어 에센셜 오일 <br>(Gumleaf Pure Essential Oils)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            13,000
+                                        </div>
+                                    </div>
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/reed-3.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            썬 & 샌드<br> (Sun & Sand)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            33,000
+                                        </div>
+                                    </div>
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/reed-4.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            세이지 & 시트러스<br> (Sage & Citrus) 
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            33,000
+                                        </div>
+                                    </div>
+                                    <!---->
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/reed-5.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            블랙 체리<br> (Black Cherry)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            45,000
+                                        </div>
+                                    </div>
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/reed-6.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            가든 스윗 피<br> (Garden Sweet Pea)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            45,000
+                                        </div>
+                                    </div>
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/reed-7.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            리필 250ml / 빈티지 바이올렛<br> (Vintage Violet)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            29,000
+                                        </div>
+                                    </div>
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/reed-8.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            빈티지 바이올렛<br> (Vintage Violet)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            39,000
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li data-tab-name="box-1" data-tab-body-item-name="4">
+                                <div class="prod-list-box flex flex-wrap">
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/car-1.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            핑크 샌즈 <br>(Pink Sands)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            7,500
+                                        </div>
+                                    </div>
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/car-2.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            레몬 라벤더<br> (Lemon Lavender)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            7,500
+                                        </div>
+                                    </div>
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/car-3.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            블랙 체리<br> (Black Cherry)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            7,500
+                                        </div>
+                                    </div>
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/car-4.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            바하마 브리즈<br> (Bahama Breeze)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            7,500
+                                        </div>
+                                    </div>
+                                    <!---->
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/car-5.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            바하마 브리즈<br> (Bahama Breeze)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            7,500
+                                        </div>
+                                    </div>
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/car-6.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            클린 코튼<br> (Clean Cotton)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            8,500
+                                        </div>
+                                    </div>
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/car-7.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            핑크샌즈<br> (Pink Sands)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            10,000
+                                        </div>
+                                    </div>
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/car-8.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            썬 & 샌드<br> (Sun & Sand)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            7,500
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li data-tab-name="box-1" data-tab-body-item-name="5">
+                                <div class="prod-list-box flex flex-wrap">
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/ma-1.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            미드썸머 나잇<br> (Midsummer's Night)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            15,000
+                                        </div>
+                                    </div>
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/ma-2.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            핑크 샌즈<br> (Pink Sands)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            15,000
+                                        </div>
+                                    </div>
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/ma-3.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            블랙 체리<br> (Black Cherry)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            45,000
+                                        </div>
+                                    </div>
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/ma-4.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            레몬 라벤더<br> (Lemon Lavender)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            15,000
+                                        </div>
+                                    </div>
+                                    <!---->
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/ma-5.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            블랙 체리<br> (Black Cherry)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            15,000
+                                        </div>
+                                    </div>
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/ma-6.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            MB 롤리타 렘피카 램프 기프트세트 - 연보라<br> (LampeSet)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            112,500
+                                        </div>
+                                    </div>
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/ma-7.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            MB 에센셜 램프세트 - 오발<br> (Essential Pack - Oval / 370ml)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            80,000
+                                        </div>
+                                    </div>
+                                    <div class="prod-box">
+                                        <a href="#">
+                                            <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/ma-8.jpg"
+                                                alt="">
+                                        </a>
+                                        <div class="prod-name">
+                                            MB 메탈 차량용 디퓨저 - 크롬 <br>(Chrome)
+                                        </div>
+                                        <div class="prod-price font-1">
+                                            35,000
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </div>

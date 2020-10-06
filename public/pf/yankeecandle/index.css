@@ -775,15 +775,32 @@ label[for] {
 
 /* 탭 타입 1 */
 .tab-type-1 > .head > ul > li > a {
+  position: relative;
   display:flex;
   align-items:center;
   justify-content:center;
-  height:35px;
+  height:45px;
   border:1px solid #D1D1D1;
-  border-bottom:2px solid black;
+  border-bottom: none;
+  padding-bottom: 2px;
   cursor:pointer;
   border-right-width:0;
   color:#6A6D6B;
+  box-sizing: border-box;
+}
+.tab-type-1 > .head > ul > li > a::before {
+  content:"";
+  position: absolute;
+  bottom: 0;
+  left: -1px;
+  width: calc(100% + 2px);
+  height: 2px;
+  background-color: #000000;
+  z-index: 1;
+}
+
+.tab-type-1 > .head > ul > li.active > a::before {
+  background-color: transparent;
 }
 
 .tab-type-1 > .head > ul > li:last-child > a {
@@ -794,15 +811,13 @@ label[for] {
   color:black;
   border:2px solid black;
   background-color:white;
-  border-bottom-color:transparent;
+  border-bottom: none;
 }
 
-.tab-type-1 > .head > ul > li.active + li > a {
-  border-left-color:#005bac;
-}
 
 .tab-type-1 > .body > ul > li {
   display:none;
+  margin:0 20px;
 }
 
 .tab-type-1 > .body > ul > li.active {
@@ -812,6 +827,33 @@ label[for] {
 /* Best Product 탭메뉴 시작 */
 .box-list-1 > div .box .content .body > ul > li > .prod-list-box {
   margin-top:50px;
+  margin-left: -40px;
+  margin-right: -40px;
+}
+
+.box-list-1 > div .box .content .body > ul > li > .prod-list-box .prod-box {
+  width:calc((100% / 4) - 80px);
+  padding: 0 40px;
+  padding-bottom: 60px;
+}
+
+.box-list-1 > div .box .content .body > ul > li > .prod-list-box .prod-box > .prod-name {
+  text-align: center;
+}
+
+.box-list-1 > div .box .content .body > ul > li > .prod-list-box .prod-box > .prod-price {
+  text-align: center;
+  margin-top:10px;
+  font-size:20px;
+}
+
+.box-list-1 > div .box .content .body > ul > li > .prod-list-box .prod-box > a {
+  height: 100%;
+
+}
+
+.box-list-1 > div .box .content .body > ul > li > .prod-list-box .prod-box > a > img {
+  width:100%;
 }
 
 /* Best Product 탭메뉴 끝 */
