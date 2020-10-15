@@ -574,7 +574,7 @@
                                                 alt="">
                                         </a>
                                         <div class="prod-name">
-                                            세이지 & 시트러스<br> (Sage & Citrus) 
+                                            세이지 & 시트러스<br> (Sage & Citrus)
                                         </div>
                                         <div class="prod-price font-1">
                                             33,000
@@ -837,6 +837,111 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <!-- Promotion 슬라이더 -->
+    <div class="pr-slider con">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="img-wrap-box">
+                    <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/bt-slide-1.jpg" alt="">
+                </div>
+                <div class="text-wrap-box">
+                    <div class="text-wrap">
+                        <div class="h1-text font-3">
+                            Promotion
+                        </div>
+                        <div class="line"></div>
+                        <div class="text-box font-3">
+                            소중한 분께 <br>
+                            힐링을 선물하세요
+                        </div>
+                        <ul class="text-box-2 flex">
+                            <li>#엘리베이션</li>
+                            <li>#캐리지</li>
+                            <li>#가든랜턴</li>
+                            <li>#워머세트</li>
+                        </ul>
+                        <a href="#" class="more-view-bt">
+                            자세히 보기
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="img-wrap-box">
+                    <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/bt-slide-2.jpg" alt="">
+                </div>
+                <div class="text-wrap-box">
+                    <div class="text-wrap">
+                        <div class="h1-text font-3">
+                            Promotion
+                        </div>
+                        <div class="line"></div>
+                        <div class="text-box font-3">
+                            양키캔들 캔들워머 <br>
+                            시너지 듀오
+                        </div>
+                        <ul class="text-box-2 flex">
+                            <li>#캔들워머</li>
+                            <li>#손쉽게</li>
+                            <li>#발향</li>
+                            <li>#스탠드</li>
+                            <li>#무드등</li>
+                        </ul>
+                        <a href="#" class="more-view-bt">
+                            자세히 보기
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer-wrap-box">
+        <div class="footer-wrap">
+            <div class="footer-ct-1 flex flex-ai-c con">
+                <ul class="footer-1 flex">
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">매장안내</a></li>
+                </ul>
+                <ul class="footer-2 flex flex-ai-c flex-1-0-0">
+                    <li>CUSTOMER CENTER</li>
+                    <li>1544-5885</li>
+                    <li>Mon-Fri, 09:00 ~ 18:00 / Lunch 12:30 ~ 13:30</li>
+                </ul>
+                <ul class="sns-box flex">
+                    <li><a href="#"><img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/footer-ic-1.png" alt=""></a></li>
+                    <li><a href="#"><img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/footer-ic-2.png" alt=""></a></li>
+                    <li><a href="#"><img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/footer-ic-3.png" alt=""></a></li>
+                    <li><a href="#"><img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/footer-ic-4.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- footer 두번째 -->
+        <div class="footer-wrap-2 con flex flex-ai-c">
+            <div class="logo">
+                <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/footer-logo-2.png" alt="">
+            </div>
+            <div class="footer-ct-2">
+                <div>
+                (주)아로마무역 대표:임미숙   사업자번호:220-81-99275   통신판매업신고:2014-충북충주-167 <br>
+본사/물류센터:27465)충청북도 충주시 기업도시2로 27 (영평리 571)  서울사무소:06087) 서울시 강남구 영동대로 607, 9층 (삼성동,랜드마크타워)
+                </div>
+                <div class="copy">
+                COPYRIGHT (c) Aroma Corp. All RIGHTS RESERVED.
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
 </body>
 
 </html>

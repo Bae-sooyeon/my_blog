@@ -63,6 +63,20 @@ function MySlider1__init() {
       $('[data-tab-name="' + tabName + '"][data-tab-body-item-name="' + itemName + '"]').addClass('active');
     });
   }
+
+  function PrSlider__init() {
+    $('.pr-slider > .owl-carousel').owlCarousel({
+      responsive:{
+        0:{
+          items:1
+        }
+      },
+      loop:true,
+      dots:false,
+      autoplay:true,
+      autoplayTimeout:5000
+    });
+  }
   
 
 $(function () {
@@ -70,4 +84,5 @@ $(function () {
     MySlider1__init();
     fr_slider__init();
     TabBox__init();
+    PrSlider__init()
 });

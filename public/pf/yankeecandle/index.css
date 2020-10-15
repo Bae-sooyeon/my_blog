@@ -328,6 +328,9 @@ label[for] {
     height:100%;
 }
 /* 커스텀 */
+body {
+  min-width:1400px;
+}
 .con {
   max-width:1320px;
 }
@@ -360,6 +363,10 @@ label[for] {
   transform: translate(0, -50%);
 }
 
+.top-bar-1 > ul > .shop-find > a::after {
+  display:none;
+}
+
 .top-bar-1 > .right-menu > li > a > img {
   width:25px;
 }
@@ -386,6 +393,7 @@ label[for] {
   background-color: #b7b7b7;
   z-index: -1;
 }
+
 .menu-bar > ul {
   box-sizing: border-box;
 }
@@ -397,14 +405,17 @@ label[for] {
 
 .menu-bar > ul div {
   position: absolute;
-  display: none;
+  display:flex;
+  overflow: hidden;
   top: 100%;
   left: 50%;
   width: calc(100vw - 17px);
+  height: 0;
   transform: translateX(-50%);
   background-color: #ffffff;
   justify-content: center;
   z-index: 2;
+  transition: height 0.3s;
 }
 
 /* .menu-bar > ul ul {
@@ -415,7 +426,14 @@ label[for] {
   display:none;
 } */
 .menu-bar > ul > li:hover div{
-  display:flex;
+  height: 44px;
+}
+
+.menu-bar > ul > li div > ul{
+  position: absolute;
+  top:0;
+  left:50%;
+  transform: translateX(-50%);
 }
 
 .menu-bar > ul ul > li{
@@ -756,6 +774,9 @@ label[for] {
 /* 향기별 슬라이더 끝 */
 
 /* Best Product 시작 */
+.box-list-1 {
+  height:100vh;
+}
 
 .box-list-1 > div {
   margin:0 -10px;
@@ -857,4 +878,135 @@ label[for] {
 }
 
 /* Best Product 탭메뉴 끝 */
+
+/* Promotion 슬라이더 시작 */
+.pr-slider {
+  margin-top:171px;
+  margin-bottom:171px;
+}
+
+.pr-slider .item {
+  display:flex;
+  align-items:center;
+}
+
+.pr-slider .item > .img-wrap-box {
+  width:100%;
+}
+
+.pr-slider .item > .text-wrap-box {
+    width:100%;
+}
+
+.pr-slider .item > .text-wrap-box .text-box {
+    font-size:2.9rem;
+}
+
+.pr-slider .item .img-wrap-box img {
+    max-width: 550px;
+}
+
+.pr-slider .item > .text-wrap-box > .text-wrap > .h1-text {
+  padding-bottom:5px;
+  font-size:23px;
+}
+
+.pr-slider .item > .text-wrap-box > .text-wrap > .line {
+  width:90%;
+  height:2px;
+  background-color:#6A6D6B;
+}
+
+.pr-slider .item > .text-wrap-box > .text-wrap > .text-box {
+  padding:35px 0;
+}
+
+.pr-slider .item > .text-wrap-box > .text-wrap > .text-box-2 {
+  padding-bottom:60px;
+}
+
+.pr-slider .item > .text-wrap-box > .text-wrap > .text-box-2 > li {
+  padding:0 3px;
+}
+
+.pr-slider .item > .text-wrap-box > .text-wrap > .more-view-bt {
+  border:2px solid black;
+  padding:8px 35px;
+  font-weight:500;
+}
+/* Promotion 슬라이더 끝 */
+
+/* footer 시작 */
+.footer-wrap-box {
+  background-color: #5E5E5E;
+  width:100%;
+}
+
+.footer-wrap-box > .footer-wrap {
+  border-bottom:2px solid #707272;
+}
+
+.footer-wrap-box > .footer-wrap .footer-ct-1{
+  height:80px;
+}
+
+.footer-wrap-box > .footer-wrap .footer-ct-1 .footer-1 > li {
+  padding: 0 15px;
+}
+
+.footer-wrap-box > .footer-wrap .footer-ct-1 .footer-1 > li > a {
+  color:white;
+  font-size:11pt;
+}
+
+.footer-wrap-box > .footer-wrap .footer-ct-1 .footer-1 > li:hover > a {
+  text-decoration: underline;
+}
+
+.footer-wrap-box > .footer-wrap .footer-ct-1 .footer-1 {
+  border-right:2px solid #707272;
+  height:100%;
+  align-items: center;
+  padding:0 10px;
+}
+
+.footer-wrap-box > .footer-wrap .footer-ct-1 .footer-2 > li {
+  color:white;
+  font-size:13pt;
+  padding:0 15px; 
+  font-weight: bold;
+}
+
+.footer-wrap-box > .footer-wrap .footer-ct-1 .footer-2 > li:last-child {
+  color:#A5A5A5;
+  font-size:11pt;
+  letter-spacing: 0.5px;
+}
+
+.footer-wrap-box > .footer-wrap .footer-ct-1 .sns-box > li + li {
+  padding-left: 10px;
+}
+
+/* footer 두번쨰 */
+.footer-wrap-box > .footer-wrap-2 .logo > img {
+  width:200px;
+}
+
+.footer-wrap-box > .footer-wrap-2 .footer-ct-2 {
+  padding:50px 0;
+  margin-left:40px;
+}
+
+.footer-wrap-box > .footer-wrap-2 .footer-ct-2 > div:not(:last-child) {
+  color:#D6D6D6;
+  line-height:30px;
+  padding-bottom:15px;
+}
+
+.footer-wrap-box > .footer-wrap-2 .footer-ct-2 > .copy {
+  color:#F2F2F2;
+  letter-spacing: 1px;
+}
+
+/* footer 끝 */
 
