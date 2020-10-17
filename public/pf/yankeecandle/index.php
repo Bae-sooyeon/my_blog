@@ -23,7 +23,12 @@
     <!-- 맨위 탑바 -->
     <div class="top-bar-1 con flex flex-sp-b">
         <div class="lang-kor">
-            한국/한국어
+            <a href="#" class="kor">
+            KOR
+            </a>
+            <a href="#">
+            ENG
+            </a>
         </div>
         <ul class="right-menu flex">
             <li class="shop-find">
@@ -46,7 +51,6 @@
 
     <!-- 메뉴바 -->
     <div class="menu-bar con">
-        <div class="bg-border"></div>
         <ul class="flex-jc-c">
             <li>
                 <a href="#">제품</a>
@@ -68,6 +72,7 @@
             <li><a href="#">창업안내</a></li>
             <li><a href="#">고객센터</a></li>
         </ul>
+        <div class="bg-border"></div>
     </div>
 
     <!-- 메인 슬라이더 -->
@@ -95,14 +100,22 @@
             </div>
             <div class="item item2">
                 <div class="bg"></div>
-                <div class="txt-wrap">
-                    <h2>안녕</h2>
-                </div>
-            </div>
-            <div class="item item3">
-                <div class="bg"></div>
-                <div class="txt-wrap">
-                    <h2>안녕</h2>
+                <div class="txt-wrap font-3">
+                    <div class="text-wrap-box">
+                        <div class="h1-text">
+                            소프트 블랭킷
+                        </div>
+                        <div class="h2-text">
+                            Soft Blanket
+                        </div>
+                        <div class="h3-text">
+                        시트러스와 바닐라, 그리고 엠버의<br>
+                        따뜻하고 편안한 블랜딩
+                        </div>
+                        <a class="view-bt font-2" href="#">
+                            자세히 보기
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -120,7 +133,7 @@
     </div>
 
     <!-- MD's pick 슬라이더 -->
-    <div class="my-slider-1 con">
+    <div class="my-slider-1 active-on-visible fadeInUp con">
         <div class="owl-carousel owl-theme">
             <div class="item">
                 <div class="item-img">
@@ -230,7 +243,7 @@
     </div>
 
     <!-- 향기별 슬라이더 -->
-    <div class="fr-slider con">
+    <div class="fr-slider fadeInUp active-on-visible con">
         <div class="fr-slick">
             <div class="item">
                 <div class="item-img">
@@ -290,10 +303,40 @@
             </div>
 
             <div class="item">
-                <h4>4</h4>
+                <div class="item-img">
+                    <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/fr-4.jpg" alt="">
+                </div>
+                <div class="item-txt-box font-3">
+                    <div class="inner">
+                        <div class="text-1-box flex">
+                            <div class="text-1">은은한</div>
+                            <div class="item-txt-img flex-ai-c">
+                                <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/fr-ic-4.png" alt="">
+                            </div>
+                        </div>
+                        <div class="text-2-box">
+                            <div class="text-2">나무향이 좋다면?</div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="item">
-                <h4>5</h4>
+                <div class="item-img">
+                    <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/fr-5.jpg" alt="">
+                </div>
+                <div class="item-txt-box font-3">
+                    <div class="inner">
+                        <div class="text-1-box flex">
+                            <div class="text-1">포근하고</div>
+                            <div class="item-txt-img flex-ai-c">
+                                <img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/fr-ic-5.png" alt="">
+                            </div>
+                        </div>
+                        <div class="text-2-box">
+                            <div class="text-2">아늑한향이 좋다면?</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="fr-slider-arrows"></div>
@@ -915,14 +958,18 @@
                     <li>Mon-Fri, 09:00 ~ 18:00 / Lunch 12:30 ~ 13:30</li>
                 </ul>
                 <ul class="sns-box flex">
-                    <li><a href="#"><img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/footer-ic-1.png" alt=""></a></li>
-                    <li><a href="#"><img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/footer-ic-2.png" alt=""></a></li>
-                    <li><a href="#"><img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/footer-ic-3.png" alt=""></a></li>
-                    <li><a href="#"><img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/footer-ic-4.png" alt=""></a></li>
+                    <li><a href="#"><img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/footer-ic-1.png"
+                                alt=""></a></li>
+                    <li><a href="#"><img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/footer-ic-2.png"
+                                alt=""></a></li>
+                    <li><a href="#"><img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/footer-ic-3.png"
+                                alt=""></a></li>
+                    <li><a href="#"><img src="https://bae-sooyeon.github.io/img1/pf/yankeecandle/footer-ic-4.png"
+                                alt=""></a></li>
                 </ul>
             </div>
         </div>
-        
+
         <!-- footer 두번째 -->
         <div class="footer-wrap-2 con flex flex-ai-c">
             <div class="logo">
@@ -930,11 +977,11 @@
             </div>
             <div class="footer-ct-2">
                 <div>
-                (주)아로마무역 대표:임미숙   사업자번호:220-81-99275   통신판매업신고:2014-충북충주-167 <br>
-본사/물류센터:27465)충청북도 충주시 기업도시2로 27 (영평리 571)  서울사무소:06087) 서울시 강남구 영동대로 607, 9층 (삼성동,랜드마크타워)
+                    (주)아로마무역 대표:임미숙 사업자번호:220-81-99275 통신판매업신고:2014-충북충주-167 <br>
+                    본사/물류센터:27465)충청북도 충주시 기업도시2로 27 (영평리 571) 서울사무소:06087) 서울시 강남구 영동대로 607, 9층 (삼성동,랜드마크타워)
                 </div>
                 <div class="copy">
-                COPYRIGHT (c) Aroma Corp. All RIGHTS RESERVED.
+                    COPYRIGHT (c) Aroma Corp. All RIGHTS RESERVED.
                 </div>
             </div>
         </div>
